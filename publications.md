@@ -2,14 +2,14 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+<!-- description: This is a list of publications in  -->
 ---
 
 <ul class="post-list">
-{% for poem in site.poetry reversed %}
+{% for pub in site.publications reversed %}
     <li>
-        <h2><a class="poem-title" href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a></h2>
-        <p class="post-meta">{{ poem.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <h2><a class="poem-title" href="{{ pub.url | prepend: site.baseurl }}">{{ pub.title }}</a></h2>
+        <p class="post-meta">{{ pub.date | date: '%B %-d, %Y' }}</p>
       </li>
 {% endfor %}
 </ul>
