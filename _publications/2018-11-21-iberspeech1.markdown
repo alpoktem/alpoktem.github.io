@@ -2,12 +2,7 @@
 layout: post
 title: Bilingual Prosodic Dataset Compilation for Spoken Language Translation
 date: 2018-11-21
-link: https://www.isca-speech.org/archive/IberSPEECH_2018/abstracts/IberS18_P1-1_Oktem.html
 ---
-<!-- 
-{% highlight python %}
-	Öktem, A., Farrús, M., Bonafonte, A. (2018) Bilingual Prosodic Dataset Compilation for Spoken Language Translation. Proc. IberSPEECH 2018, 20-24, DOI: 10.21437/IberSPEECH.2018-5.
-{% endhighlight %} -->
 ```
 Öktem, A., Farrús, M., Bonafonte, A. (2018) 
 Bilingual Prosodic Dataset Compilation for Spoken Language Translation. 
@@ -21,5 +16,5 @@ Open access in <a href="https://www.isca-speech.org/archive/IberSPEECH_2018/abst
 
 # Poster 
 
-<p align="center"><a href="/img/OKTEM-poster1-heroes_med.png"><img src="/img/OKTEM-poster1-heroes_small.png" width="700"></a></p>
+<p align="center"><a href="/img/OKTEM-poster1-heroes_med.png"><img src="/img/OKTEM-poster1-heroes_small.png" alt="Alp Öktem's IberSPEECH 2018 poster for publication: Bilingual Prosodic Dataset Compilation for Spoken Language Translation" width="700"></a></p>
 
