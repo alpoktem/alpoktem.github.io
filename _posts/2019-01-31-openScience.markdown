@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compiling the Heroes Corpus
-date: 2015-05-15 21:01:00
+date: 2019-01-31 21:01:00
 description: How I used the MdM Open Science Award for my PhD research.
 ---
 (This post originally was posted in the <a href="https://www.upf.edu/web/mdm-dtic/blog/-/blogs/open-science-award-to-alp-oktem-the-heroes-corpus-dataset?_33_redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fmdm-dtic%2Fblog%3Fp_p_id%3D33%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1#.XFIlD8_0kWo" target="https://www.upf.edu/web/mdm-dtic/blog/-/blogs/open-science-award-to-alp-oktem-the-heroes-corpus-dataset?_33_redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fmdm-dtic%2Fblog%3Fp_p_id%3D33%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1#.XFIlD8_0kWo">DTIC-MdM blog</a>.)
