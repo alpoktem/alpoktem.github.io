@@ -1,0 +1,30 @@
+---
+layout: post
+title: Attentional Parallel RNNs for Generating Punctuation in Transcribed Speech
+date: 2017-10-23
+---
+```
+Öktem A, Farrús M, Wanner L. 
+Attentional Parallel RNNs for Generating Punctuation in Transcribed Speech.
+In: Statistical Language and Speech Processing. 5th International Conference SLSP 2017; 2017 Oct 23-25; Le Mans, France. 
+Cham: Springer, 2017. p. 131-42.
+```
+
+# Abstract
+Until very recently, the generation of punctuation marks for automatic speech recognition (ASR) output has been mostly done by looking at the syntactic structure of the recognized utterances. Prosodic cues such as breaks, speech rate, pitch intonation that influence placing of punctuation marks on speech transcripts have been seldom used. We propose a method that uses recurrent neural networks, taking prosodic and lexical information into account in order to predict punctuation marks for raw ASR output. Our experiments show that an attention mechanism over parallel sequences of prosodic cues aligned with transcribed speech improves accuracy of punctuation generation.
+
+# Access
+Open access in <a href="http://hdl.handle.net/10230/33936" target="http://hdl.handle.net/10230/33936">UPF repository</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-319-68456-7_11" target="https://link.springer.com/chapter/10.1007/978-3-319-68456-7_11">SpringerLink</a>.
+
+# Related repositories
+
+| <a href="https://github.com/alpoktem/punkProse_ASR" target="https://github.com/alpoktem/punkProse_ASR-demo">Github: punkProse</a> | 
+| <a href="https://github.com/alpoktem/punkProse_ASR" target="https://github.com/alpoktem/punkProse_ASR-demo">Github: ASR demo setup</a> | 
+| <a href="http://hdl.handle.net/10230/33981" target="http://hdl.handle.net/10230/33981">Dataset: Prosodically annotated TED talks</a> | 
+| | 
+
+# Presentation slides
+Click image to view...
+
+<p align="center"><a href="https://www.slideshare.net/Alpktem/slsp-2017-presentation-attentional-parallel-rnns-for-generating-punctuation-in-transcribed-speech"><img src="/img/slsp-pres.png" alt="Alp Öktem's SLSP 2017 presentation - Attentional Parallel RNNs for Generating Punctuation in Transcribed Speech" width="700"></a></p>
+
