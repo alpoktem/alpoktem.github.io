@@ -1,0 +1,19 @@
+---
+layout: post
+title: "From raw data to semantically enriched hyperlinking: Recent advances in the LinkedTV analysis workflow"
+date: 2013-10-28
+---
+```
+Stein, D; Öktem, A; Apostolidis, E; Mezaris, V; Redondo García, José Luis; Troncy, Raphaël; Sahuguet, Mathilde; Huet, Benoit
+From raw data to semantically enriched hyperlinking: Recent advances in the LinkedTV analysis workflow
+In: NEM Summit 2013, Networked & Electronic Media, 28-30 October 2013, Nantes, France
+```
+
+# Abstract
+
+Enriching linear videos by offering continuative and related information via, e.g., audio streams, web pages, as well as other videos, is typically hampered by its demand for massive editorial work. While a large number of analysis techniques that extract knowledge automatically from video content exists, their produced raw data are typically not of interest to the end user. In this paper, we review our analysis efforts as defined within the LinkedTV project and present the recent advances in core technologies for automatic speech recognition and object-redetection. Furthermore, we introduce our approach for an automatically generated localized person identification database. Finally, the processing of the raw data into a linked resource available in a web compliant format is described.
+
+# Access
+
+Open access in <a href="http://www.eurecom.fr/publication/4153" target="http://www.eurecom.fr/publication/4153">Eurecom repository</a>.
+

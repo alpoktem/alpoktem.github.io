@@ -18,7 +18,7 @@ Open access in <a href="http://hdl.handle.net/10230/33936" target="http://hdl.ha
 
 # Related repositories
 
-| <a href="https://github.com/alpoktem/punkProse_ASR" target="https://github.com/alpoktem/punkProse_ASR-demo">Github: punkProse</a> | 
+| <a href="https://github.com/alpoktem/punkProse" target="https://github.com/alpoktem/punkProse"> Github: punkProse</a> | 
 | <a href="https://github.com/alpoktem/punkProse_ASR" target="https://github.com/alpoktem/punkProse_ASR-demo">Github: ASR demo setup</a> | 
 | <a href="http://hdl.handle.net/10230/33981" target="http://hdl.handle.net/10230/33981">Dataset: Prosodically annotated TED talks</a> | 
 | | 

@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Processing the manuscripts of Atatürk"
+date: 2010-05-22
+---
+```
+Stein, D; Öktem, A; Apostolidis, E; Mezaris, V; Redondo García, José Luis; Troncy, Raphaël; Sahuguet, Mathilde; Huet, Benoit
+Processing the manuscripts of Atatürk
+In: IEEE 18th Signal Processing and Communications Applications Conference, 22 April 2010, Diyarbakır, Turkey
+```
+
+# Abstract
+
+In this paper, as a first step to an easy and convenient way to access the manuscripts of Atatürk with a word based search engine, the preprocessing of digitalized documents and their line and word segmentation is studied. The techniques that are applied on printed documents may not yield satisfactory results. Due to this fact, more developed techniques are decided to be applied consisting of a technique based on Hough transform for line segmentation and a technique that is based on dealing with skewness of lines for word segmentation. The results, which are acquired through studies that are conducted on the documents provided by Afet İnan and consisting of 30 pages, prove to be highly accurate and promising for future researches.
+
+# Access
+
+Open access in <a href="http://hdl.handle.net/11693/28491" target="http://hdl.handle.net/11693/28491">Bilkent University repository</a>.
+

@@ -2,14 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+description: Here is a list of courses and workshops I have been part of
 ---
 
 <ul class="post-list">
-{% for poem in site.poetry reversed %}
+{% for class in site.teaching reversed %}
     <li>
-        <h2><a class="poem-title" href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a></h2>
-        <p class="post-meta">{{ poem.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <h2><a class="poem-title" href="{{ class.url | prepend: site.baseurl }}">{{ class.title }}</a></h2>
+        <p class="post-meta">{{ class.date | date: '%Y' }} - {{ class.place }}</p>
       </li>
 {% endfor %}
 </ul>

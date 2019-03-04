@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Automatic Extraction of Parallel Speech Corpora from Dubbed Movies"
+date: 2017-07-30
+---
+```
+Öktem A, Farrús M, Wanner L.
+Automatic Extraction of Parallel Speech Corpora from Dubbed Movies
+Proceedings of the 10th Workshop on Building and Using Comparable Corpora (BUCC); 2017 30 July - 4 Aug; Vancouver, Canada.
+ACL, 2017. p. 31-35.
+```
+
+# Abstract
+
+This paper presents a methodology to extract parallel speech corpora based on any language pair from dubbed movies, together with an application framework in which some corresponding prosodic parameters are extracted. The obtained parallel corpora are especially suitable for speech-to-speech translation applications when a prosody transfer between source and target languages is desired.
+
+# Access
+
+Open access in <a href="http://hdl.handle.net/10230/32716" target="http://hdl.handle.net/10230/32716">UPF repository</a>.
+
+# Related repositories
+
+<a href="https://github.com/alpoktem/movie2parallelDB" target="https://github.com/alpoktem/movie2parallelDB">movie2parallelDB @ Github</a>

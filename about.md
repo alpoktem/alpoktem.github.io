@@ -7,11 +7,11 @@ permalink: /about/
 <img class="col one right" src="/img/IMG_0976_circle_1200.png">
 
 <br/>
-I am currently pursuing my PhD degree in Computational Linguistics in Pompeu Fabra University. I focus in speech technology, prosody and machine translation and also use deep neural networks for tackling linguistic problems. 
+I’m researcher in Computational Lingustics, specialized in speech technology, prosody and machine translation. I got my PhD in 2018 at the TALN (Natural Language Processing) group of the Pompeu Fabra University in Barcelona.
 
 I believe the knowledge and tools that humanity develops should be for the service of all beings. For that, I use, admire and create open-source software. 
 
-I am one of the co-founders of non-profit cooperative <a href="https://collectivat.cat/" target="https://collectivat.cat/">Col·lectivaT</a>. I provide my knowledge in computational linguistics for giving technologic support to linguists and social scientists.
+I am one of the co-founders of non-profit cooperative <a href="https://collectivat.cat/" target="https://collectivat.cat/">Col·lectivaT</a>. I create linguistic resources and tools for low-resourced languages.
 <br/>
 <hr/>
 <br/>

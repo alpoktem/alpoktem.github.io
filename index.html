@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="header-bar">
-  <h1>alpöktem</h1>
-  <h2>PhD candidate in computational linguistics in TALN</h2>
-  <h2>Co-founder & member of <a href="https://collectivat.cat/" target="https://collectivat.cat/">Col·lectivaT</a></h2>
+  <img width="140" height="180" src="/img/ok-alp.png" class="attachment-post-thumbnail wp-post-image" alt="OK-alp">
+  <h1>alp<font color="black">öktem</font></h1>
+  <h3>Speech Technology | Computational Linguistics | Cooperativism </h3>
   <br/>
   <hr>
   <br/>
@@ -16,7 +16,7 @@ layout: default
     {% for post in paginator.posts %}
       <li>
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
         <p>{{ post.description }}</p>
         <br/>
         <hr/>

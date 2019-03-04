@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Revising the METU-Sabancı Turkish Treebank: An Exercise in Surface-Syntactic Annotation of Agglutinative Languages"
+date: 2017-09-18
+---
+```
+Burga A, Öktem A, Wanner L.
+Revising the METU-Sabancı Turkish treebank: an exercise in surface-syntactic annotation of agglutinative languages.
+In: Proceedings of the Fourth International Conference on Dependency Linguistics (Depling 2017); 2017 Sept 18-20; Pisa, Italy.
+ACL; 2017. p. 32-41.
+```
+
+# Abstract
+
+In this paper, we present a revision of the training set of the METU-Sabancı Turkish syntactic dependency treebank composed of 4997 sentences in accordance with the principles of the Meaning-Text Theory (MTT). MTT reflects the multilayered nature of language by a linguistic model in which each linguistic phenomenon is treated at its corresponding level(s). Our analysis of the METU-Sabancı syntactic relation tagset reveals that it encodes deepmorphological and surface-syntactic phenomena, which should be separated according to the MTT model. We propose an alternative surface-syntactic relation annotation schema and show that this schema also allows for a sound projection of the obtained surface annotation onto a deepsyntactic annotation, as needed for the implementation of down-stream language understanding applications.
+
+# Access
+
+Open access in <a href="http://hdl.handle.net/10230/34044" target="http://hdl.handle.net/10230/34044">UPF repository</a>.
+
