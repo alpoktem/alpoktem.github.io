@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building an Open Source Automatic Speech Recognition System for Catalan
+title: Building an open source automatic speech recognition system for Catalan
 date: 2018-11-22
 ---
 ```

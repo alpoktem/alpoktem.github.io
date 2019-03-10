@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Prosograph: a Tool for Prosody Visualisation of Large Speech Corpora"
+title: "Prosograph: A tool for prosody visualisation of large speech corpora"
 date: 2017-08-20
 ---
 ```
 Öktem A, Farrús M, Wanner L.
-Prosograph: a Tool for Prosody Visualisation of Large Speech Corpora
+Prosograph: A tool for prosody visualisation of large speech corpora
 In: Interspeech 2017; 2017 Aug. 20-24. Stockholm, Sweden.
 ISCA; 2017. p. 809-10.
 ```

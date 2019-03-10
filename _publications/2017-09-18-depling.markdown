@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Revising the METU-Sabancı Turkish Treebank: An Exercise in Surface-Syntactic Annotation of Agglutinative Languages"
+title: "Revising the METU-Sabancı Turkish treebank: An exercise in surface-syntactic annotation of agglutinative languages"
 date: 2017-09-18
 ---
 ```

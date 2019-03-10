@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bilingual Prosodic Dataset Compilation for Spoken Language Translation
+title: Bilingual prosodic dataset compilation for spoken language translation
 date: 2018-11-21
 ---
 ```
