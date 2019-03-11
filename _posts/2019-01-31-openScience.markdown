@@ -5,6 +5,9 @@ date: 2019-01-31 21:01:00
 ---
 I was awarded with the <a href="https://www.upf.edu/web/etic_doctoral_workshop/maria-de-maeztu" target="https://www.upf.edu/web/etic_doctoral_workshop/maria-de-maeztu">María de Maeztu DTIC-UPF Open Science Award</a> in the <a href="https://www.upf.edu/web/media/enoticies/-/asset_publisher/wdGAWZ7EMj53/content/id/170996266/maximized#.XD2lU1xKjcs" target="https://www.upf.edu/web/media/enoticies/-/asset_publisher/wdGAWZ7EMj53/content/id/170996266/maximized#.XD2lU1xKjcs">6th Doctoral Student Workshop</a> organised by Department of Information and Communication Technologies of UPF in 2018. This award is given to pre-doctoral researchers that give outstanding effort in reproducibility and visibility of their research. 
 
+<p align="center"><img src="/img/guanyadors dtic.JPG.jpg" alt="Award winners at the 6th UPF-DTIC Doctoral Student Workshop" width="600"></p>
+<p align="center">Award winners at the 6th UPF-DTIC Doctoral Student Workshop</p>
+
 In this post, I will describe how I used the prize of 1000 EUR that I received to further advance my research. (This post originally was posted in the <a href="https://www.upf.edu/web/mdm-dtic/blog/-/blogs/open-science-award-to-alp-oktem-the-heroes-corpus-dataset?_33_redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fmdm-dtic%2Fblog%3Fp_p_id%3D33%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1#.XFIlD8_0kWo" target="https://www.upf.edu/web/mdm-dtic/blog/-/blogs/open-science-award-to-alp-oktem-the-heroes-corpus-dataset?_33_redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fmdm-dtic%2Fblog%3Fp_p_id%3D33%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1#.XFIlD8_0kWo">DTIC-MdM blog</a>.)
 
 I have used the 2018 MdM Open Science award that I received in the DTIC 6th Doctoral Student Workshop for the collection of a prosodically annotated parallel speech audio dataset called *Heroes Corpus*.
