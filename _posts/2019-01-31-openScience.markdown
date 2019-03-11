@@ -10,15 +10,19 @@ I was awarded with the <a href="https://www.upf.edu/web/etic_doctoral_workshop/m
 
 In this post, I will describe how I used the prize of 1000 EUR that I received to further advance my research. (This post originally was posted in the <a href="https://www.upf.edu/web/mdm-dtic/blog/-/blogs/open-science-award-to-alp-oktem-the-heroes-corpus-dataset?_33_redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fmdm-dtic%2Fblog%3Fp_p_id%3D33%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1#.XFIlD8_0kWo" target="https://www.upf.edu/web/mdm-dtic/blog/-/blogs/open-science-award-to-alp-oktem-the-heroes-corpus-dataset?_33_redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fmdm-dtic%2Fblog%3Fp_p_id%3D33%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1#.XFIlD8_0kWo">DTIC-MdM blog</a>.)
 
-I have used the 2018 MdM Open Science award that I received in the DTIC 6th Doctoral Student Workshop for the collection of a prosodically annotated parallel speech audio dataset called *Heroes Corpus*.
+I have used the 2018 MdM Open Science award that I received in the DTIC 6th Doctoral Student Workshop for the collection of a prosodically annotated parallel speech audio dataset called **_Heroes Corpus_**.
+
+<p align="center"><img src="/img/heroes-corpus-logo.png" alt="Heroes corpus logo" width="300"></p>
 
 A part of my thesis involves building of a speech translation pipeline to be used in automatic dubbing. I research on the reasons and ways to include prosodic characteristics (intonation, rhythm and stress) of the speakers' and actors' speech into this scenario. Developing such a pipeline requires parallel data, for training the translation model; and speech data since prosody is taken into account.
 
-Speech data production is a highly costly process that involves script preparation, speaker selection, recording and annotation. Due to the inaccessibility of such an approach, I developed a framework to exploit dubbed media material which readily contains parallel and prosodically rich speech. The framework that I call movie2parallelDB provides an automation for this process by taking in audio tracks and subtitles of a movie and outputting aligned voice segments with text and prosody annotation. *Movie2parallelDB* is made available as an open source software in <a href="http://github.com/alpoktem/movie2parallelDB" target="http://github.com/alpoktem/movie2parallelDB">Github</a>.
+Speech data production is a highly costly process that involves script preparation, speaker selection, recording and annotation. Due to the inaccessibility of such an approach, I developed a framework to exploit dubbed media material which readily contains parallel and prosodically rich speech. The framework that I call movie2parallelDB provides an automation for this process by taking in audio tracks and subtitles of a movie and outputting aligned voice segments with text and prosody annotation. **_Movie2parallelDB_** is made available as an open source software in <a href="http://github.com/alpoktem/movie2parallelDB" target="http://github.com/alpoktem/movie2parallelDB">Github</a>.
 
 The framework requires correctly labelled subtitles for both original and dubbed version of the movie. Although this is easy to find in the original language of a movie, it is often not the case in the dubbed language. Practical differences in the dubbing process and subtitling process leads to non-matching audio and transcripts and in turn hinders automatic extraction of the speech data. This means that a manual process needs to be followed to correct subtitles to match the dubbing script.
 
-I decided to use a TV series called Heroes for this work as its Spanish subtitles were close enough to its Spanish dubbing scripts. Timing and transcript corrections were done for 21 episodes by two interns, Sandra Marcos and Laura Gómez. A part of the prize was used to finance their working hours.
+I decided to use a TV series called *Heroes* for this work as its Spanish subtitles were close enough to its Spanish dubbing scripts. Timing and transcript corrections were done for 21 episodes by two interns, Sandra Marcos and Laura Gómez. A part of the prize was used to finance their working hours.
+
+<p align="center"><img src="/img/heroes.jpg" alt="Heroes TV series" width="300"></p>
 
 The corpus extraction methodology that was developed during the process and the resulting corpus were presented in the [Iberspeech 2018 conference](/publications/2018-11-21-iberspeech1).
 
