@@ -12,7 +12,7 @@ I finalized my work supervised by Mireia Farrús and Antonio Bonafonte on the la
 - [UPF e-repository (soon)](https://repositori.upf.edu/ "Alp Öktem's PhD Thesis on UPF e-repository (soon)")
 - [TESEO (Spanish Doctoral Thesis Database) (soon)](https://www.educacion.gob.es/teseo/ "Alp Öktem's PhD Thesis on TESEO")
 
-<p align="center"><img src="/img/tesi-deposit.jpg" alt="Alp Öktem's thesis submission" width="350"></p>
+<p align="center"><img src="/img/tesi_deposit.jpg" alt="Alp Öktem's thesis submission" width="500"></p>
 
 My thesis defense took place on 25th of February in UPF with the attendance of the tribunal consisting of David Escudero (Univ. de Valladolid), Francesc Alías (La Salle - URL) and Jordi Adell (Verbio Technologies). My whole defense presentation can be viewed through clicking on the thumbnail:
 
