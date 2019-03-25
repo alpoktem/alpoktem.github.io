@@ -4,7 +4,7 @@ title: Ending the PhD journey
 date: 2019-03-10 16:01:00
 description: 
 ---
-I am super content to have completed another chapter of my professional life as I have recently received my Phd degree after a 4 year-long journey. A journey that thought me many things that I wouldn't have even imagined to reach from the very beginning. 
+I am super content to have completed another chapter of my professional life as I have recently received my Phd degree after a 4 year-long journey. A journey that thought me many things that I wouldn't have even imagined to reach from the very beginning. It is a journey that necessitates a strong motivation first, and then the right people and resources to guide you. I am thankful for the many talented people I met, be it researchers, developers or artists in UPF and nearby universities, in Barcelona and the conferences that I visited. I am also glad to have ended this journey with great motivation to keep searching and making things that will benefit others. 
 
 I finalized my work supervised by Mireia Farrús and Antonio Bonafonte on the last quarter of 2018. On December 14th, I submitted my thesis titled **_Incorporating Prosody into Neural Speech Processing Pipelines: Applications on automatic speech transcription and spoken language machine translation_** to the board of doctoral studies of Universitat Pompeu Fabra. 
 
