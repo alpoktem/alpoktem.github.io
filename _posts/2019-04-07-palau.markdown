@@ -1,0 +1,36 @@
+---
+layout: post
+title: The data scientist's dream&#58; A curated visual data experience
+date: 2019-04-04 09:01:00
+description: Visiting the Catalonia in Numbers exhibition
+---
+
+Today, I was in the data scientists dream visiting the exhibition "Catalonia: 7,5 millions of future". It was my first time seeing numbers and plots of public data in a curated experience. 
+
+<p align="center"><img src="/img/palau/banner.jpg" alt="Catalonia: 7,5 millions of future" width="500"></p>
+
+They've created interactive and animated diagrams of the numbers that represent Catalonia. From the most common names to healthcare advancements, or gender salary breach to rise of unemployment in the past years. 
+
+<p align="center"><img src="/img/palau/IMG_8583.jpg" alt="Most popular Catalan names" width="500"></p>
+<p align="center">100 most popular catalan names (Winner is "Marc")</p>
+
+<p align="center"><img src="/img/palau/IMG_8584.jpg" alt="Gender income gap" width="500"></p>
+<p align="center">Gender salary breach</p>
+
+<p align="center"><img src="/img/palau/IMG_8585.jpg" alt="Gender income gap" width="500"></p>
+<p align="center">Rise in teachers of primary and secondary education</p>
+
+<p align="center"><img src="/img/palau/IMG_8591.jpg" alt="Visitors to Catalonia" width="500"></p>
+<p align="center">A bar chart made of suitcases representing the countries that Catalonia takes most visitors from. </p>
+
+My favorite was definitely the alluvial flow diagram where they let the visitors fill in the data themselves. I was surprised to see how many people out there had a positive outlook for the future. They are the ones who drag the white strings around. 
+
+<p align="center"><img src="/img/palau/IMG_8595.jpg" width="500"></p>
+<p align="center">Filling in data with strings</p>
+
+<p align="center"><img src="/img/palau/IMG_8597.jpg" width="500"></p>
+
+<p align="center"><img src="/img/palau/IMG_8598.jpg" width="500"></p>
+
+
+
