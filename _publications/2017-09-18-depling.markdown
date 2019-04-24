@@ -16,5 +16,9 @@ In this paper, we present a revision of the training set of the METU-Sabancı Tu
 
 # Access
 
-Open access in <a href="http://hdl.handle.net/10230/34044" target="http://hdl.handle.net/10230/34044">UPF repository</a>.
+The paper can be accessed through the following repositories: 
+- <a href="http://hdl.handle.net/10230/34044" target="http://hdl.handle.net/10230/34044">UPF repository</a>
+- <a href="https://aclweb.org/anthology/papers/W/W17/W17-6506/" target="https://aclweb.org/anthology/papers/W/W17/W17-6506/">ACL Anthology</a>
+
+
 

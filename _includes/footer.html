@@ -1,7 +1,12 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-  	<p>This site was built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and is hosted on <a href="https://github.com" target="_blank">Github</a> Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a> and text generated with <a href="http://hipsum.co" target="_blank">Hipster Ipsum</a>. &#169; 2015</p>
-  </div>
+<footer class="footer">
+<p> </p>
+<p>
+	{% for item in site.data.settings.social %}
+    	<a href="{{ item.link }}" class="menu-link" target="_blank"><i class="{{ item.footericonclass }}" aria-hidden="true"></i></a>
+  	{% endfor %}
+</p>
+  	<p>
+This websited is powered by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and maintained by <a href="about/">Alp Öktem</a>.
+</p>
 
 </footer>

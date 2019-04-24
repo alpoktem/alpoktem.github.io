@@ -16,7 +16,9 @@ This paper presents a methodology to extract parallel speech corpora based on an
 
 # Access
 
-Open access in <a href="http://hdl.handle.net/10230/32716" target="http://hdl.handle.net/10230/32716">UPF repository</a>.
+The paper can be accessed through the following repositories: 
+- <a href="http://hdl.handle.net/10230/32716" target="http://hdl.handle.net/10230/32716">UPF repository</a>
+- <a href="https://aclweb.org/anthology/papers/W/W17/W17-2506/" target="https://aclweb.org/anthology/papers/W/W17/W17-2506/">ACL Anthology</a>
 
 # Related repositories
 
