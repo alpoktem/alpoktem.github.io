@@ -26,7 +26,7 @@ So, how to claim these rights? I am going to explain them one by one first…
 
 You should be already familiar with the visa renewal process. This is done through the Foreigner’s office of the Spanish National Police (CNP/Extranjeria). Until I graduated, my university applied for an extension of my visa every time it expired. The process goes on like this:
 
-First, either you or a representative (e.g. an officer from the uni) applies for a renewal of your visa. This can be done online through this link or by going to the delegation of the Spanish state in your city (Registro General de la Delegación del Gobierno). In order to start this procedure you need prepare a copy (or scan in the case of digital registration) the following documents:
+First, either you or a representative (e.g. an officer from the uni) applies for a renewal of your visa. This can be done online through [this link](https://sede.administracionespublicas.gob.es/pagina/index/directorio/renovacion_telematica_extranjeria "Online application for NIE extension") or by going to the delegation of the Spanish state in your city (Registro General de la Delegación del Gobierno). In order to start this procedure you need prepare a copy (or scan in the case of digital registration) the following documents:
 1. Application form (only the first part Datos del extranjero) and signed.
 2. Your current expired or about to be expired NIE
 3. All pages of the passport
@@ -52,7 +52,7 @@ So, the whole residency renewal process roughly looks like this:
 
 # 2 - Applying for an unemployment pay (PARO)
 
-Paro is a national worker’s right and administered by Servicio Público de Empleo Estatal (SEPE). You can learn more about how this system works through this link:   [this link](https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones/quiero-cobrar-el-paro/he-trabajado-mas-de-un-ano.html "SEPE Paro procedures")
+Paro is a national worker’s right and administered by Servicio Público de Empleo Estatal (SEPE). You can learn more about how this system works through [this link](https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones/quiero-cobrar-el-paro/he-trabajado-mas-de-un-ano.html "SEPE Paro procedures")
 
 Although this is a national right, each region of Spain has their own office to administer this. In Catalunya for example, this is *Servei Públic d'Ocupació de Catalunya.* 
 
