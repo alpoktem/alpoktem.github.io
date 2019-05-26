@@ -1,0 +1,113 @@
+---
+layout: post
+title: Is there life after PhD (if you’re a non-EU immigrant in Spain)?
+date: 2019-05-26 12:01:00
+description: My post-PhD experience on extending my stay/work permit while on unemployment pay.
+---
+
+**TL;DR** I managed to extend my residency in Spain while getting an unemployment salary to look for a job after finishing my PhD. I had to go through a complex burocratic process which is not documented well enough.
+
+So you’re approaching the end of your PhD studies? Depending on how your PhD went and your personal goals, the amount of unknowns awaiting you could vary in a large spectrum. However, there’s one big thing that you must deal with and is largely impersonal. It applies to you if you come from a non-EU country and have to extend your visa on a yearly basis through a work/study contract. Until this point this was probably straightforward for you since your university sponsored your residency/work permit. So what follows after your PhD is over? You’re probably wondering if you are even allowed to stay in the country once you're done. It’s kind of difficult to handle such a feeling of insecurity concerning your legal status in a place you call home and would like to keep calling that at least for a while more. Well, I was in that position and I managed to stay here 100% legal. So I’m here to tell you not to worry, at least if you are in a situation more or less like I was when I finished my PhD. 
+
+This post explains my experience of extending my residence permit in Spain after completing my PhD degree without having any provisional work contract. My intention is not to give any legal advice or whatsoever but only to give a glimpse of my experience with the Catalan/Spanish burocracy and everything that I learned during the process. Your special circumstances will most probably be different from mine. I only hope my experience could provide a rough guideline for you if you don’t have a clue what to do next and/or like to take some time for your post-doc job hunting process. 
+
+A bit about me: Being a Turkish citizen —that is outside of EU—, I came to Barcelona, Spain in 2014 to do my PhD study in UPF with a full-time scholarship. It took me about 4 years to finish it and defend my thesis. I was funded as a pre-doctoral researcher during all those 4 years and had to renew my residence card (NIE) on a yearly basis thanks to the yearly work contracts made in UPF for PhD students. In about half-time through my PhD, I co-founded a non-profit cooperative which I aimed to work after I finish the PhD. However, by the time I was finishing the PhD, the circumstances weren’t quite ready for me to join there so I had to buy some time until I’d be able to. That buffer time and also my future prospects, of course, largely depended on having a residence/work permit that I’d have. The problem was that, by the time my scholarship was over, I had no contract to use for visa extension anymore. Also, I needed to support myself during that buffer time since I had no other ways of income. 
+
+If your situation is more or less like I had, read on. I mean the most important thing here is that you must be a worker with a full-time contract and spent at least three years in Spain. Because those two things are your legal foundations if you want to extend your stay while looking for a job. So before anything else, [**KNOW YOUR RIGHTS**](https://www.youtube.com/watch?v=5lfInFVPkQs "Know your rights by The Clash"). 
+
+The two main things you need to know are:
+ 
+1. **Your rights as a worker:** You are eligible for an unemployment pay (aka paro) if your work contract ends out of your will, which is the case when your contract expires. So, unless you quit your job yourself, you can apply for this unemployment pay. This is a welfare fund which you, yourself have saved since the time your first contract started. You have the right to use it for financing yourself meanwhile you’re looking for a job. Remember that, you must apply for paro in a period of 15 days once your contract is finished. This will grant you a monthly salary of 70% of your old salary for 6 months. After that 6 months it will reduce to 50% and could extend for a time more than a year. 
+2. **Your rights as an immigrant:** As a professional non-EU immigrant you are allowed to work and reside in Spain during your PhD with the sponsorship of your university. In your first three years, only your initial sponsor, i.e. your university, can sponsor you. However, after completing three years in Spain, you are allowed to work in any other institution if you like as long as you work in your own professional field. Until the time you complete 5 years, you must be contracted and insured to be able to keep renewing your visa. After 5 years, you are eligible to apply for a permanent residence permit which gives you the right to stay in Spain for 5 more years and also the right to work anywhere you like. 
+
+So, how to claim these rights? I am going to explain them one by one first…
+
+# 1 - Residence permit renewal
+
+You should be already familiar with the visa renewal process. This is done through the Foreigner’s office of the Spanish National Police (CNP/Extranjeria). Until I graduated, my university applied for an extension of my visa every time it expired. The process goes on like this:
+
+First, either you or a representative (e.g. an officer from the uni) applies for a renewal of your visa. This can be done online through this link or by going to the delegation of the Spanish state in your city (Registro General de la Delegación del Gobierno). In order to start this procedure you need prepare a copy (or scan in the case of digital registration) the following documents:
+1. Application form (only the first part Datos del extranjero) and signed.
+2. Your current expired or about to be expired NIE
+3. All pages of the passport
+4. Health insurance card
+5. Justification of the paid tax Tax document paid (you have to mark the box Renovación de autorización de residencia temporal)
+6. A work contract or a justification that you are on unemployment pay (Paro). 
+
+Once you have submitted your renewal application, you are officially in the process of visa renewal. It takes usually 3-5 weeks for them to decide if you are eligible for a renewal or not. If everything goes well, you’re presented with the visa resoultion (Resolución). This document approves that you are eligible for a residency extension and also states how long that extension would be. 
+
+Second part involves the actual application of the card. It is made in national police stations and can only be done with an appointment. You're asked to attend in person as your fingerprints will be taken to be stored in your card's chip. This process is called "Toma de Huella" and you can get an appointment through [this page](https://sede.administracionespublicas.gob.es/icpplus/ "Link to get fingerprint appointment") (You should follow "Expedición de Tarjeta de Identidad de Extranjero."). 
+
+**TIP 1:** It is usually difficult to get this appointment. I had to go out of Barcelona many times in order to get this done as fast as possible. So, make sure you take one in advance so that you won’t have to wait so long after you get your resolucion.
+
+**TIP 2:** The appointment system is as unfriendly as it can be and you have to try millions of times to get one that actually suits you. Whenever you see a slot, don’t think but take it fast. The system doesn’t let you take another appointment once you have one with the same ID number (NIE). If you still want to look for a better slot use your passport number instead. Then, you can come back to cancel the one you took with your NIE.
+
+To this appointment, you just need to bring your resolucion, passport, NIE and 2 photographs. The police takes your fingerprints and gives you a paper which says your card is in printing. You can come back again when your card is ready (in about 20-30 days) with your passport, expired NIE and that paper within 45 days. 
+
+**TIP 3:** You can go to take your printed NIE card anytime between 9h-11h. No appointment needed.
+
+So, the whole residency renewal process roughly looks like this:
+
+<p align="center"><img src="/img/nieparo/NIE.png" alt="NIE procedures" width="650"></p>
+
+# 2 - Applying for an unemployment pay (PARO)
+
+Paro is a national worker’s right and administered by Servicio Público de Empleo Estatal (SEPE). You can learn more about how this system works through this link:   [this link](https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones/quiero-cobrar-el-paro/he-trabajado-mas-de-un-ano.html "SEPE Paro procedures")
+
+Although this is a national right, each region of Spain has their own office to administer this. In Catalunya for example, this is *Servei Públic d'Ocupació de Catalunya.* 
+
+**IMPORTANT:** You can apply for Paro in 15 days from the end of your contract. And once they accept, they'll start paying from the day you were left unemployed. 
+
+Also, by the time you finished your employement with the university. They should prepare you a "certificado de empresa”. I am not sure how it goes, but they must send this to the local employment office. Make sure they do this once your contract is finished. 
+
+So what you need to follow exactly? It goes on like this:
+
+First, you need to get an appointment from the local employment office. This is done through [this link](https://sede.sepe.gob.es/contenidosSede/generico.do?pagina=proce_ciudadanos/cita_previa.html "Link to get appointment from SEPE")
+
+What you need to bring to your appointment is only your passport and a valid residence permit card with work permit. You'll be registered as an active employment seeker and then be granted unemployment pay. These two are separate subsequent processes. So you can do them both on the same day.
+
+**IMPORTANT:** For the employment office to register you as job seeker, you need to have a valid residence and work permit. They look at the dates of your card and the type of permit you have. It should say explicitly that you are allowed to work (e.g. it should say something like *excepción de trabajo*). If you have this, then no problem. Once you register, you’ll be sent to another table to give your bank details. If everything goes well, you’ll be paid your unemployment salary starting from the 10th day of the following month. You can calculate how much you’ll get paid and for how long from [this link](https://sede.sepe.gob.es/dgsimulador/introSimulador.do "Paro calculator in SEPE")). The process can be summed up like this:
+
+<p align="center"><img src="/img/nieparo/PARO.png" alt="NIE procedures" width="650"></p>
+
+But, what happens if you don’t have a valid residence permit card? That is, if it is expired or about to be expired soon. Officially, you are not allowed to submit an application because according to them you won’t be able to work anyway. Why register you as a job seeker right? No matter how much you beg them and promise them that you’ll get a permit soon, there’s not much that they can do. UNLESS, you prove them you are at least *on the process* of getting an extension of your residence/work permit. 
+
+Well then, that means you need to apply for the residence permit first and then apply for the Paro right? 
+
+But to be able to apply for the visa extension, you need to prove you’re on the unemployment pay. Uhmm...
+
+Yeah. At that point you start to think this must be a joke. 
+
+This is exactly the point where whole this process shows how inefficient the policies are, especially for foreigners. It seems like you cannot begin neither of the processes without completing the other one. Well, if you can’t begin neither of them, then how are you supposed to complete one? Incredible right ?? 
+
+Well, there is a workaround at least. Which is not really documented anywhere so here you go. 
+
+# How to do both of these processes at the same time?
+
+I was able to carry on with both of these processes by following a simple trick that I was informed thankfully by the secreteriat of my university. It is not actually a hacking of the system nor illegal. It is perfectly legal but just not that obvious when you look at it. 
+
+The documents that are needed to apply for the extension of the residency card are not mandatory but advised (sort of). That is, you can apply even if you don’t have the complete list of documents (sanitary card, contract, passport pages etc.). The system will still take your application even though a document is missing. You would just be kindly notified in a certain period through a letter which document you need to supply again. Either before or after you get this notification, you can attach new documents to your application online or through post. 
+
+What about the Paro application? Well, in the case that you cannot provide them a valid residency card with work permit, they leave a door open as long as you are *in the process* of renewing it. You can prove this to them with your NIE application paper approved by either the extranjeria or the government delegation. (In my case, as I applied through the government delegate, they handed me back the form with a seal that says it is taken into process. I suppose you can get something similar with online application as well.) 
+
+In my concrete case, I made my residency extension application with all the documents needed except a work contract. The extranjeria took my application. After a couple of weeks I received a letter from them asking me to prove them that I am on unemployment pay. As I was already on unemployment pay by then, I sent them the confirmation letter had sent to me by SEPE. 
+
+So, those processes put together should look something like this:
+
+<p align="center"><img src="/img/nieparo/NIEPARO.png" alt="NIE+PARO procedures" width="650"></p>
+
+On paper it looks pretty straightforward and easy. However, you still need to have patience. Most time is lost during the waiting for the resolution. Also, letters tend to arrive late so plan yourself well. In total this process took me about three months. That is, from the point I made my NIE extension application to the day I got my hands on my new card. Three months was indeed a long time to wait. If only it could be just a mere wait but I was many times anxious about the whole process. At the end, what was on risk was, first, my ability to maintain myself, second, my legal status concerning my stay in Spain. When everything was over, I was pretty relieved to be honest. 
+
+Here's me on the train back from Granollers\* the day I got my card. (\*That is 50 kms from Barcelona. It was the only place I was able to get the fingerprint appointment). 
+
+<p align="center"><img src="/img/nieparo/porfin.jpg" alt="A relieved Alp holding his the long-awaited card." width="500"></p>
+
+# Good luck
+
+I am sure you'll have to go through a different procedure but I hope my experience can help you some way to plan ahead of your post-doc life. I must repeat that **what I give here is not legal advice** but a mere reference. I might have errors in the information I give here so make sure you check the details of every procedure on its official site. 
+
+I wish you the best of luck during your battle with the paperwork and your post-doc life. 
+
+# Thanks
+
+I wouldn't be able to figure this whole process out without the help of these great people: Jana Safrankova and Lluis Bosch from UPF-DTIC, Pelin Doğan and Baybars Külebi from Col·lectivaT. 
