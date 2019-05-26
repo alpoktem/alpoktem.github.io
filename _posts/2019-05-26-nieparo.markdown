@@ -31,8 +31,8 @@ First, either you or a representative (e.g. an officer from the uni) applies for
 2. Your current expired or about to be expired NIE
 3. All pages of the passport
 4. Health insurance card
-5. Justification of the paid tax Tax document paid (you have to mark the box Renovación de autorización de residencia temporal)
-6. A work contract or a justification that you are on unemployment pay (Paro). 
+5. Justification of the [tax document](https://sede.administracionespublicas.gob.es/tasasPDF/prepareTasa?idTasa=052&idModelo=790&idProvincia=08 "Tax form 790") paid (you have to mark the box Renovación de autorización de residencia temporal)
+6. A work contract or a justification that you are on unemployment pay. 
 
 Once you have submitted your renewal application, you are officially in the process of visa renewal. It takes usually 3-5 weeks for them to decide if you are eligible for a renewal or not. If everything goes well, you’re presented with the visa resoultion (Resolución). This document approves that you are eligible for a residency extension and also states how long that extension would be. 
 
