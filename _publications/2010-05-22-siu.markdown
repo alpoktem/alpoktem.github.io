@@ -4,7 +4,7 @@ title: "Processing the manuscripts of Atatürk"
 date: 2010-05-22
 ---
 ```
-Stein, D; Öktem, A; Apostolidis, E; Mezaris, V; Redondo García, José Luis; Troncy, Raphaël; Sahuguet, Mathilde; Huet, Benoit
+Soysal T., Adigüzel H., Öktem A., Haman A., Can E. F., Duygulu P., Kalpakli M.
 Processing the manuscripts of Atatürk
 In: IEEE 18th Signal Processing and Communications Applications Conference, 22 April 2010, Diyarbakır, Turkey
 ```
@@ -16,4 +16,6 @@ In this paper, as a first step to an easy and convenient way to access the manus
 # Access
 
 Open access in <a href="http://hdl.handle.net/11693/28491" target="http://hdl.handle.net/11693/28491">Bilkent University repository</a>.
+
+Restricted access in <a href="https://ieeexplore.ieee.org/document/5652708" target="https://ieeexplore.ieee.org/document/5652708">IEEE Xplore</a>
 

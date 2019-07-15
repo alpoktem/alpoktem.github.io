@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is there life after PhD (if you’re a non-EU immigrant in Spain)?
+title: Is there life after PhD (if you’re a non-EU migrant in Spain)?
 date: 2019-05-26 12:01:00
 description: My post-PhD experience on extending my stay/work permit while on unemployment pay.
 ---
@@ -13,7 +13,9 @@ This post explains my experience of extending my residence permit in Spain after
 
 A bit about me: Being a Turkish citizen —that is outside of EU—, I came to Barcelona, Spain in 2014 to do my PhD study in UPF with a full-time scholarship. It took me about 4 years to finish it and defend my thesis. I was funded as a pre-doctoral researcher during all those 4 years and had to renew my residence card (NIE) on a yearly basis thanks to the yearly work contracts made in UPF for PhD students. In about half-time through my PhD, I co-founded a non-profit cooperative which I aimed to work after I finish the PhD. However, by the time I was finishing the PhD, the circumstances weren’t quite ready for me to join there so I had to buy some time until I’d be able to. That buffer time and also my future prospects, of course, largely depended on having a residence/work permit that I’d have. The problem was that, by the time my scholarship was over, I had no contract to use for visa extension anymore. Also, I needed to support myself during that buffer time since I had no other ways of income. 
 
-If your situation is more or less like I had, read on. I mean the most important thing here is that you must be a worker with a full-time contract and spent at least three years in Spain. Because those two things are your legal foundations if you want to extend your stay while looking for a job. So before anything else, [**KNOW YOUR RIGHTS**](https://www.youtube.com/watch?v=5lfInFVPkQs "Know your rights by The Clash"). 
+If your situation is more or less like I had, read on. I mean the most important thing here is that you must be a worker with a full-time contract and spent at least three years in Spain. Because those two things are your legal foundations if you want to extend your stay while looking for a job. So before anything else, <a href="https://www.youtube.com/watch?v=5lfInFVPkQs" target="_blank">**KNOW YOUR RIGHTS**</a>.
+
+
 
 The two main things you need to know are:
  
@@ -26,17 +28,19 @@ So, how to claim these rights? I am going to explain them one by one first…
 
 You should be already familiar with the visa renewal process. This is done through the Foreigner’s office of the Spanish National Police (CNP/Extranjeria). Until I graduated, my university applied for an extension of my visa every time it expired. The process goes on like this:
 
-First, either you or a representative (e.g. an officer from the uni) applies for a renewal of your visa. This can be done online through [this link](https://sede.administracionespublicas.gob.es/pagina/index/directorio/renovacion_telematica_extranjeria "Online application for NIE extension") or by going to the delegation of the Spanish state in your city (Registro General de la Delegación del Gobierno). In order to start this procedure you need prepare a copy (or scan in the case of digital registration) the following documents:
+First, either you or a representative (e.g. an officer from the uni) applies for a renewal of your visa. This can be done online through <a href="https://sede.administracionespublicas.gob.es/pagina/index/directorio/renovacion_telematica_extranjeria" target="_blank">this link</a> or by going to the delegation of the Spanish state in your city (Registro General de la Delegación del Gobierno). In order to start this procedure you need prepare a copy (or scan in the case of digital registration) the following documents:
 1. Application form (only the first part Datos del extranjero) and signed.
 2. Your current expired or about to be expired NIE
 3. All pages of the passport
 4. Health insurance card
-5. Justification of the [tax document](https://sede.administracionespublicas.gob.es/tasasPDF/prepareTasa?idTasa=052&idModelo=790&idProvincia=08 "Tax form 790") paid (you have to mark the box Renovación de autorización de residencia temporal)
+5. Justification of the <a href="https://sede.administracionespublicas.gob.es/tasasPDF/prepareTasa?idTasa=052&idModelo=790&idProvincia=08" target="_blank">tax document</a> paid (you have to mark the box Renovación de autorización de residencia temporal)
 6. A work contract or a justification that you are on unemployment pay. 
+
+
 
 Once you have submitted your renewal application, you are officially in the process of visa renewal. It takes usually 3-5 weeks for them to decide if you are eligible for a renewal or not. If everything goes well, you’re presented with the visa resoultion (Resolución). This document approves that you are eligible for a residency extension and also states how long that extension would be. 
 
-Second part involves the actual application of the card. It is made in national police stations and can only be done with an appointment. You're asked to attend in person as your fingerprints will be taken to be stored in your card's chip. This process is called "Toma de Huella" and you can get an appointment through [this page](https://sede.administracionespublicas.gob.es/icpplus/ "Link to get fingerprint appointment") (You should follow "Expedición de Tarjeta de Identidad de Extranjero."). 
+Second part involves the actual application of the card. It is made in national police stations and can only be done with an appointment. You're asked to attend in person as your fingerprints will be taken to be stored in your card's chip. This process is called "Toma de Huella" and you can get an appointment through <a href="https://sede.administracionespublicas.gob.es/icpplus/" target="_blank">this page</a> (You should follow "Expedición de Tarjeta de Identidad de Extranjero."). 
 
 **TIP 1:** It is usually difficult to get this appointment. I had to go out of Barcelona many times in order to get this done as fast as possible. So, make sure you take one in advance so that you won’t have to wait so long after you get your resolucion.
 
@@ -52,7 +56,7 @@ So, the whole residency renewal process roughly looks like this:
 
 # 2 - Applying for an unemployment pay (PARO)
 
-Paro is a national worker’s right and administered by Servicio Público de Empleo Estatal (SEPE). You can learn more about how this system works through [this link](https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones/quiero-cobrar-el-paro/he-trabajado-mas-de-un-ano.html "SEPE Paro procedures")
+Paro is a national worker’s right and administered by Servicio Público de Empleo Estatal (SEPE). You can learn more about how this system works through <a href="https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones/quiero-cobrar-el-paro/he-trabajado-mas-de-un-ano.html" target="_blank">this link</a>
 
 Although this is a national right, each region of Spain has their own office to administer this. In Catalunya for example, this is *Servei Públic d'Ocupació de Catalunya.* 
 
@@ -62,11 +66,11 @@ Also, by the time you finished your employement with the university. They should
 
 So what you need to follow exactly? It goes on like this:
 
-First, you need to get an appointment from the local employment office. This is done through [this link](https://sede.sepe.gob.es/contenidosSede/generico.do?pagina=proce_ciudadanos/cita_previa.html "Link to get appointment from SEPE")
+First, you need to get an appointment from the local employment office. This is done through <a href="https://sede.sepe.gob.es/contenidosSede/generico.do?pagina=proce_ciudadanos/cita_previa.html" target="_blank">this link</a>.
 
 What you need to bring to your appointment is only your passport and a valid residence permit card with work permit. You'll be registered as an active employment seeker and then be granted unemployment pay. These two are separate subsequent processes. So you can do them both on the same day.
 
-**IMPORTANT:** For the employment office to register you as job seeker, you need to have a valid residence and work permit. They look at the dates of your card and the type of permit you have. It should say explicitly that you are allowed to work (e.g. it should say something like *excepción de trabajo*). If you have this, then no problem. Once you register, you’ll be sent to another table to give your bank details. If everything goes well, you’ll be paid your unemployment salary starting from the 10th day of the following month. You can calculate how much you’ll get paid and for how long from [this link](https://sede.sepe.gob.es/dgsimulador/introSimulador.do "Paro calculator in SEPE")). The process can be summed up like this:
+**IMPORTANT:** For the employment office to register you as job seeker, you need to have a valid residence and work permit. They look at the dates of your card and the type of permit you have. It should say explicitly that you are allowed to work (e.g. it should say something like *excepción de trabajo*). If you have this, then no problem. Once you register, you’ll be sent to another table to give your bank details. If everything goes well, you’ll be paid your unemployment salary starting from the 10th day of the following month. (You can calculate how much you’ll get paid and for how long from <a href="https://sede.sepe.gob.es/dgsimulador/introSimulador.do" target="_blank">this link</a>). The process can be summed up like this:
 
 <p align="center"><img src="/img/nieparo/PARO.png" alt="NIE procedures" width="650"></p>
 
@@ -78,7 +82,7 @@ But to be able to apply for the visa extension, you need to prove you’re on th
 
 Yeah. At that point you start to think this must be a joke. 
 
-This is exactly the point where whole this process shows how inefficient the policies are, especially for foreigners. It seems like you cannot begin neither of the processes without completing the other one. Well, if you can’t begin neither of them, then how are you supposed to complete one? Incredible right ?? 
+This is exactly the point where whole this process shows how inefficient the policies are, especially for foreigners. It seems like you cannot begin neither of the processes without completing the other one. Well, if you can’t begin neither of them, then how are you supposed to complete one? Incredible right?!? 
 
 Well, there is a workaround at least. Which is not really documented anywhere so here you go. 
 
