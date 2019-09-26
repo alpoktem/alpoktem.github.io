@@ -121,11 +121,13 @@ Other interesting work that I came across:
 * Learn which words to keep and which ones to eliminate to shorten subtitles for the impaired viewers. 
 * Turns out that compressed subtitles doesn’t lower comprehension but they increase cognitive load.
 
-#### [Beeferman et al. RadioTalk: a large-scale corpus of talk radio transcripts](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2714.html)
+#### [Beeferman et al. - RadioTalk: a large-scale corpus of talk radio transcripts](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2714.html)
 
 * 284K hours of conversational speech corpus from automatically transcribed talk radio broadcast
 * Useful for NLP as in word2vec modelling but also applications e.g. monitoring media influence, linguistic analysis.
 * Dataset available on [github](https://github.com/social-machines/RadioTalk), interested in opening the collection system
 
+#### [Dominguez et al. - PyToBI: A Toolkit for ToBI Labeling Under Python](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/8021.html)
 
+* Praat made accesible to Python developers
 
