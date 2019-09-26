@@ -7,7 +7,7 @@ description: Livetweets and other notes from latest speech research
 
 <p align="center"><img src="/img/interspeech2019/minivary_4x1_place_0.40.png" alt="Alp Öktem's Interspeech 2019 poster for publication: Prosodic Phrase Alignment for Machine Dubbing." width="700"></p>
 
-Similar to the two earlier ones, I came back from this year's Interspeech with a lot of new ideas, new contacts and a bit more knowledge of what's going on in the speech world. This year was my first post doctoral visit to the conference. I presented [work](/publications/2019-09-24-interspeech19/) partially related to my doctoral thesis. Rest of the time I was looking out to catch up with the latest work on speech research with a focus on spoken language translation and low-resource methodologies.
+Similar to the two earlier ones, I came back from this year's Interspeech with a couple of new ideas, new contacts and a bit more knowledge of what's going on in the speech world. This year was my first post doctoral visit to the conference. I presented [work](/publications/2019-09-24-interspeech19/) partially related to my doctoral thesis. Rest of the time I was looking out to catch up with the latest work on speech research with a focus on spoken language translation and low-resource methodologies.
 
 This year also was my first time live-tweeting during the conference. Following <a href="http://www.rctatman.com/Livetweeting-Guide/" target="_blank">these guidelines</a>, I've did my best reporting about interesting work I came across, both for promoting them and also as possible references for future. 
 
