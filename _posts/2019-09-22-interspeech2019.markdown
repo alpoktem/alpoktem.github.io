@@ -1,0 +1,131 @@
+---
+layout: post
+title: Reporting from Interspeech 2019 
+date: 2019-09-22 12:01:00
+description: Livetweets and other notes from latest speech research
+---
+
+<p align="center"><img src="/img/interspeech2019/minivary_4x1_place_0.40.png" alt="Alp Öktem's Interspeech 2019 poster for publication: Prosodic Phrase Alignment for Machine Dubbing." width="700"></p>
+
+Similar to the two earlier ones, I came back from this year's Interspeech with a lot of new ideas, new contacts and a bit more knowledge of what's going on in the speech world. This year was my first post doctoral visit to the conference. I presented [work](/publications/2019-09-24-interspeech19/) partially related to my doctoral thesis. Rest of the time I was looking out to catch up with the latest work on speech research with a focus on spoken language translation and low-resource methodologies.
+
+This year also was my first time live-tweeting during the conference. Following <a href="http://www.rctatman.com/Livetweeting-Guide/" target="_blank">these guidelines</a>, I've did my best reporting about interesting work I came across, both for promoting them and also as possible references for future. 
+
+In this post, I've compiled my live-tweets as well as some side-notes to make them a bit more readible and accessible.
+
+Here are my notes from the speech translation session:
+
+#### [Survey on spoken machine translation by Jan Niehues](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/abs9.html)
+
+* Spoken machine translation (SLT) application scenarios involve the following parameters:
+	1. consecutive (segmentation) vs. simultaneous (speech overlap)
+	2. single vs, multiple speakers
+	3. online (real-time e.g. conference) vs offline (e.g. movies)
+	4. text vs audio output (TTS needed)
+* Two methodologies exist: 
+	1. cascaded (ASR + MT + TTS)
+	2. end-to-end (i.e. no intermediate representations of source language)
+* **Cascaded**: modular as in ASR -> *Segmentation* -> MT (-> TTS) which means each part can be worked on independently but that also means any error in an early stage propagates to the later stages. 
+* **E2E** skips intermediate representations simplifying the model. Challenges:
+	1. input is audio so long sequences are hard to process
+	2. there are few data available compared to monolingual ASR and MT data
+	3. alignment is more complicated btw cross-lingual text and audio
+* Segmentation is a challenge in both approaches as MT operates on sentence level. Approaches include adding a segmentation module, either between ASR and MT, after MT or within MT.
+* Cascaded models are the state-of-the-art but significant improvements has been recorded in E2E approaches recently. 
+* Interesting future research on SLT include prosody integration and human feedback mechanisms.
+
+#### [Jia et al. - Direct speech-to-speech translation with a sequence-to-sequence model](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1951.html)
+
+* Why go E2E?
+	- avoids error propagation
+	- lower compuational resource and latency
+	- capability of modelling paralinguistic/nonlinguistic transfer
+* Why not go E2E?
+	- harder to collect data
+	- alignment is more uncertain
+	- evaluation is difficult
+* Naive approach to E2E doesn't give good results. Only by using auxiliary tasks it shows some usefulness. Auxiliary tasks involve either decoding target speech and text together or predicting source and target phonemes. 
+* Evaluation in E2E S2S translation is a challenge for all. They use ASR to transcribe the output speech and then use BLEU to see how much they match. 
+* All in all the E2E approach slightly underperforms the cascaded approach of SLT + TTS, proving its potentials. 
+
+Work related directly or potentially with low-resource settings:
+
+#### [Karafiát et al. - Analysis of Multilingual Sequence-to-Sequence Speech Recognition Systems](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2355.html)
+
+* Training acoustic model on multilingual data and then fine-tuning on the target language leads to lower CER compared to monolingual models.
+* Experimentation: train on 10 "seen" languages (111 hours) and then test on 2 "unseen" languages, Assamese and Swahili with 10 hours of data in each.
+* Multilingual features are more effective than language transfer learning in seq2seq model case
+
+#### [Biswas et al. - Improved Low-Resource Somali Speech Recognition by Semi-Supervised Acoustic and Language Model Training](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1328.html)
+
+* Use-case: UN is interested in monitoring the situation in conflicted countries. Information is only accessible in local radio broadcasts. People call over the radio and speak about their conditions and events.
+* As it is impossible to monitor broadcasts continuosly, keyword spotting can help obtain critical information e.g. flood etc.
+* Low-resource condition only makes it possible to build ASR based on data available online.
+* 50% WER obtained with 1.5 hours of data compiled from online sources and using transfer learning from nearby languages
+* Even though not sufficent for transcription, system is useful for keyword spotting and it is currently being used for real-time monitoring by UN.
+
+#### [Schneider et al. - wav2vec: Unsupervised Pre-Training for Speech Recognition](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1873.html)
+
+* First application of unsupervised pre-training for ASR. 
+* Pre-train on large amount of raw audio and transfer that knowledge to acoustic model training with labeled data
+* %36 WER improvement from state-of-the-art (DeepSpeech2 trained with 12K labeled data) using only 8h of labeled data and a pre-training on 960h unlabeled set
+* Useful both for high and low-resource settings
+* Code available under [fairseq repo](https://github.com/pytorch/fairseq/blob/master/examples/wav2vec/README.md)
+
+#### [Prasad et al. - Building Large-Vocabulary ASR Systems for Languages Without Any Audio Training Data](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1775.html)
+
+* How to leverage nearby high-resource languages for building ASR in a language using only text data in that language?
+* Assumes a phonological similarity for transferring acoustic knowledge. 
+* Proposed method involves creation of a mapping between phonemes in target low-resource and the source high-resource language
+* Experiments: Turkish -> Kyrgyz, Filipino -> Cebuano, Italian -> Corsican, Hindi -> Maithili
+* Obtain less than 20% WER in some cases
+* It might be possible to bring ASR to many more languages using a universal acoustic model approach. 
+
+#### [Hillis et al. - Unsupervised phonetic and word level discovery for S2S translation for unwritten languages](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/3026.html)
+
+* Motivation: building speech-to-speech translation for unwritten languages (44% of all world languages)
+* Problem: It's hard to build text MT when it is difficult to find transcripted data in the language.
+* Solution: Induce word like units from raw audio using unsupervised methods and then proceed to MT
+* Data: Work with 5 *actually scripted* languages (Avatime/Sidame, Oromo, Hausa, Masaba/Gisu, Lunyole/Nyule) from CMU Wilderness dataset
+* Method: Discover atomic phonemes from audio and then cluster them using n-gram or bpe
+* Conclusion: It can approach the semantic density of traditionally transcribed words to be used in MT. 
+* Future work: Language modelling from discovered words. 
+
+#### [Boito et al. - Empirical Evaluation of Sequence-to-Sequence Models for Word Discovery in Low-Resource Settings](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2029.html)
+
+* Task: Discover words in a target language using alignment information between a word sequence in source language and phoneme sequence in target language (Unsupervised Word Segmentation (UWS))
+* Data: Parallel bilingual speech-text in EN-FR and Mboshi-FR
+* Experiments: Evaluation of RNN, CNN and Transformer for the task 
+* Result: RNN performs the best. 
+* Code and data in [github](https://gitlab.com/mzboito/attention_study)
+ 
+#### [Li et al. - SANTLR: Speech annotation toolkit for low resource languages](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/8040.html)
+
+* SANTLR is a web-based toolkit that lets you:
+	- upload a long audio and it will be segmented for you to transcribe
+	- upload a long text to record automatically chunked segments
+
+Other interesting work that I came across:
+
+#### [Azuh et al. - Towards Bilingual Lexicon Discovery From Visually Grounded Speech Audio](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1718.html)
+
+* Align semantically similar words across bilingual spoken descriptions of the same picture to build a picture dictionary
+* Task: Learn an acoustic spoken picture dictionary without any transcription at hand
+* Data: image, english spoken caption, hindi spoken caption
+* Method: Encode both spectograms using 1D CNN and the image using CNN
+* Align semantically similar words across utterances of the same picture to build a picture dictionary
+* Method based on k nearest neighbour clustering. 
+
+#### [Angerbauer et al - Automatic Compression of subtitles with neural networks and its effects on user experience](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1750.html)
+
+* Learn which words to keep and which ones to eliminate to shorten subtitles for the impaired viewers. 
+* Turns out that compressed subtitles doesn’t lower comprehension but they increase cognitive load.
+
+#### [Beeferman et al. RadioTalk: a large-scale corpus of talk radio transcripts](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/2714.html)
+
+* 284K hours of conversational speech corpus from automatically transcribed talk radio broadcast
+* Useful for NLP as in word2vec modelling but also applications e.g. monitoring media influence, linguistic analysis.
+* Dataset available on [github](https://github.com/social-machines/RadioTalk), interested in opening the collection system
+
+
+
