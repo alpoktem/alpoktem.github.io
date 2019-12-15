@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prosodic Phrase Alignment for Machine Dubbing
+title: Prosodic phrase alignment for machine dubbing
 date: 2019-09-24
 ---
 ```
@@ -16,6 +16,7 @@ Dubbing is a type of audiovisual translation where dialogues are translated and 
 # Access
 
 - Open access in <a href="https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1621.html" target="_blank">ISCA Speech</a>.
+- Open access in <a href="http://hdl.handle.net/10230/42380" target="_blank">UPF e-repositori</a>.
 - Pre-print in <a href="https://arxiv.org/abs/1908.07226" target="_blank">arxiv</a>.
 
 # Related repositories
