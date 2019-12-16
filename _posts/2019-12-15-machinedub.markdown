@@ -28,26 +28,28 @@ If we were to imagine a system for automatic dubbing, the translation framework 
 
 The diagram above shows a simple scheme of the audiovisual translation process. The dubbing translation analyzes the input speech both in terms of linguistic content and its prosodic structure. Following, its translation is synthesized respecting the same prosodic structure and then placed over the muted version of the video. We aim to achieve coherence between actor's lip movements and the synthesized audio by respecting the prosodic phrasing structure of the actor's utterance. 
 
-To illustrate with an example, let's take a scene from the TV series Heroes, where one of the show's characters Daniel utters the following line. (Click on the image to watch the actual scene)
+To illustrate with an example, let's take a scene from the TV series Heroes, where one of the show's characters Daniel (Malcolm McDowell) utters the following line. (Click on the image to watch the actual scene)
 
 <p align="center"><a href="https://youtu.be/4nhwPDN6esc"><img src="/img/machinedub/heroes_scene.png" width="500" alt="A scene from Heroes"></a></p>
 
-Our English-to-Spanish neural machine translation system translates this sentence as:
+A English-to-Spanish neural machine translation system translates this sentence as below. It is not perfect but gets the message. 
 
 ```
 Has hecho mucho por nosotros. Hemos hecho mucho por ti. 
 Tanto que no podíamos hacer para ti, si te vas a abandonar. 
 ```
 
-If we wanted to dub this segment, we could use our Spanish text-to-speech system (TTS) and place the output on the video following our machine dubbing scheme. However, to achieve realistic alignment between the synthesized translation and the video, we should somehow _condition_ the synthesis to respect Daniel's phrasing. 
+If we were to dub this segment, we could use our Spanish text-to-speech system (TTS) and place the output on the video following our machine dubbing scheme. However, to achieve realistic alignment between the synthesized translation and the video, we should somehow _condition_ the synthesis to respect McDowells's phrasing of the line. 
 
 Visualizing his utterance where yellow boxes indicate pauses, the synthesis of the translation should go a bit like below. 
 
 <p align="center"><img src="/img/machinedub/scene_translation_synth.png" alt="Synthesis with prosodic phrase alignment" width="700"></p>
 
-The challenge here is not only to fit the synthesis within the time interval he is speaking, but also to respect the way he structures his utterance with paused intervals. We'll call these inner segments **prosodic phrases** as they are enclosed within an intonational structure and terminated with a pause. 
+The challenge here in obtaining a synchronized synthesis is not only to fit within the time interval he is speaking. He structures his speech into prosodic units which are enclosed within an intonational structure and terminated with a pause. If the synthesized speech doesn't synchronize with these sub-phrases, it would give an unrealistic feeling since his lips are not moving during these paused intervals. 
 
-Doing this automatically would require the following: (1) Detecting the prosodic phrases (words and timings) in the input sentence, (2) Mapping them to meaningful portions of the translation output and then finally (3) synthesizing them with the timings we get from the input sentence. To illustrate these steps on the rough pipeline introduced earlier:
+Performing this automatically would require the following: (1) Detecting the **prosodic phrases** (words and timings) in the input sentence, (2) Mapping them to meaningful portions of the translation output, and then finally (3) synthesizing them with the timings we get from the input sentence. 
+
+To illustrate these steps on the rough pipeline introduced earlier:
 
 <p align="center"><img src="/img/machinedub/pipeline_intermediate_steps.png" alt="Machine dubbing pipeline" width="700"></p>
 <p align="center">Detailed machine dubbing pipeline</p>
@@ -95,7 +97,7 @@ The challenge of this step is to draw those boxes automatically for the predicti
 
 The third step is to carry on with the synthesis of the translation with the target phrasing structure we just found. To do this conditioning, we follow a method that I call _**synth bending**_. 
 
-The procedure is as follows: Translated phrase is first sent to a classic off-the-shelf TTS back-end. The TTS back-end computes a phoneme and silence sequence together with their timings. Secondly, these default timings are _bent_, i.e. sped-up or slowed-down, according to the timings of the source phrases and pauses they align with. 
+The procedure is as follows: Translated phrase is first sent to a classic off-the-shelf TTS back-end. The TTS back-end computes a sequence of phonemes and silences together with their timings. Secondly, these default timings are _bent_, i.e. sped-up or slowed-down, according to the timings of the source phrases and pauses they align with. 
 
 <p align="center"><img src="/img/machinedub/bending.png" alt="bending" width="700"></p>
 <p align="center">Synchronization by bending phoneme timings</p>
@@ -104,7 +106,7 @@ For each phrase, a bending ratio is calculated by dividing the desired phrase du
 
 Finally, the phoneme and pause sequence with their modified timings is sent to the TTS front-end. This gives us the synthesis of the translated phrase with the prosodic phrasing that is dictated by the source utterance.
 
-The dubbing process is completed once the synthesized audio is placed on top of the muted video. The final pipeline that illustrates all these processes in detail is as follows:
+The dubbing process is complet once the synthesized audio is placed on top of the muted video. The final pipeline that illustrates all these processes in detail is as follows:
 
 <p align="center"><img src="/img/machinedub/pipeline_complete.png" alt="Final pipeline with TTS bending procedure" width="700"></p>
 <p align="center">Final machine dubbing pipeline</p>
@@ -117,7 +119,9 @@ Some 10 samples were allocated to test out how well the methodology works. They 
   <source src="/img/machinedub/s3_6_0096_machineDub.mp4" type="video/mp4">
 </video>
 
-Quantitative analysis was performed on the testing portion of the corpus to see how much they come close to the professionally dubbed versions in terms of alignment. One metric to help measure this is _speech rate_, which is the amount of syllables that fall into each unit time. To perform a comparison, we first calculated the speech rate ratio between the original and Spanish dubbed versions in our dataset, which came out to be 1.31. That is, for each English syllable, 1.31 Spanish syllables are uttered in the professionaly dubbed translations. Next, we did the same analysis with the machine dubbing translations and observed a very close figure, 1.27. Although this similarity shows that in average it converges well, it doesn't mean that every aligned segment respect this value. We observed that some segments that were sped-up or slow-down above a certain ratio lead to unnatural sounding syntheses. This is particularly observed when the MT output is poor or is uncomparable to the source phrase in terms of its length. 
+Quantitative analysis was performed on the testing portion of the corpus. We wanted to see how they compare with the professionally dubbed versions in terms of alignment. One metric to help measure this is _speech rate_, which is the amount of syllables that fall into each unit time. To perform a comparison, we first calculated the speech rate ratio between the original and Spanish dubbed versions in our dataset, which came out to be 1.31. That is, for each English syllable, 1.31 Spanish syllables are uttered in the professionaly dubbed translations. Next, we did the same analysis with the machine dubbing translations and observed a very close figure, 1.27. 
+
+Although this similarity shows that in average it converges well, it doesn't mean that every aligned segment would give this value. We observed that some segments that were sped-up or slow-down above a certain ratio lead to unnatural sounding syntheses. This is particularly observed when the MT output is poor or is uncomparable to the source phrase in terms of its length. 
 
 Below is a density graph of the speech rate ratios (<span style="color:blue">blue</span>) and bending ratios (<span style="color:red">red</span>) calculated for each matching prosodic phrase in the evaluation set. Mean values are shown with dashed lines. 
 
@@ -127,14 +131,8 @@ Below is a density graph of the speech rate ratios (<span style="color:blue">blu
 
 This work can be considered as one of the first on the case of lip-syncing in a translation framework. We leveraged using of auditory features and the process of translation itself to achieve partial lip-syncing, on the basis of speech activation. 
 
-The results show the usefulness of a phrase alignment mechanism built on the attention matrix which is used in neural MT. However, we designed a scoring mechanism only to address the alignment of spoken phrases. This is an important dimension in lip-syncing but definitely not the only one. Further lip-syncing guidelines concerning mouth articulation movements are left unadressed. Future work calls for the inclusion of this aspect into the scoring mechanism so that the mouth opening and closing movements align with the appropriate phonemes. 
+The results show the usefulness of a phrase alignment mechanism built on the attention layer output of neural MT. However, we designed a scoring mechanism only to address the alignment of spoken phrases. This is an important dimension in lip-syncing but definitely not the only one. Further lip-syncing guidelines concerning mouth articulation movements are left unadressed. Future work calls for the inclusion of this aspect into the scoring mechanism so that the mouth opening and closing movements align with the appropriate phonemes. 
 
 Another aspect we noted is the importance of obtaining a comparable length in the translations. For that, it is essential to condition the MT to output translations that match the length of the source phrase. Alternative translations could also be included in the scoring mechanism, thus leading to a larger set for optimization. 
 
-In an applied perspective though, there are many more challenges ahead for machine dubbing. In order for these methodologies to arrive to a useful point, I foresee two major lines: One of them would involve the task of carrying spectral characteristics of the actors' voices into the synthesis so that they actually sound like themselves, only in another language. And last but not least, especially in movies or TV shows, there is an abundance of prosodic expressivity which demands work in cross-lingual prosodic transfer. 
-
-
-
-
-
-
+In an applied perspective though, there are many more challenges ahead for machine dubbing. In order for these methodologies to arrive to a useful point, I foresee two major lines: One of them would involve the task of carrying spectral characteristics of the actors' voices into the synthesis so that they actually sound like themselves, only in another language. And last but not least, especially in movies or TV shows, there is an abundance of prosodic expressivity conveyed with a combination of prosodic traits: intonation, rhythm and stress. A proper spoken translation setup needs to cover the transfer of these features as well. 
