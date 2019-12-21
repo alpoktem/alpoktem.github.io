@@ -24,8 +24,8 @@ The thesis can be accessed through the following repositories:
 
 # Defense
 
-My thesis defense took place on 25th of February in UPF with the attendance of the tribunal consisting of David Escudero (Univ. de Valladolid), Francesc Alías (La Salle - URL) and Jordi Adell (Verbio Technologies). My whole defense presentation can be viewed through clicking on the thumbnail:
+My thesis defense took place on 25th of February in UPF with the attendance of the tribunal consisting of David Escudero (Univ. de Valladolid), Francesc Alías (La Salle - URL) and Jordi Adell (Verbio Technologies). You can watch the defense on YouTube as well: 
 
-<p align="center"><a href="http://www.youtube.com/watch?v=h_0ky8U7TmM"><img src="http://img.youtube.com/vi/h_0ky8U7TmM/0.jpg" width="500" alt="Link to Alp Öktem's PhD Defense"></a></p>
+<p align="center"><iframe width="560" height="415" src="https://www.youtube.com/embed/h_0ky8U7TmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
