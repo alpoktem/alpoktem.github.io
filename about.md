@@ -9,7 +9,7 @@ permalink: /about/
 <br/>
 I’m a language technologist, specialized in speech technology, prosody and machine translation. I got my PhD in 2018 at the TALN (Natural Language Processing) group of the Pompeu Fabra University in Barcelona.
 
-I am one of the co-founders of non-profit workers cooperative <a href="https://collectivat.cat/" target="https://collectivat.cat/">Col·lectivaT</a>. Currently, I work for Translators without Borders creating linguistic resources and tools for low-resourced languages. 
+I am one of the co-founders of non-profit knowledge cooperative <a href="https://collectivat.cat/" target="https://collectivat.cat/">Col·lectivaT</a>. Currently, I work for <a href="https://translatorswithoutborders.org/">Translators without Borders</a> creating linguistic resources and tools for low-resourced languages. 
 <br/>
 <hr/>
 <br/>
