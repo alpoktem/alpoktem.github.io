@@ -16,5 +16,5 @@ Open access in <a href="https://www.isca-speech.org/archive/IberSPEECH_2018/abst
 
 # Poster 
 
-<p align="center"><a href="/img/OKTEM-poster1-heroes_med.png"><img src="/img/OKTEM-poster1-heroes_small.png" alt="Alp Öktem's IberSPEECH 2018 poster for publication: Bilingual Prosodic Dataset Compilation for Spoken Language Translation" width="700"></a></p>
+<p align="center"><a href="/img/OKTEM-poster1-heroes_med.png"><img src="/img/OKTEM-poster1-heroes_small.png" alt="Alp Öktem's IberSPEECH 2018 poster for publication: Bilingual Prosodic Dataset Compilation for Spoken Language Translation" width="100%"></a></p>
 

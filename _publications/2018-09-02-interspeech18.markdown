@@ -23,4 +23,4 @@ Open access in <a href="http://hdl.handle.net/10230/35801" target="http://hdl.ha
 
 # Poster 
 
-<p align="center"><a href="/img/punkPoster_herz_full.png"><img src="/img/punkPoster_herz_small.png" alt="Alp Öktem's Interspeech 2018 poster for publication: Visualizing punctuation restoration in speech transcripts with Prosograph." width="700"></a></p>
+<p align="center"><a href="/img/punkPoster_herz_full.png"><img src="/img/punkPoster_herz_small.png" alt="Alp Öktem's Interspeech 2018 poster for publication: Visualizing punctuation restoration in speech transcripts with Prosograph." width="100%"></a></p>

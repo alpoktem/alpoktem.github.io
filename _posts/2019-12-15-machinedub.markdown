@@ -11,26 +11,26 @@ In the paper [_Prosodic Phrase Alignment for Machine Dubbing_](/publications/201
 
 Automating multimedia translation has become increasingly relevant in the age of user-generated content. The popular video sharing site YouTube provides automatic subtitling with the push of a button, enabling it to be accessible to audiences of different languages.
 
-<p align="center"><img src="/img/machinedub/youtube_translate.png" alt="Youtube's auto-translated subtitle feature enabled for a video" width="700"></p>
+<p align="center"><img src="/img/machinedub/youtube_translate.png" alt="Youtube's auto-translated subtitle feature enabled for a video" width="100%"></p>
 
 Although subtitles may work in many occasions, it is not always the preffered translation medium. Certain countries, for example, prefer watching foreign movies dubbed into their language. Also, subtitled content rarely help the accessibility for children or viewers with reading difficulties.
 
 Automatizing dubbing though, hasn't really made it to widespread usage yet. Compared to subtitling, it involves additional auditory and visual dimensions which makes it a rather more complex process. Dubbing, as a type of audiovisual translation, takes care of many more aspects than mere translation and timing. These include, matching the voice of the character being dubbed, finding translations that fit within a certain time span and also achieving realistic alignment of the dubbed audio with the lip movements of the on-screen characters. This process, which is called **lip-syncing**, has various aspects associated with it:
 
-<p align="center"><img src="/img/machinedub/lipsyncing.png" alt="Lip-syncing features" width="700"></p>
+<p align="center"><img src="/img/machinedub/lipsyncing.png" alt="Lip-syncing features" width="100%"></p>
 
 If we were to imagine a system for automatic dubbing, the translation framework should give attention to these dimensionalities. It should not only accomplish the translation of the linguistic content, but also deliver it within a comparable **prosodic** structure that makes it align with the visual content. 
 
 ### Machine dubbing
 
-<p align="center"><img src="/img/machinedub/pipeline_minimal.png" alt="Rough machine dubbing pipeline" width="700"></p>
+<p align="center"><img src="/img/machinedub/pipeline_minimal.png" alt="Rough machine dubbing pipeline" width="100%"></p>
 <p align="center">A rough automatic audiovisual dubbing pipeline</p>
 
 The diagram above shows a simple scheme of the audiovisual translation process. The dubbing translation analyzes the input speech both in terms of linguistic content and its prosodic structure. Following, its translation is synthesized respecting the same prosodic structure and then placed over the muted version of the video. We aim to achieve coherence between actor's lip movements and the synthesized audio by respecting the prosodic phrasing structure of the actor's utterance. 
 
 To illustrate with an example, let's take a scene from the TV series Heroes, where one of the show's characters Daniel (Malcolm McDowell) utters the following line. (Click on the image to watch the actual scene)
 
-<p align="center"><a href="https://youtu.be/4nhwPDN6esc"><img src="/img/machinedub/heroes_scene.png" width="500" alt="A scene from Heroes"></a></p>
+<p align="center"><a href="https://youtu.be/4nhwPDN6esc"><img src="/img/machinedub/heroes_scene.png" width="80%" alt="A scene from Heroes"></a></p>
 
 A English-to-Spanish neural machine translation system translates this sentence as below. It is not perfect but gets the message. 
 
@@ -43,7 +43,7 @@ If we were to dub this segment, we could use our Spanish text-to-speech system (
 
 Visualizing his utterance where yellow boxes indicate pauses, the synthesis of the translation should go a bit like below. 
 
-<p align="center"><img src="/img/machinedub/scene_translation_synth.png" alt="Synthesis with prosodic phrase alignment" width="700"></p>
+<p align="center"><img src="/img/machinedub/scene_translation_synth.png" alt="Synthesis with prosodic phrase alignment" width="100%"></p>
 
 The challenge here in obtaining a synchronized synthesis is not only to fit within the time interval he is speaking. He structures his speech into prosodic units which are enclosed within an intonational structure and terminated with a pause. If the synthesized speech doesn't synchronize with these sub-phrases, it would give an unrealistic feeling since his lips are not moving during these paused intervals. 
 
@@ -51,7 +51,7 @@ Performing this automatically would require the following: (1) Detecting the **p
 
 To illustrate these steps on the rough pipeline introduced earlier:
 
-<p align="center"><img src="/img/machinedub/pipeline_intermediate_steps.png" alt="Machine dubbing pipeline" width="700"></p>
+<p align="center"><img src="/img/machinedub/pipeline_intermediate_steps.png" alt="Machine dubbing pipeline" width="100%"></p>
 <p align="center">Detailed machine dubbing pipeline</p>
 
 ### Detecting of prosodic phrase structure
@@ -60,12 +60,12 @@ The first step is to detect the phrases in the input sentence. As we define pros
 
 This was already performed on our data coming from [_**Heroes Corpus**_](https://repositori.upf.edu/handle/10230/35572), which is a collection of short segments from Heroes series. Each segment in this dataset consists of audio of an actor's line, its subtitle transcription and word timings obtained with a forced alignment tool. The excerpt above is a sample from this dataset. 
 
-<p align="center"><img src="/img/machinedub/wordtime.png" alt="Machine dubbing pipeline" width="700"></p>
+<p align="center"><img src="/img/machinedub/wordtime.png" alt="Machine dubbing pipeline" width="100%"></p>
 <p align="center">Word and pause timings obtained with a forced alginment algorithm</p>
 
 In order to differentiate between articulatory effects and linguistically motivated pauses, a pause duration threshold of 250ms is considered as a prosodic phrase boundary. Following this approach, we end up with the following phrase structure from our example:
 
-<p align="center"><img src="/img/machinedub/prosstructure.png" alt="Input segment structure with prosodic phrase and pause durations" width="700"></p>
+<p align="center"><img src="/img/machinedub/prosstructure.png" alt="Input segment structure with prosodic phrase and pause durations" width="100%"></p>
 <p align="center">Input segment structure with prosodic phrase and pause durations</p>
 
 This structure gives us all the timing information we need on how to condition our sythesized translation. We just need to inform the synthesizer of these time constraints for when to speak and when to stay silent. This in turn would sync with the video as the lip-movements are naturally aligned to the speech activity. 
@@ -84,12 +84,12 @@ Neural machine translation has a mechanism that gives information on the alignme
 
 A look at the attention matrix visualization gives a hint of this phrase alignment. For our example, we can see the projection of each input phrase on the target word sequence by tracing where the attention weights fire the most. 
 
-<p align="center"><img src="/img/machinedub/s3_6_0096.attention.boxes.png" alt="Attention matrix while translating the sample sentences." width="700"></p>
+<p align="center"><img src="/img/machinedub/s3_6_0096.attention.boxes.png" alt="Attention matrix while translating the sample sentences." width="100%"></p>
 <p align="center">Attention weights are higher in the areas where source and target phrases align.</p>
 
 The challenge of this step is to draw those boxes automatically for the predictions we get from MT. In order to do that, we came up with a scoring algorithm which uses the matrix weights and decides on the most optimal alignment. The procedure that consists of three phases, (1) population, (2) scoring and (3) ranking is illustrated in the animation below:
 
-<video align="center" width="700" height="400" controls>
+<video align="center" width="100%" controls>
   <source src="/img/machinedub/SCENE_ALL.mp4" type="video/mp4">
 </video>
 
@@ -99,7 +99,7 @@ The third step is to carry on with the synthesis of the translation with the tar
 
 The procedure is as follows: Translated phrase is first sent to a classic off-the-shelf TTS back-end. The TTS back-end computes a sequence of phonemes and silences together with their timings. Secondly, these default timings are _bent_, i.e. sped-up or slowed-down, according to the timings of the source phrases and pauses they align with. 
 
-<p align="center"><img src="/img/machinedub/bending.png" alt="bending" width="700"></p>
+<p align="center"><img src="/img/machinedub/bending.png" alt="bending" width="100%"></p>
 <p align="center">Synchronization by bending phoneme timings</p>
 
 For each phrase, a bending ratio is calculated by dividing the desired phrase duration by the duration of the corresponding phoneme sequence the TTS back-end predicts by default. Each phoneme duration is then multiplied by the ratio of the phrase it belongs to. Silent tokens are made to match exactly the pause duration they correspond to. 
@@ -108,14 +108,14 @@ Finally, the phoneme and pause sequence with their modified timings is sent to t
 
 The dubbing process is complet once the synthesized audio is placed on top of the muted video. The final pipeline that illustrates all these processes in detail is as follows:
 
-<p align="center"><img src="/img/machinedub/pipeline_complete.png" alt="Final pipeline with TTS bending procedure" width="700"></p>
+<p align="center"><img src="/img/machinedub/pipeline_complete.png" alt="Final pipeline with TTS bending procedure" width="100%"></p>
 <p align="center">Final machine dubbing pipeline</p>
 
 ### Evaluation
 
 Some 10 samples were allocated to test out how well the methodology works. They can be found in the [project repository](https://github.com/alpoktem/MachineDub/tree/master/samples) together with the original segments. Here's how our machine dubbed example segment looks like at the end:
 
-<video align="center" width="600" height="400" controls>
+<video align="center" width="100%" controls>
   <source src="/img/machinedub/s3_6_0096_machineDub.mp4" type="video/mp4">
 </video>
 
@@ -125,7 +125,7 @@ Although this similarity shows that in average it converges well, it doesn't mea
 
 Below is a density graph of the speech rate ratios (<span style="color:blue">blue</span>) and bending ratios (<span style="color:red">red</span>) calculated for each matching prosodic phrase in the evaluation set. Mean values are shown with dashed lines. 
 
-<p align="center"><img src="/img/machinedub/analysis.png" alt="Density graph of the speech rate ratios and bending ratios" width="600"></p>
+<p align="center"><img src="/img/machinedub/analysis.png" alt="Density graph of the speech rate ratios and bending ratios" width="80%"></p>
 
 ### Achievements, shortcomings and beyond
 

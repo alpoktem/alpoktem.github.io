@@ -16,5 +16,5 @@ Open access in <a href="https://www.isca-speech.org/archive/IberSPEECH_2018/abst
 
 # Poster 
 
-<p align="center"><a href="/img/OKTEM-poster2-catalan.png"><img src="/img/OKTEM-poster2-catalan.png" alt="Alp Öktem's IberSPEECH 2018 poster for publication: Building an Open Source Automatic Speech Recognition System for Catalan." width="700"></a></p>
+<p align="center"><a href="/img/OKTEM-poster2-catalan.png"><img src="/img/OKTEM-poster2-catalan.png" alt="Alp Öktem's IberSPEECH 2018 poster for publication: Building an Open Source Automatic Speech Recognition System for Catalan." width="100%"></a></p>
 

@@ -1,0 +1,22 @@
+---
+layout: post
+title: Masakhane - Machine Translation For Africa
+date: 2020-04-26
+---
+```
+∀, Iroro Orife, Julia Kreutzer, Blessing Sibanda, Daniel Whitenack, Kathleen Siminyu, Laura Martinus, Jamiil Toure Ali, Jade Abbott, Vukosi Marivate, Salomon Kabongo, Musie Meressa, Espoir Murhabazi, Orevaoghene Ahia, Elan van Biljon, Arshath Ramkilowan, Adewale Akinfaderin, Alp Öktem, Wole Akin, Ghollah Kioko, Kevin Degila, Herman Kamper, Bonaventure Dossou, Chris Emezue, Kelechi Ogueji, Abdallah Bashir
+Masakhane -- Machine Translation For Africa
+In: AfricaNLP workshop @ Eighth International Conference on Learning Representations (ICLR 2020) 
+2020 April 26; Addis Ababa, Ethiopia (Online). 
+```
+
+# Abstract
+Africa has over 2000 languages. Despite this, African languages account for a small portion of available resources and publications in Natural Language Processing (NLP). This is due to multiple factors, including: a lack of focus from government and funding, discoverability, a lack of community, sheer language complexity, difficulty in reproducing papers and no benchmarks to compare techniques. To begin to address the identified problems, MASAKHANE, an open-source, continent-wide, distributed, online research effort for machine translation for African languages, was founded. In this paper, we discuss our methodology for building the community and spurring research from the African continent, as well as outline the success of the community in terms of addressing the identified problems affecting African NLP. 
+
+# Access
+
+- Open access in <a href="https://arxiv.org/abs/2003.11529" target="_blank">arXiv</a>.
+
+# Related material
+
+- <a href="https://github.com/masakhane-io/masakhane-mt" target="_blank">Code repository, benchmarks, evaluations</a>
