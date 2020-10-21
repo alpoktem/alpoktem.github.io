@@ -1,0 +1,19 @@
+---
+layout: post
+title: Gamayun –  Language Technology for Humanitarian Response
+date: 2020-10-21
+---
+```
+Alp Öktem, Muhannad Albayk Jaam, Eric DeLuca, Grace Tang
+Gamayun –  Language Technology for Humanitarian Response
+In: 2020 IEEE Global Humanitarian Technology Conference (GHTC)
+2020 October 29 - November 1; Virtual.
+```
+
+# Abstract
+Over half of the world’s population do not have access to knowledge and information because it’s not available in their language. Translators without Borders (TWB) wants to change this with Gamayun, an initiative to promote language equality. Gamayun uses advanced language technologies to improve communication with people who speak marginalized languages in humanitarian and development contexts. In this paper, we present the early implementation results of the project in building machine translation and automatic speech recognition systems for various marginalized languages. 
+
+# Access
+
+- (Soon) Pre-print in arXiv.
+

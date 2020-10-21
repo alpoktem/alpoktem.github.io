@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Masakhane - Machine Translation For Africa
+title: Masakhane – Machine Translation For Africa
 date: 2020-04-26
 ---
 ```

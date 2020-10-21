@@ -1,0 +1,23 @@
+---
+layout: post
+title: TICO-19 – The Translation Initiative for COvid-19
+date: 2020-10-20
+---
+```
+Antonios Anastasopoulos, Alessandro Cattelan, Zi-Yi Dou, Marcello Federico, Christian Federmann, Dmitriy Genzel, Franscisco Guzmán, Junjie Hu, Macduff Hughes, Philipp Koehn, Rosie Lazar, Will Lewis, Graham Neubig, Mengmeng Niu, Alp Öktem, Eric Paquin, Grace Tang, Sylwia Tur
+TICO-19: The Translation Initiative for COvid-19
+In: NLP COVID-19 Workshop (Part 2) @ EMNLP 2020
+2020 November 19-20; Online.
+```
+
+# Abstract
+The COVID-19 pandemic is the worst pandemic to strike the world in over a century. Crucial to stemming the tide of the SARS-CoV-2 virus is communicating to vulnerable populations the means by which they can protect themselves.  To this end, the collaborators forming the Translation Initiative for COvid-19 (TICO-19) have made test and development data available to AI and MT researchers in 35 different languages in order to foster the development of tools and resources for improving access to information about COVID-19 in these languages. In addition to 9 high-resourced, "pivot" languages, the team is targeting 26 lesser resourced languages, in particular languages of Africa, South Asia and South-East Asia, whose populations may be the most vulnerable to the spread of the virus. The same data is translated into all of the languages represented, meaning that testing or development can be done for any pairing of languages in the set. Further, the team is converting the test and development data into translation memories (TMXs) that can be used by localizers from and to any of the languages.
+
+# Access
+
+- Pre-print in <a href="https://arxiv.org/abs/2007.01788" target="_blank">arXiv</a>.
+- Review in <a href="https://openreview.net/forum?id=-0xPrt01VXD" target="_blank">OpenReview.net</a>
+
+# Related material
+
+- <a href="https://tico-19.github.io/" target="_blank">Project webpage with translated terminologies, translation memories and benchmarks</a>
