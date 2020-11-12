@@ -15,7 +15,9 @@ Research in NLP lacks geographic diversity, and the question of how NLP can be s
 
 # Access
 
+- In <a href="https://www.aclweb.org/anthology/2020.findings-emnlp.195/" target="_blank">ACL Anthology</a>.
 - Pre-print in <a href="https://arxiv.org/abs/2010.02353" target="_blank">arXiv</a>.
+
 
 # Related material
 
