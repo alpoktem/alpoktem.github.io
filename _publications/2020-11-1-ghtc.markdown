@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gamayun –  Language Technology for Humanitarian Response
-date: 2020-10-21
+date: 2020-11-1
 ---
 ```
 Alp Öktem, Muhannad Albayk Jaam, Eric DeLuca, Grace Tang
@@ -15,5 +15,5 @@ Over half of the world’s population do not have access to knowledge and inform
 
 # Access
 
-- (Soon) Pre-print in arXiv.
+- (Soon) IEEE XPlore Digital Library
 

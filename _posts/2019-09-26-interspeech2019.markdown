@@ -5,7 +5,7 @@ date: 2019-09-26 12:01:00
 description: Livetweets and other notes from latest speech research
 ---
 
-<p align="center"><img src="/img/interspeech2019/minivary_4x1_place_0.40.png" alt="Alp Öktem's Interspeech 2019 poster for publication: Prosodic Phrase Alignment for Machine Dubbing." width="700"></p>
+<p align="center"><img src="/img/interspeech2019/minivary_4x1_place_0.40.png" alt="Alp Öktem's Interspeech 2019 poster for publication: Prosodic Phrase Alignment for Machine Dubbing." width="100%"></p>
 
 Similar to the two earlier ones, I came back from this year's Interspeech with a couple of new ideas, new contacts and a bit more knowledge of what's going on in the speech world. This year was my first post doctoral visit to the conference. I presented [work](/publications/2019-09-24-interspeech19/) partially related to my doctoral thesis. Rest of the time I was looking out to catch up with the latest work on speech research with a focus on spoken language translation and low-resource methodologies.
 

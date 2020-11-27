@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TICO-19 – The Translation Initiative for COvid-19
-date: 2020-10-20
+date: 2020-11-19
 ---
 ```
 Antonios Anastasopoulos, Alessandro Cattelan, Zi-Yi Dou, Marcello Federico, Christian Federmann, Dmitriy Genzel, Franscisco Guzmán, Junjie Hu, Macduff Hughes, Philipp Koehn, Rosie Lazar, Will Lewis, Graham Neubig, Mengmeng Niu, Alp Öktem, Eric Paquin, Grace Tang, Sylwia Tur
@@ -15,7 +15,8 @@ The COVID-19 pandemic is the worst pandemic to strike the world in over a centur
 
 # Access
 
-- Pre-print in <a href="https://arxiv.org/abs/2007.01788" target="_blank">arXiv</a>.
+- In <a href="https://www.aclweb.org/anthology/2020.nlpcovid19-2.5/" target="_blank">ACL Anthology</a>
+- Pre-print in <a href="https://arxiv.org/abs/2007.01788" target="_blank">arXiv</a>
 - Review in <a href="https://openreview.net/forum?id=-0xPrt01VXD" target="_blank">OpenReview.net</a>
 
 # Related material

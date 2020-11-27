@@ -1,0 +1,98 @@
+---
+layout: post
+title: Personal highlights from EMNLP 2020 
+date: 2020-11-23 12:01:00
+description: Notes on the NLP conference
+---
+
+<p align="center"><img src="/img/emnlp-header.png" alt="Text 'EMNLP 2020 The 2020 Conference on Empirical Methods in Natural Language Processing 16th – 20th November 2020' on top of an image of the earth by NASA" width="100%"></p>
+
+In this post I tried to compile some nice papers that I came across in EMNLP 2020 together with the work that I collaborated with. I've curated the list with a focus on machine translation and transcription of under-resourced languages.
+
+Some personal notes first: This conference was the first for me in a couple of ways. Firstly, it was the first major NLP conference that I participated. Secondly, it was my first fully-virtual multi-day conference. Despite a couple of technical hick-ups, I found the virtual setup to function rather well for me connecting from my cozy home. It's really nice to see that it is possible to organize events of this scale given the circumstances of the pandemic. 
+
+Although, I have to say the experience was incomparable to a presential conference. Strolling through links, chatboards and virtual environments barely replaces the constant flow you experience in the physical conference setup. I am looking forward to see hybrid setups in the future combining presential and virtual participation. I actually believe a virtual alternative has long been due for conferences, regardless of the pandemic. Why? First, virtual participation allows saving a tons of carbon generated from avoidable travel. Second, it is a half-way remedy for researchers that face financial, parental and visa restrictions. 
+
+Regarding the content, I was very very happy to see this amount of work on the under-resourced language spectrum. Though, I am probably biased since that was the kind of work I was looking out for. I am not so sure of the diversity of languages represented in the conference. I would love to see a report on that the coming days. 
+
+I'd like to start the list with the work that I have collaborated with. Both are motivated by the purpose of bringing NLP and language technology to marginalized and under-represented languages. Both gives me a lof of inspiration and hope for the future of NLP research. I am looking forward to see more and be a part of these type of transversal and disruptive collaborations. 
+
+#### [Masakhane - Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages](/publications/2020-11-16-emnlp/) ([Paper](https://www.aclweb.org/anthology/2020.findings-emnlp.195/), [Keynote video](https://youtu.be/Xbc_g_OknqA))
+
+Masakhane is a cross-border, inclusive, grassroots organisation with a decolonial mindset and a stand against the inherent professionalism, anglo-centricity and academic dominance in the NLP field. They promote a participatory and accessible NLP research methodology and showcase it for languages of Africa. A continent that has been unfortunately but unsurprisingly left mostly blank in terms of coverage in NLP research. The paper rejects the notion of “low-resourcedness” as a mere question of data availability and brings into light many aspects that drive a language into this category. 48+ professional and non-professional researchers has worked together to reverse that while publishing benchmarks for 30+ African languages, evaluations, datasets and open-sourced implementations. -- [https://www.masakhane.io/](https://www.masakhane.io/)
+
+#### [TICO-19: the Translation Initiative for Covid-19](/publications/2020-11-19-covid19/) ([Paper](https://www.aclweb.org/anthology/2020.nlpcovid19-2.5/))
+
+The Translation Initiative for Covid-19 (TICO-19) came together shortly after the beginning of the Covid-19 pandemic with the aim of enabling the translation of content related to COVID-19 into a wide range of languages. It is a unique collaboration between several academic (Carnegie Mellon University, George Mason University, Johns Hopkins University) and industry players (Amazon, Appen, Facebook, Google, Microsoft, Translated) partnering with Translators without Borders to prepare data for a variety of the world’s languages to be used by professional translators and for training Machine Translation (MT) models in Covid-19 domain. -- [https://tico-19.github.io/](https://tico-19.github.io/)
+
+Here goes the papers that caught my eye around machine translation, transcription and low-resource methodologies:
+
+#### Sparse Transcription - S. Bird ([Paper](https://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00387), [Video](https://slideslive.com/38939392))
+* Approach transcription as observing, not data creation
+* Phone recognition for transcripton is not enough. We need lexical information.
+* Traditionally spoken languages are translated first, not literally translated
+* Leverage keyword spotting instead of ASR
+* Paper includes more on sparse transcription model:
+    - data structure
+    - 8 transcription tasks
+    - transcription workflows
+    - evaluations
+
+#### Consistent Transcription and Translation of Speech -- Sperber+ ([Paper](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00340), [Video](https://slideslive.com/38939415))
+* Objective: Obtain both transcript and translation of speech and make them consistent
+* For evaluation, WER and BLEU by themselves are not enough because they do not measure consistency between the transcription and translation result.
+* Propose metrics to evaluate consistency
+* Evaluate on many models: cascaded, direct and joint models
+* Data Must-C Corpus (EN-DE)
+* Joint models (see below) perform the best in terms of WER, BLEU and consistency
+* Best of the best: Two-stage model
+* Conclusion: Coupled inference and end-2-end training are desirable in speech translation
+
+<p align="center"><img src="/img/sperber-jointtranscription.png" alt="Joint model architectures. Image by Sperber+" width="70%"></p>
+
+#### ChrEn: Cherokee-English Machine Translation for Endangered Language Revitalization -- Zhang+ ([Paper](https://www.aclweb.org/anthology/2020.emnlp-main.43/), [Video](https://slideslive.com/38938800))
+* Obtain best possible model for bidirectional Cherokee-English MT
+* Data: 14k parallel sentences (collected as part of the work)
+* Results:
+	* RNN performs better than transformer
+	* Out of domain gives half the BLEU
+	* Using BERT on En-Chr direction +0.5% BLEU
+	* SMT performs better with out-of-domain data
+	* A lot of monolingual data doesn’t necessarily help
+    	- 5K backtranslated sentences give the best performance
+	* Cross-lingual transfer:
+    	* Unrelated languages help
+    	* Evaluated transferring vs. multilingual
+* [Code and data](https://github.com/ZhangShiyue/ChrEn)
+
+#### Can Automatic Post-Editing Improve NMT? -- Chollampatt+ ([Paper](https://arxiv.org/pdf/2009.14395v1.pdf), [Video](https://slideslive.com/38939321))
+* Created new large-scale EN-DE post-editing corpus from movie subtitles
+    * SubEdits: 161k triply-parallel corpus: src, mt, post-edit(pe)
+    * open source
+* How much improvement on NMT from the usage of post-editing data?
+    * BLEU: 61.88 -> 64.53 (+3%) 
+    * Human evaluation scores: 3.4 -> 3.9 (out of 5)
+    * Improvements start from a training corpus size of 25k triplets
+* How much artifical APE data help?
+    * Artificial: take a parallel corpus, machine translate it, assume tgt as post-edit
+    * SubEscape corpus: 5.6 M triplets
+    * Marginal improvement (+0.06 BLEU)
+    * Artificial data doesn’t help by itself
+* Post-editing data improves only if it's in the domain 
+* [Data: Post-editing Datasets by Rakuten (PEDRa)](https://github.com/shamilcm/pedra)
+
+#### Simulated multiple reference training improves low-resource machine translation -- Khayrallah+ ([Paper](https://arxiv.org/pdf/2004.14524.pdf), [Video](https://slideslive.com/38938786))
+* Data augmentation for NMT by paraphrasing of target side sentences
+* Record increase in quality (more than what you get from back-translation)
+* State that paraphrasers are getting more and more available for languages. 
+    * [PRISM paraphraser](https://github.com/thompsonb/prism) in 39 languages
+* [Data](http://data.statmt.org/smrt/)
+
+#### BLEU might be Guilty but References are not Innocent -- Freitag+ ([Paper](https://arxiv.org/abs/2004.06063), [Video](https://slideslive.com/38938647))
+* Observation: BLEU doesn't show the improvement obtained from techniques like back-translation
+* Propose: When BLEU seems to act weird, revise the reference translations
+* Detected problem: Reference translations tend to be in translationese
+    * := imitating the structure of the source sentence
+* MT model strives to be the most average translationese
+* When you improve fluency with methods like back-translation or automatic post-editing, BLEU conditioned on translationese doesn’t show the improvement even though human evaluations do
+* Solution: paraphrase the reference sentences 
