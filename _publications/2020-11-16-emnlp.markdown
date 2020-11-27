@@ -4,7 +4,18 @@ title: Participatory Research for Low-resourced Machine Translation - A Case Stu
 date: 2020-11-16
 ---
 ```
-∀, Wilhelmina Nekoto, Vukosi Marivate, Tshinondiwa Matsila, Timi Fasubaa, Tajudeen Kolawole, Taiwo Fagbohungbe, Solomon Oluwole Akinola, Shamsuddee Hassan Muhammad, Salomon Kabongo, Salomey Osei, Sackey Freshia, Rubungo Andre Niyongabo, Ricky Macharm, Perez Ogayo, Orevaoghene Ahia, Musie Meressa, Mofe Adeyemi, Masabata Mokgesi-Selinga, Lawrence Okegbemi, Laura Jane Martinus, Kolawole Tajudeen, Kevin Degila, Kelechi Ogueji, Kathleen Siminyu, Julia Kreutzer, Jason Webster, Jamiil Toure Ali, Jade Abbott, Iroro Orife, Ignatius Ezeani, Idris Abdulkabir Dangana, Herman Kamper, Hady Elsahar, Goodness Duru, Ghollah Kioko, Espoir Murhabazi, Elan van Biljon, Daniel Whitenack, Christopher Onyefuluchi, Chris Emezue, Bonaventure Dossou, Blessing Sibanda, Blessing Itoro Bassey, Ayodele Olabiyi, Arshath Ramkilowan, Alp Öktem, Adewale Akinfaderin, Abdallah Bashir
+∀, Wilhelmina Nekoto, Vukosi Marivate, Tshinondiwa Matsila, Timi Fasubaa,
+Tajudeen Kolawole, Taiwo Fagbohungbe, Solomon Oluwole Akinola, 
+Shamsuddee Hassan Muhammad,Salomon Kabongo, Salomey Osei, Sackey Freshia, 
+Rubungo Andre Niyongabo, Ricky Macharm, Perez Ogayo, Orevaoghene Ahia, 
+Musie Meressa, Mofe Adeyemi, Masabata Mokgesi-Selinga, Lawrence Okegbemi, 
+Laura Jane Martinus, Kolawole Tajudeen, Kevin Degila, Kelechi Ogueji, 
+Kathleen Siminyu, Julia Kreutzer, Jason Webster, Jamiil Toure Ali, 
+Jade Abbott, Iroro Orife, Ignatius Ezeani, Idris Abdulkabir Dangana,
+Herman Kamper, Hady Elsahar, Goodness Duru, Ghollah Kioko, Espoir Murhabazi,
+Elan van Biljon, Daniel Whitenack, Christopher Onyefuluchi, Chris Emezue, 
+Bonaventure Dossou, Blessing Sibanda, Blessing Itoro Bassey, Ayodele Olabiyi, 
+Arshath Ramkilowan, Alp Öktem, Adewale Akinfaderin, Abdallah Bashir
 Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages
 In: Findings of EMNLP 2020 (The 2020 Conference on Empirical Methods in Natural Language Processing)
 2020 November 16-20; Online.

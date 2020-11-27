@@ -7,15 +7,15 @@ description: Notes on the NLP conference
 
 <p align="center"><img src="/img/emnlp-header.png" alt="Text 'EMNLP 2020 The 2020 Conference on Empirical Methods in Natural Language Processing 16th – 20th November 2020' on top of an image of the earth by NASA" width="100%"></p>
 
-In this post I tried to compile some nice papers that I came across in EMNLP 2020 together with the work that I collaborated with. I've curated the list with a focus on machine translation and transcription of under-resourced languages.
+In this post I tried to compile some nice papers that I came across in EMNLP 2020 together with the work that I collaborated with. I've curated the list with a focus on machine translation and transcription of under-represented languages.
 
-Some personal notes first: This conference was the first for me in a couple of ways. Firstly, it was the first major NLP conference that I participated. Secondly, it was my first fully-virtual multi-day conference. Despite a couple of technical hick-ups, I found the virtual setup to function rather well for me connecting from my cozy home. It's really nice to see that it is possible to organize events of this scale given the circumstances of the pandemic. 
+Some personal notes first: This conference was a first for me in a couple of ways. Firstly, it was the first major NLP conference that I participated. Secondly, it was my first fully-virtual multi-day conference. Despite a couple of technical hick-ups, I found the virtual setup to function rather well for me connecting from my cozy home. It's really nice to see that it is possible to organize events of this scale given the circumstances of the pandemic. 
 
 Although, I have to say the experience was incomparable to a presential conference. Strolling through links, chatboards and virtual environments barely replaces the constant flow you experience in the physical conference setup. I am looking forward to see hybrid setups in the future combining presential and virtual participation. I actually believe a virtual alternative has long been due for conferences, regardless of the pandemic. Why? First, virtual participation allows saving a tons of carbon generated from avoidable travel. Second, it is a half-way remedy for researchers that face financial, parental and visa restrictions. 
 
 Regarding the content, I was very very happy to see this amount of work on the under-resourced language spectrum. Though, I am probably biased since that was the kind of work I was looking out for. I am not so sure of the diversity of languages represented in the conference. I would love to see a report on that the coming days. 
 
-I'd like to start the list with the work that I have collaborated with. Both are motivated by the purpose of bringing NLP and language technology to marginalized and under-represented languages. Both gives me a lof of inspiration and hope for the future of NLP research. I am looking forward to see more and be a part of these type of transversal and disruptive collaborations. 
+I'd like to start the list with the work that I have collaborated with. Both are motivated by the purpose of bringing NLP and language technology to marginalized and under-represented languages and gives me hope and inspiration for the future of NLP research. I am looking forward to see more and be part of transversal and disruptive collaborations like these. 
 
 #### [Masakhane - Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages](/publications/2020-11-16-emnlp/) ([Paper](https://www.aclweb.org/anthology/2020.findings-emnlp.195/), [Keynote video](https://youtu.be/Xbc_g_OknqA))
 
@@ -23,9 +23,9 @@ Masakhane is a cross-border, inclusive, grassroots organisation with a decolonia
 
 #### [TICO-19: the Translation Initiative for Covid-19](/publications/2020-11-19-covid19/) ([Paper](https://www.aclweb.org/anthology/2020.nlpcovid19-2.5/))
 
-The Translation Initiative for Covid-19 (TICO-19) came together shortly after the beginning of the Covid-19 pandemic with the aim of enabling the translation of content related to COVID-19 into a wide range of languages. It is a unique collaboration between several academic (Carnegie Mellon University, George Mason University, Johns Hopkins University) and industry players (Amazon, Appen, Facebook, Google, Microsoft, Translated) partnering with Translators without Borders to prepare data for a variety of the world’s languages to be used by professional translators and for training Machine Translation (MT) models in Covid-19 domain. -- [https://tico-19.github.io/](https://tico-19.github.io/)
+The Translation Initiative for Covid-19 (TICO-19) came together shortly after the beginning of the Covid-19 pandemic with the aim of enabling the translation of content related to COVID-19 into a wide range of languages. It is a unique collaboration between several academic (Carnegie Mellon University, George Mason University, Johns Hopkins University) and industry players (Amazon, Appen, Facebook, Google, Microsoft, Translated) and Translators without Borders. TICO-19's objective is to prepare data for a variety of the world’s languages to be used by professional translators and for training Machine Translation (MT) models in Covid-19 domain. -- [https://tico-19.github.io/](https://tico-19.github.io/)
 
-Here goes the papers that caught my eye around machine translation, transcription and low-resource methodologies:
+Here goes the papers that caught my eye during the conference. If you have more paper suggestions similar to these, please don't hesitate to [drop me a note](/about). 
 
 #### Sparse Transcription - S. Bird ([Paper](https://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00387), [Video](https://slideslive.com/38939392))
 * Approach transcription as observing, not data creation
@@ -43,7 +43,7 @@ Here goes the papers that caught my eye around machine translation, transcriptio
 * For evaluation, WER and BLEU by themselves are not enough because they do not measure consistency between the transcription and translation result.
 * Propose metrics to evaluate consistency
 * Evaluate on many models: cascaded, direct and joint models
-* Data Must-C Corpus (EN-DE)
+* Data: Must-C Corpus (EN-DE)
 * Joint models (see below) perform the best in terms of WER, BLEU and consistency
 * Best of the best: Two-stage model
 * Conclusion: Coupled inference and end-2-end training are desirable in speech translation

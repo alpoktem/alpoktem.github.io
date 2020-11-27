@@ -4,7 +4,10 @@ title: TICO-19 – The Translation Initiative for COvid-19
 date: 2020-11-19
 ---
 ```
-Antonios Anastasopoulos, Alessandro Cattelan, Zi-Yi Dou, Marcello Federico, Christian Federmann, Dmitriy Genzel, Franscisco Guzmán, Junjie Hu, Macduff Hughes, Philipp Koehn, Rosie Lazar, Will Lewis, Graham Neubig, Mengmeng Niu, Alp Öktem, Eric Paquin, Grace Tang, Sylwia Tur
+Antonios Anastasopoulos, Alessandro Cattelan, Zi-Yi Dou, Marcello Federico,
+Christian Federmann, Dmitriy Genzel, Franscisco Guzmán, Junjie Hu,
+Macduff Hughes, Philipp Koehn, Rosie Lazar, Will Lewis, Graham Neubig,
+Mengmeng Niu, Alp Öktem, Eric Paquin, Grace Tang, Sylwia Tur
 TICO-19: The Translation Initiative for COvid-19
 In: NLP COVID-19 Workshop (Part 2) @ EMNLP 2020
 2020 November 19-20; Online.
