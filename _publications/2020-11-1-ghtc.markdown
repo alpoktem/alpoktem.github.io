@@ -15,5 +15,5 @@ Over half of the world’s population do not have access to knowledge and inform
 
 # Access
 
-- (Soon) IEEE XPlore Digital Library
+- [IEEE XPlore Digital Library](https://ieeexplore.ieee.org/document/9342939)
 
