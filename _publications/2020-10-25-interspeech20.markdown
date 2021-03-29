@@ -14,7 +14,7 @@ We present Catotron, a neural network-based open-source speech synthesis system 
 
 # Access
 
-- <a href="https://collectivat.cat/etc/INTERSPEECH_2020_Catotron.pdf" target="_blank">Paper link</a>.
+- <a href="https://www.isca-speech.org/archive/Interspeech_2020/abstracts/4009.html" target="_blank">ISCA Archive</a>.
 
 # Related material
 
