@@ -1,0 +1,28 @@
+---
+layout: post
+title: Congolese Swahili Machine Translation for Humanitarian Response
+date: 2021-04-19
+---
+```
+Alp Öktem, Eric DeLuca, Rodrigue Bashizi, Eric Paquin, Grace Tang
+Congolese Swahili Machine Translation for Humanitarian Response.
+In: Africa NLP workshop organized within the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL2021)
+2021 April 19; Virtual. 
+```
+
+# Abstract
+In this paper we describe our efforts to make a bidirectional Congolese Swahili (SWC) to French (FRA) neural machine translation system with the motivation of improving humanitarian translation workflows. For training, we created a 25,302-sentence general domain parallel corpus and combined it with publicly available data. Experimenting with low-resource methodologies like cross-dialect transfer and semi-supervised learning, we recorded improvements of up to 2.4 and 3.5 BLEU points in the SWC-FRA and FRA-SWC directions, respectively. We performed human evaluations to assess the usability of our models in a COVID-domain chatbot that operates in the Democratic Republic of Congo (DRC). Direct assessment in the SWC-FRA direction demonstrated an average quality ranking of 6.3 out of 10 with 75% of the target strings conveying the main message of the source text. For the FRA-SWC direction, our preliminary tests on post-editing assessment showed its potential usefulness for machine-assisted translation. We make our models, datasets containing up to 1 million sentences, our development pipeline, and a translator web-app available for public use. 
+
+# Access
+
+- Open access in <a href="https://arxiv.org/abs/2103.10734" target="_blank">arXiv</a>.
+
+# Related material
+
+- <a href="https://github.com/translatorswb/TWB-MT/tree/swc-fra-bidirectional" target="_blank">Code</a>
+- <a href="https://youtu.be/McmtpgG-2V0" target="_blank">Presentation video</a>
+- <a href="https://gamayun.translatorswb.org/data/" target="_blank">Data</a>
+
+# Poster 
+
+<p align="center"><a href="/img/AfricaNLP2021-1449x2048.png"><img src="/img/AfricaNLP2021-1449x2048.png" alt="AfricaNLP poster explaining paper: Congolese Swahili Machine Translation for Humanitarian Response" width="100%"></a></p>
