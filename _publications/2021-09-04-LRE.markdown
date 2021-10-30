@@ -1,0 +1,27 @@
+---
+layout: post
+title: Corpora compilation for prosody-informed speech processing
+date: 2021-09-04
+---
+```
+Alp Öktem, Mireia Farrús, Antonio Bonafonte 
+Corpora compilation for prosody-informed speech processing
+Lang Resources & Evaluation 55, 925–946 (2021)
+https://doi.org/10.1007/s10579-021-09556-2
+```
+
+# Abstract
+Research on speech technologies necessitates spoken data, which is usually obtained through read recorded speech, and specifically adapted to the research needs. When the aim is to deal with the prosody involved in speech, the available data must reflect natural and conversational speech, which is usually costly and difficult to get. This paper presents a machine learning-oriented toolkit for collecting, handling, and visualization of speech data, using prosodic heuristic. We present two corpora resulting from these methodologies: PANTED corpus, containing 250 h of English speech from TED Talks, and Heroes corpus containing 8 h of parallel English and Spanish movie speech. We demonstrate their use in two deep learning-based applications: punctuation restoration and machine translation. The presented corpora are freely available to the research community.
+
+# Access
+
+- Open access in <a href="https://link.springer.com/article/10.1007/s10579-021-09556-2" target="_blank">Springer Link</a>.
+
+# Related material
+
+- <a href="https://hdl.handle.net/10230/33936" target="_blank">PANTED corpus</a>
+- <a href="https://hdl.handle.net/10230/35572" target="_blank">Heroes Corpus</a>
+- <a href="https://github.com/alpoktem/proscript" target="_blank">Proscript</a>
+- <a href="https://github.com/alpoktem/Prosograph" target="_blank">Prosograph</a>
+- <a href="https://github.com/alpoktem/punkProse" target="_blank">punkProse</a>
+- <a href="https://github.com/alpoktem/movie2parallelDB" target="_blank">movie2ParallelDB</a>

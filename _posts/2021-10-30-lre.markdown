@@ -1,0 +1,55 @@
+---
+layout: post
+title: Corpora compilation for prosody-informed speech processing
+date: 2021-10-30 09:00:00
+description: A TL;DR on my latest journal paper and PhD
+---
+
+My article ["Corpora compilation for prosody-informed speech processing”](/publications/2021-09-04-LRE/) was finally published in Language Resources & Evaluation journal (LRE) after a long period of back and forth with the reviewers. The paper is like a TL;DR (too long didn't read) version of my thesis where I give a summary of all the tools, datasets and experiments that came out of my PhD research, which dealt with the basically the question: _How can we incorporate non-verbal information like prosody in machine translation and transcription?_
+
+For those who read “prosody” twice there, it refers to the “music-like” aspects in speech, which correspond to intonation, rhythm and stress. While words carry “what” is said in an utterance, prosody deals with “how” they are delivered.
+
+<p align="center"><img src="/img/lre/prosody-features.png" alt="pause, intonation, intensity, speech rate" width="60%"></p>
+
+In this post, I'm giving a further TL;DR for the fast researchers out there. You can follow links to respective papers and libraries if you're interested. 
+
+## Prosodically annotated TED Talks
+
+To begin my studies, I needed a big corpus to study and train machine learning models based on prosody. I created [Prosodically annotated TED Talks (PANTED) corpus](hdl.handle.net/10230/33981) based on my supervisor Mireia Farrus's version and augmented with additional prosodic and syntactic information. 
+
+<p align="center"><img src="/img/lre/panted.png" alt="PANTED corpus consists of 1038 talks from 877 speakers uttering 155174 sentences in total" width="70%"></p>
+
+## Punctuation restoration with prosody
+
+The whole reason behind creating PANTED was to see the effect of prosody on the punctuation restoration task. It showed that pausing and intonation information can improve the automatic punctuation of ASR output. ([Original paper](publications/2017-10-23-slsp/), [punkProse code](https://github.com/alpoktem/punkProse))
+
+<p align="center"><img src="/img/lre/punkScores.png" alt="Effect of each prosodic/syntactic feature in prediction of different punctuation marks" width="70%"></p>
+
+## Proscript
+
+At some point, I realized how painful it was working with Praat and TextGrids when doing machine learning, so I created my own data structure and visualizer. Proscript helps represent speech with segment-level prosodic features in a tidy CSV file. Python library in [Github](https://github.com/alpoktem/proscipt).
+
+<p align="center"><img src="/img/lre/proscript1.png" alt="Segmental prosodic features in a speech audio" width="90%"></p>
+
+## Prosograph
+
+Prosograph enables manual examination of Proscripts along with their audio by visualizing speech-related characteristics besides words similar to a musical scoreMusical score. It’s programmed in Processing and is accessible [from github](https://github.com/alpoktem/Prosograph).
+
+<p align="center"><img src="/img/lre/prosograph.png" alt="Prosograph visualizing a TED talk" width="90%"></p>
+
+## movie2paralleDB
+
+I wanted to go into translation from the beginning of my PhD, although I knew it might be a bit tough. Not having any parallel speech corpora around didn’t stop me of course. I built [movie2parallelDB](https://github.com/alpoktem/movie2parallelDB) to make corpora automatically, out of dubbed movies and series. 
+
+<p align="center"><img src="/img/lre/movie2parallelDB.png" alt="Pipeline for building parallel speech corpus from dubbed movies" width="100%"></p>
+
+## Heroes Corpus
+
+The result of this was [Heroes corpus](http://hdl.handle.net/10230/35572), an English-Spanish parallel movie speech corpus made out of my childhoods popular series _Heroes_. 
+We showed in the paper how silence information can improve spoken machine translation.
+
+<p align="center"><img src="/img/lre/heroes-corpus.png" alt="Heroes corpus contains 7000 English-Spanish parallel segments totaling to 9.5 hours of bilingual speech and is available with open access" width="75%"></p>
+
+I also earlier explained about how I used this corpus in [building a prosody-informed machine dubbing setup](2019/12/15/machinedub.html).
+
+
