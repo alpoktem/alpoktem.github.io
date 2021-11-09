@@ -12,7 +12,7 @@ Proc. IberSPEECH 2018, 25-29, DOI: 10.21437/IberSPEECH.2018-6.
 # Abstract
 Catalan is recognized as the largest stateless language in Europe hence it is a language well studied in the field of speech, and there exists various solutions for Automatic Speech Recognition (ASR) with large vocabulary. However, unlike many of the official languages of Europe, it neither has an open acoustic corpus sufficiently large for training ASR models, nor openly accessible acoustic models for local task execution and personal use. In order to provide the necessary tools and expertise for the resource limited languages, in this work we discuss the development of an ASR system using publicly available data, and CMU Sphinx 5pre-alpha. The resulting models give a WER of 31.95% on an external 4 hour multi-speaker test set. This value was further decreased to 11.68% with language model adaptation.
 
-Open access in <a href="https://www.isca-speech.org/archive/IberSPEECH_2018/abstracts/IberS18_P1-2_Kulebi.html" target="https://www.isca-speech.org/archive/IberSPEECH_2018/abstracts/IberS18_P1-2_Kulebi.html">ISCA Archive</a>. 
+Open access in <a href="https://www.isca-speech.org/archive/iberspeech_2018/kulebi18_iberspeech.html" target="https://www.isca-speech.org/archive/iberspeech_2018/kulebi18_iberspeech.html">ISCA Archive</a>. 
 
 # Poster 
 
