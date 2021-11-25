@@ -1,0 +1,8 @@
+---
+layout: post
+title: Empowering translators of marginalized languages through the use of language technology
+date: 2020-10-01
+place: Workshop on the Impact of Machine Translation (iMpacT 2020)
+---
+
+Presentation available from [ACL Anthology](https://aclanthology.org/2020.amta-impact.5/)
