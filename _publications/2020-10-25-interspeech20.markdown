@@ -25,7 +25,12 @@ We present Catotron, a neural network-based open-source speech synthesis system 
 
 # Media mentions
 
-- <a href="https://www.upf.edu/recercaupf/-/asset_publisher/RVNxhLpxnc9g/content/id/238849374/maximized" target="_blank">Recerca UPF</a>
+- [Catotron, the first free, open speech synthesis system, based on neural networks](https://www.upf.edu/recercaupf/-/asset_publisher/RVNxhLpxnc9g/content/id/238849374/maximized) by Recerca UPF
+- [Catotron es renova per impulsar la síntesi de veu en català](https://www.metadata.cat/noticia/1772/catotron-renova-sintesi-veu-catala) by Metadata.cat
+- [Siri o Alexa en català? Una nova eina ho facilita](https://www.diarimes.com/noticies/actualitat/catalunya/2021/11/16/siri_alexa_catala_una_nova_eina_facilita_113591_3029.html) by Diari més
+- [La cooperativa Col·lectivaT crea el primer motor de síntesi de veu en català](https://www.larepublica.cat/minut-a-minut/la-cooperativa-collectivat-crea-el-primer-motor-de-sintesi-de-veu-en-catala/) by La República
+- [El primer motor de síntesi de veu en català ja és una realitat](https://www.naciodigital.cat/noticia/227058/primer-motor-sintesi-veu-catala-realitat) by Nació digital
+- [La cooperativa Col·lectivaT crea el primer motor de síntesi de veu en català](http://www.elpuntavui.cat/societat/article/5-societat/2058796-la-cooperativa-col-lectivat-crea-el-primer-motor-de-sintesi-de-veu-en-catala.html?cca=3) by El Punt Avui
 
 # Presentation video 
 
