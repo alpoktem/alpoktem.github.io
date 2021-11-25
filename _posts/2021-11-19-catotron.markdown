@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CATOTRON.cat launched
-date: 2021-10-30 09:00:00
+date: 2021-11-19 09:00:00
 description: Towards a catalanoparlant future for speech technology
 ---
 
