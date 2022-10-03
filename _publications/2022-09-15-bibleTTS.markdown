@@ -1,0 +1,23 @@
+---
+layout: post
+title: BibleTTS\: a large, high-fidelity, multilingual, and uniquely African speech corpus
+date: 2022-09-15
+---
+```
+Josh Meyer, David Ifeoluwa Adelani, Edresson Casanova, Alp Öktem, Daniel Whitenack Julian Weber, Salomon Kabongo, Elizabeth Salesky, Iroro Orife, Colin Leong, Perez Ogayo, Chris Emezue, Jonathan Mukiibi, Salomey Osei, Apelete Agbolo, Victor Akinode, Bernard Opoku, Samuel Olanrewaju, Jesujoba Alabi, Shamsuddeen Muhammad
+BibleTTS: a large, high-fidelity, multilingual, and uniquely African speech corpus
+In Proceedings of the 23rd Annual Conference of the International Speech Communication Association (INTERSPEECH), September 18-22, 2022. 
+```
+
+# Abstract
+BibleTTS is a large, high-quality, open speech dataset for ten languages spoken in Sub-Saharan Africa. The corpus contains up to 86 hours of aligned, studio quality 48kHz single speaker recordings per language, enabling the development of high-quality text-to-speech models. The ten languages represented are: Akuapem Twi, Asante Twi, Chichewa, Ewe, Hausa, Kikuyu, Lingala, Luganda, Luo, and Yoruba. This corpus is a derivative work of Bible recordings made and released by the Open.Bible project from Biblica. We have aligned, cleaned, and filtered the original recordings, and additionally hand-checked a subset of the alignments for each language. We present results for text-to-speech models with Coqui TTS. The data is released under a commercial-friendly CC-BY-SA license. 
+
+# Access
+
+- Pre-print in <a href="https://arxiv.org/abs/2207.03546" target="_blank">arXiv</a>.
+
+# Related material
+
+- <a href="https://masakhane-io.github.io/bibleTTS/" target="_blank">Project web</a>
+- <a href="https://www.openslr.org/129/" target="_blank">Dataset</a>
+- <a href="https://github.com/masakhane-io/bibleTTS" target="_blank">Github page</a>

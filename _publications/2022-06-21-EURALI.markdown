@@ -1,0 +1,31 @@
+---
+layout: post
+title: Preparing an endangered language for the digital age\: The Case of Judeo-Spanish
+date: 2022-06-21
+---
+```
+Alp Öktem, Rodolfo Zevallos, Yasmin Moslem, Özgür Güneş Öztürk, Karen Gerson Şarhon
+Preparing an endangered language for the digital age: The Case of Judeo-Spanish
+In Proceedings of the Workshop on Resources and Technologies for Indigenous, Endangered and Lesser-resourced Languages in Eurasia within the 13th Language Resources and Evaluation Conference, June 2022. 
+```
+
+# Abstract
+We develop machine translation and speech synthesis systems to complement the efforts of revitalizing Judeo-Spanish, the exiled language of Sephardic Jews, which survived for centuries, but now faces the threat of extinction in the digital age. Building on resources created by the Sephardic community of Turkey and elsewhere, we create corpora and tools that would help preserve this language for future generations. For machine translation, we first develop a Spanish to Judeo-Spanish rule-based machine translation system, in order to generate large volumes of synthetic parallel data in the relevant language pairs: Turkish, English and Spanish. Then, we train baseline neural machine translation engines using this synthetic data and authentic parallel data created from translations by the Sephardic community. For text-to-speech synthesis, we present a 3.5-hour single speaker speech corpus for building a neural speech synthesis engine. Resources, model weights and online inference engines are shared publicly.
+
+# Access
+
+- Open access in <a href="https://aclanthology.org/2022.eurali-1.18/" target="_blank">ACL Anthology</a>
+- Pre-print in <a href="https://arxiv.org/abs/2205.15599" target="_blank">arXiv</a>
+
+# Related material
+
+- <a href="http://data.sefarad.com.tr" target="_blank">Datasets in Ladino Data Hub</a>
+- <a href="http://translate.sefarad.com.tr" target="_blank">Translator app</a>
+- <a href="http://github.com/CollectivaT-dev/judeo-espanyol-resources" target="_blank">Resources github page</a>
+- <a href="https://github.com/CollectivaT-dev/Espanyol-Ladino-Translation" target="_blank">Rule-based translator codebase</a>
+- <a href="https://github.com/CollectivaT-dev/Ladino_TTS" target="_blank">TTS training codebase</a>
+
+
+
+
+
