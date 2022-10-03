@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparing an endangered language for the digital age\: The Case of Judeo-Spanish
+title: Preparing an endangered language for the digital age - The Case of Judeo-Spanish
 date: 2022-06-21
 ---
 ```

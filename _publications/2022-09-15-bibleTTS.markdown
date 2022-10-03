@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BibleTTS\: a large, high-fidelity, multilingual, and uniquely African speech corpus
+title: BibleTTS - a large, high-fidelity, multilingual, and uniquely African speech corpus
 date: 2022-09-15
 ---
 ```
