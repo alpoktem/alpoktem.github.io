@@ -3,4 +3,4 @@ social:
 - {icon: 'github', link: 'https://github.com/alpoktem', abouticonclass: 'fa fa-github-square', footericonclass: 'fa fa-github fa-2x'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/alp-oktem', abouticonclass: 'fa fa-linkedin-square', footericonclass: 'fa fa-linkedin fa-2x'}
 - {icon: 'twitter', link: 'https://twitter.com/OktemAlp', abouticonclass: 'fa fa-twitter-square', footericonclass: 'fa fa-twitter fa-2x'}
-- {icon: 'google-scholar', link: 'https://scholar.google.es/citations?user=wl2I1EoAAAAJ', abouticonclass: 'ai ai-google-scholar-square', footericonclass: 'ai ai-google-scholar ai-2x'}
+- {icon: 'google-scholar', link: 'https://scholar.google.com/citations?hl=en&user=dTXMpaQAAAAJ', abouticonclass: 'ai ai-google-scholar-square', footericonclass: 'ai ai-google-scholar ai-2x'}
