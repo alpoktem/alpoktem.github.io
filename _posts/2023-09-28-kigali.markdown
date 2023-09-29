@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MT Rwanda - Pushing Forward Language Tech in Kinyarwanda
-date: 2023-09-29 09:00:00
+date: 2023-09-28 09:00:00
 description: So that I can find the best local food in Kigali next time I visit
 ---
 
