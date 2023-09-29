@@ -37,6 +37,6 @@ As we wrap up this transformative project, our sights are set on the future. We'
 
 My impression from our end-of-project session in Kigali is that the road ahead for Kinyarwanda is filled with promise. Together, we have identified many interesting ideas and also challenges to bring the initiative forward. I'm looking forward to witnessing and being part of further advancements in open-source Kinyarwanda language technology and its potential in creating an impact for Rwanda. And of course, making more opportunities to visit and explore further the delicious Rwandan cuisine. 
 
-<p align="center"><img src="/img/Ikisafuriya.jpg" alt="Trying Ikisafuriya for the first time" width="60%">My colleague Geo couldn’t resist taking a snap of my happy face trying Ikisafuriya for the first time. It was finger licking good! 
-</p>
+<p align="center"><img src="/img/Ikisafuriya.jpg" alt="Trying Ikisafuriya for the first time" width="60%"></p>
+<p align="center">My colleague Geo couldn't resist taking a snap of my happy face trying Ikisafuriya for the first time. It was finger-licking good!</p>
 
