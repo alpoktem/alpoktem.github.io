@@ -1,0 +1,42 @@
+---
+layout: post
+title: MT Rwanda - Pushing Forward Language Tech in Kinyarwanda
+date: 2023-09-29 09:00:00
+description: So that I can find the best local food in Kigali next time I visit
+---
+
+<p align="center"><img src="/img/mt_rwanda_demo.png" alt="Demoing MT for the sentence Good morning, could you please take me to the best place to eat Ikisafuriya in Kigali?" width="100%"></p>
+
+I've always been inspired by traveling, and my favorite part of it is savoring the local dishes. Last week, I had the chance to do just that in Kigali, Rwanda, while I was attending the closing session of our project, "MT Rwanda." I'm excited because the results of this project will undoubtedly make it easier for me to ask local taxi drivers to take me to the best restaurants in Kigali the next time I visit this impressive country. 
+
+In this blogpost, I will share some exciting details and learnings on community data collection, multilingual model fine-tuning, and the close collaboration of two dynamic teams: [CLEAR Global](https://clearglobal.org/) and [Digital Umuganda](https://digitalumuganda.com/), pushing forward language technology for Kinyarwanda.
+
+## MT Rwanda's Mission
+
+Our mission in "MT Rwanda" was nothing short of groundbreaking: to boost open-source machine translation (MT) for impact in Kinyarwanda. This Rwandan language is spoken by millions and is central to the culture and identity of the nation. The project's primary focus areas for impact were education and tourism, with a clear aim to bridge linguistic gaps and empower local communities.
+
+In this endeavor, I had the privilege of mentoring the Rwandan AI company, Digital Umuganda, on data collection and MT model development. They had already been diligently pioneering open-source Kinyarwanda language technology for quite some time now. Thanks to their community efforts, Kinyarwanda has gained quite a few open-source datasets. The most notable of these is definitely their [Common Voice](http://commonvoice.mozilla.org/) campaign, which placed Kinyarwanda in the top 5 in terms of the number of speech hours collected.
+
+This time, the task was to push towards improving machine translation for this language. Kinyarwanda is one of the languages supported in Google Translate. It's also supported in the multilingual [No Language Left Behind (NLLB)](https://ai.meta.com/research/no-language-left-behind/) model released by Meta. However, all these models lack the quality to ensure reliability in real-world solutions, as many low-resource languages do. We needed to ensure they perform up to expectations in two real-life use-cases.
+
+## The Power of Community-Driven Data
+
+One of the most exciting aspects of this project was the data collection campaign. To train the MT models effectively, we needed a substantial amount of high-quality parallel data. What made this campaign stand out was the community-driven approach adopted. With the enthusiastic participation of volunteers, we managed to collect over [60,000 sentence translations](https://huggingface.co/datasets/mbazaNLP/NMT_Education_parallel_data_en_kin).
+
+The source sentences to translate were crawled automatically from sites related to tourism (e.g. wikitravel, booking.com, tripadvisor), both in English and Kinyarwanda, and also web content we collected on finance, business, and economy-related articles on Wikipedia, Atingi, and Coursera. The source data can be accessed from [this repository on Hugging Face](https://huggingface.co/datasets/DigitalUmuganda/monolingual_machine_translation_data) and the [scrapers on GitHub](https://github.com/Digital-Umuganda/machine_translation_data_scraping).
+
+## Open source = Collective ownership
+
+In this project, we underscored the importance of open-source language technology. We started with Meta's No Language Left Behind (NLLB) model as our base, trained with over 10 million web-crawled Kinyarwanda sentence translations as well as supporting 200 languages. Our approach involved a two-stage training process. In the first stage, we utilized diverse data from general, education, and tourism domains to enhance the model's overall performance. Then, in the second stage, we specialized the model for education and tourism separately. All training was conducted bidirectionally, and you can find the fine-tuning training and testing scripts in this [Github repository](https://github.com/Digital-Umuganda/twb_nllb_project_tourism_education) for a closer look.
+
+The project's commitment to open-source principles means that all the data and models we created are openly accessible to anyone interested in Kinyarwanda language technology. This also ensures reproducibility and collaboration from external collaborators to carry the flag forward. You can find these valuable resources on HuggingFace, complete with demos that showcase their capabilities: Education model[https://huggingface.co/mbazaNLP/Nllb_finetuned_education_en_kin](https://huggingface.co/mbazaNLP/Nllb_finetuned_education_en_kin) and [demo](https://huggingface.co/spaces/mbazaNLP/Finetuned-NLLB-EDUCATION-EN-KIN), Tourism [model](https://huggingface.co/mbazaNLP/Nllb_finetuned_tourism_en_kin) and [demo](https://huggingface.co/spaces/mbazaNLP/Finetuned-NLLB-TOURISM-EN-KIN).
+
+## What Lies Ahead
+
+As we wrap up this transformative project, our sights are set on the future. We're eager to publish a technical paper soon, sharing our insights, challenges, and triumphs with the wider research community. Collaborating with Digital Umuganda has been a rewarding experience, and I'm quite enthusiastic about collaborating with them further on.
+
+My impression from our end-of-project session in Kigali is that the road ahead for Kinyarwanda is filled with promise. Together, we have identified many interesting ideas and also challenges to bring the initiative forward. I'm looking forward to witnessing and being part of further advancements in open-source Kinyarwanda language technology and its potential in creating an impact for Rwanda. And of course, making more opportunities to visit and explore further the delicious Rwandan cuisine. 
+
+<p align="center"><img src="/img/Ikisafuriya.jpg" alt="Trying Ikisafuriya for the first time" width="100%">My colleague Geo couldn’t resist taking a snap of my happy face trying Ikisafuriya for the first time. It was finger licking good! 
+</p>
+
