@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nós-TTS: a Web User Interface for Galician Text-to-Speech
+title: "Nós-TTS : a Web User Interface for Galician Text-to-Speech"
 date: 2024-03-15
 ---
 ```
