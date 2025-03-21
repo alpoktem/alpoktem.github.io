@@ -1,0 +1,25 @@
+---
+layout: post
+title: Nós-TTS: a Web User Interface for Galician Text-to-Speech
+date: 2024-03-15
+---
+```
+Carmen Magariños, Alp Öktem, Antonio Moscoso Sánchez, Marta Vázquez Abuín,
+Noelia García Díaz, Adina Ioana Vladu, Elisa Fernández Rei, María Baqueiro Vidal
+Nós-TTS: a Web User Interface for Galician Text-to-Speech
+In Proceedings of the 16th International Conference on Computational Processing of Portuguese (PROPOR 2024),
+March 12-15, 2024. 
+```
+
+# Abstract
+Speech synthesis, also known as text-to-speech (TTS), aims to generate human-like speech
+from text. The recent emergence of end-to-end deep learning TTS models has led to impressive natural-sounding results. Nevertheless, expanding these models to multiple languages and speakers poses challenges, especially for low- or limited-resource languages. In this context, we introduce Nós-TTS, a user-friendly web interface for Galician TTS developed under the Nós project. The proposed interface offers a choice among three distinct voices trained on diverse conditions regarding data quantity, training approach, and input modality. Although in an experimental stage, informal listening tests have shown a satisfactory performance of the models.
+
+# Access
+
+- <a href="https://aclanthology.org/2024.propor-2.31.pdf" target="_blank">ACL Anthology</a>.
+
+# Related material
+
+- <a href="https://tts.nos.gal/" target="_blank">Demo</a>
+- <a href="https://nos.gal/es/proxecto-nos" target="_blank">Proxecto Nós</a>
