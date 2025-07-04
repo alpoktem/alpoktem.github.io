@@ -47,3 +47,59 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// Post page specific fixes
+.post-header {
+  margin-bottom: 2rem;
+  
+  .post-title {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+  
+  .post-meta {
+    margin-bottom: 1.5rem;
+    color: $grey-color;
+    font-size: $small-font-size;
+  }
+}
+
+.post-content {
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;  // Adding this for h3 consistency
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: $base-line-height;
+  }
+  
+  img {
+    margin: 1.5rem 0;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// Fix for title spacing issues
+article header {
+  margin-bottom: 2rem;
+  
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+}
