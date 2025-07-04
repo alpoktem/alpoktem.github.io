@@ -35,6 +35,6 @@ This is just a pilot, but it validates our approach. Thrilled to continue pushin
 
 ## Try Estreyika Yourself
 
-🎥 Watch the full presentation with demo: [YouTube](https://lnkd.in/dMbyQQxP)
+🎥 Watch the full presentation with demo: [YouTube](https://www.youtube.com/watch?v=ECWAAmWf_Ng)
 
-💬 Chat with Estreyika: [Telegram Bot](https://lnkd.in/ddKiKgdv)
+💬 Chat with Estreyika: [Telegram Bot](https://t.me/EstreyaLadinobot)
