@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Awal – Community-Powered Language Technology for Tamazight"
-date: 2025-12-02
+date: 2025-10-23
 ---
 ```
 Alp Öktem, Farida Boudichat

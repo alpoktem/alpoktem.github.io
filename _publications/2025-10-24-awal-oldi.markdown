@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Awal – Community-Powered Language Technology for Tamazight"
+date: 2025-10-23
+---
+```
+Alp Oktem, Mohamed Aymane Farhi, Brahim Essaidi, Naceur Jabouja and Farida Boudichat
+Correcting the Tamazight Portions of FLORES+ and OLDI Seed Datasets
+Proceedings of the Tenth Conference on Machine Translation (WMT 2025) - Open Language Data Initiative (OLDI),
+Suzhou, China,
+November, 2025. 
+```
+
+# Abstract
+We present the manual correction of the Tamazight portions of the FLORES+ and OLDI Seed datasets to improve the quality of open machine translation resources for the language. These widely used reference corpora contained numerous issues, including mistranslations, orthographic inconsistencies, overuse of loanwords, and non-standard transliterations. Overall, 36\% of FLORES+ and 40\% of Seed sentences were corrected by expert linguists, with average token divergence of 19\% and 25\% among changed items. Evaluation of multiple MT systems, including NLLB models and commercial LLM services, showed consistent gains in automated evaluation metrics when using the corrected data. Fine-tuning NLLB-600M on the revised Seed corpus yielded improvements of +6.05 chrF (en -> zgh) and +2.32 (zgh -> en), outperforming larger parameter models and LLM providers in en -> zgh direction.
+
+# Bibtex
+
+```
+@InProceedings{oktem-EtAl:2025:WMT,
+  author    = {Oktem, Alp  and  Farhi, Mohamed Aymane  and  Essaidi, Brahim  and  Jabouja, Naceur  and  Boudichat, Farida},
+  title     = {Correcting the Tamazight Portions of FLORES+ and OLDI Seed Datasets},
+  booktitle      = {Proceedings of the Tenth Conference on Machine Translation (WMT 2025)},
+  month          = {November},
+  year           = {2025},
+  address        = {Suzhou, China},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {1072--1080},
+  abstract  = {We present the manual correction of the Tamazight portions of the FLORES+ and OLDI Seed datasets to improve the quality of open machine translation resources for the language. These widely used reference corpora contained numerous issues, including mistranslations, orthographic inconsistencies, overuse of loanwords, and non-standard transliterations. Overall, 36\% of FLORES+ and 40\% of Seed sentences were corrected by expert linguists, with average token divergence of 19\% and 25\% among changed items. Evaluation of multiple MT systems, including NLLB models and commercial LLM services, showed consistent gains in automated evaluation metrics when using the corrected data. Fine-tuning NLLB-600M on the revised Seed corpus yielded improvements of +6.05 chrF (enâ†’zgh) and +2.32 (zghâ†’en), outperforming larger parameter models and LLM providers in enâ†’zgh direction.},
+  url       = {https://aclanthology.org/2025.wmt-1.82}
+}
+
+```
+
+# Access
+
+- <a href="https://www2.statmt.org/wmt25/pdf/2025.wmt-1.82.pdf" target="_blank">On WMT page</a>
+- <a href="https://aclanthology.org/2025.wmt-1.82" target="_blank">On ACL page</a>
+
+# Related material
+
+- <a href="https://awaldigital.org/" target="_blank">Awal web page</a>
+- <a href="https://www2.statmt.org/wmt25/papers.html#_oldi" target="_blank">Open language data workshop web page</a>
