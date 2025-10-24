@@ -15,7 +15,7 @@ PhD in computational linguistics, 10 years getting my hands dirty with messy dat
 
 What I do: turn "impossible" into working prototypes. ASR for impaired speech. MT for endangered languages. Chatbots that engage, not just talk. I work with NGOs, researchers, and language communities who need someone technical but also gets why your grandmother's language matters.
 
-Father. Based in Barcelona. Lived in Turkey, Germany. Speak Turkish, English, Spanish, some Catalan. Enjoy biking, drumming, and conversations about how to build tech that actually serves people—not the other way around.
+Father. Based in Barcelona. Lived in Turkey, Germany. Speak Turkish, English, Spanish, some Catalan. Enjoy camping, biking, drumming, and conversations about how to build tech that actually serves people—not the other way around.
 
 <br/>
 <hr/>
