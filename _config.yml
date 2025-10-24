@@ -21,10 +21,10 @@ collections:
     output: true
     permalink: /projects/:path/
   art:
-    output: true
+    output: false
     permalink: /art/:path/
   teaching:
-    output: true
+    output: false
     permalink: /teaching/:path/
   publications:
     output: true
