@@ -17,6 +17,10 @@ In this paper we describe our efforts to make a bidirectional Congolese Swahili 
 
 - Open access in <a href="https://arxiv.org/abs/2103.10734" target="_blank">arXiv</a>.
 
+# Awards
+
+Best paper award
+
 # Related material
 
 - <a href="https://github.com/translatorswb/TWB-MT/tree/swc-fra-bidirectional" target="_blank">Code</a>

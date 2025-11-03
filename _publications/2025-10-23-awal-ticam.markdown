@@ -17,7 +17,7 @@ This paper presents Awal (ⴰⵡⴰⵍ), a community-powered initiative for deve
 
 # Access
 
-- Soon
+- <a href="https://arxiv.org/abs/2510.27407" target="_blank">ArXiv</a> 
 
 # Related material
 
