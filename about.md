@@ -20,7 +20,7 @@ Father. Based in Barcelona. Born in Turkey, lived in Germany. Speak Turkish, Eng
 <br/>
 <hr/>
 <span class="contacticon center">
-	<a href="mailto:alpoktem@gmail.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="mailto:alp@oktem.me"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/alpoktem" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/alp-oktem" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://scholar.google.es/citations?user=dTXMpaQAAAAJ" target="_blank"><i class="ai ai-google-scholar-square"></i></a>
