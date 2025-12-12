@@ -18,7 +18,9 @@ During my time in Rabat, I noticed that Tamazight writing is far more visible th
 
 Awal began in 2022 through a collaboration between CIEMEN, Casa Amaziga de Catalunya and Col·lectivaT. My role as technical lead evolved across three phases of work, moving from initial manual translation data collection to developing crowdsourced infrastructure through the <a href="https://awaldigital.org" target="_blank">awaldigital.org</a> website and overseeing translation dataset and machine translation (MT) model development.
 
-<p align="center"><img src="/img/ticam/AWAL_AMAZIGH_TIFINAG_1200x620.jpg" width="100%" style="margin:10px"></p>
+<p align="center"><img src="/img/ticam/AWAL_AMAZIGH_TIFINAG_1200x620.jpg" width="100%" style="margin:10px">
+"Do you speak Tamazight? Join us!"
+</p>
 
 
 ## What we collected and built
