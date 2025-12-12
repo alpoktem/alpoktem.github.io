@@ -8,7 +8,7 @@ description: Lessons from the Awal project on community-powered language technol
 
 </p>
 
-Last week I presented technical findings from the AWAL project at The International Conference on Information and Communication Technologies for Amazigh (TICAM) 2025 in Rabat. Awal is a project where I served as technical lead as part of Col·lectivaT, coordinated by CIEMEN with participation from the Tamazight diaspora in Catalonia.
+Early this month, I presented technical findings from the AWAL project at The International Conference on Information and Communication Technologies for Amazigh (TICAM) 2025 in Rabat. Awal is a project where I served as technical lead as part of Col·lectivaT, coordinated by CIEMEN with participation from the Tamazight diaspora in Catalonia.
 
 The presentation took place at IRCAM - the Royal Institute of Amazigh Culture. Being invited to present at IRCAM was an honor. This is the institution responsible for Tamazight language policy in Morocco, working with a team of about 100 people to handle standardization, educational material development, teacher training, and research coordination. The scope of work relative to resources makes it clear why community-powered approaches like Awal matter to close the digital gap for Tamazight.
 
@@ -42,7 +42,7 @@ All project outputs remain openly available:
 - Models: Published and maintained by <a href="https://huggingface.co/Tamazight-NLP" target="_blank">Tamazight NLP</a> on Hugging Face
 - Research papers: <a href="https://arxiv.org/abs/2510.27407" target="_blank">TICAM 2025 paper</a>, <a href="https://www.ciemen.cat/wp-content/uploads/2025/12/awal_paper_ca.pdf" target="_blank">Catalan translation</a>, <a href="https://aclanthology.org/2025.wmt-1.82/" target="_blank">WMT-OLDI paper</a>
 
-For a broader overview of the project's goals and community approach, the piece I wrote for <a href="https://www.nationalia.info/opinion/11729/digital-future-of-minoritized-languages-depends-on-community-action-institutional-support-" target="_blank">Nationalia</a> earlier this year provides more context. 
+For a broader overview of the project's goals and community approach, the piece I wrote for <a href="https://www.nationalia.info/opinion/11729/digital-future-of-minoritized-languages-depends-on-community-action-institutional-support-" target="_blank">Nationalia</a> provides more context and details on lessons learned. 
 
 ## Where from now on
 
