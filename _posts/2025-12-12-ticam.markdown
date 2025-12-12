@@ -1,0 +1,56 @@
+---
+layout: post
+title: "Three Years of Building Language Technology for Tamazight"
+date: 2025-12-12 09:00:00
+description: Lessons from the Awal project on community-powered language technology, systematic challenges, and what actually works for minoritized languages.
+---
+<p align="center"><img src="/img/ticam/ticam_merged.jpg" width="100%" style="margin:10px" >
+
+</p>
+
+Last week I presented technical findings from the AWAL project at The International Conference on Information and Communication Technologies for Amazigh (TICAM) 2025 in Rabat. Awal is a project where I served as technical lead as part of Col·lectivaT, coordinated by CIEMEN with participation from the Tamazight diaspora in Catalonia.
+
+The presentation took place at IRCAM - the Royal Institute of Amazigh Culture. Being invited to present at IRCAM was an honor. This is the institution responsible for Tamazight language policy in Morocco, working with a team of about 100 people to handle standardization, educational material development, teacher training, and research coordination. The scope of work relative to resources makes it clear why community-powered approaches like Awal matter to close the digital gap for Tamazight.
+
+During my time in Rabat, I noticed that Tamazight writing is far more visible than I experienced in my earlier visits to Morocco. Street signs, official documents, shop fronts - the script appears in public spaces in ways that would have been unimaginable two decades ago. This visibility represents real progress, though conversations with linguists at IRCAM and elsewhere revealed the ongoing challenges - dialectal tensions between regions, gaps in educational infrastructure, the constant negotiation around standardization decisions. There's still a long way to go in terms of social acceptance and daily use.
+
+## The Awal project
+
+Awal began in 2022 through a collaboration between CIEMEN, Casa Amaziga de Catalunya and Col·lectivaT. My role as technical lead evolved across three phases of work, moving from initial manual translation data collection to developing crowdsourced infrastructure through the <a href="https://awaldigital.org" target="_blank">awaldigital.org</a> website and overseeing translation dataset and machine translation (MT) model development.
+
+<p align="center"><img src="/img/ticam/AWAL_AMAZIGH_TIFINAG_1200x620.jpg" width="100%" style="margin:10px"></p>
+
+
+## What we collected and built
+
+The awaldigital.org platform we built provides two main functions. First, contributors can translate between Tamazight and five other languages (Catalan, Spanish, French, English and Arabic), with random sentence loading and an auto-translation feature that generates starting points for correction. Second, the platform includes a review system where experienced contributors validate translations from others. Contributors mark dialectal variants when relevant, and the platform includes gamification elements through points and leaderboards to encourage sustained participation. We also integrated with Mozilla's Common Voice initiative, allowing participants to contribute voice recordings for speech technology development.
+
+The initiative as of 2025 has now gathered up to 7,500 translation pairs and three hours of speech, creating the largest open translation and speech datasets available for Tamazight. The infrastructure continues to operate, albeit passively as future funding is not secured. 
+
+## Our publications
+
+For our research presented at TICAM 2025, we examined the community-powered approach itself - analyzing participation patterns, conducting interviews with contributors, and documenting the sociolinguistic challenges that affect data collection. The research revealed five key learnings: writing confidence as a major barrier in participation from general public, the fact that translation can motivate content creation by language learners, that academic and activist communities become the core contributors, that dialect diversity creates both opportunities and tensions, and that Catalan-focused outreach limited our geographic reach. The full findings are available in our <a href="https://arxiv.org/abs/2510.27407" target="_blank">TICAM 2025 paper</a>.
+
+For our research presented at WMT OLDI workshop, we focused on improving existing open-source machine translation models. We corrected reference datasets (FLORES and NLLB-Seed), enhanced the NLLB model through fine-tuning, and compared our approaches with large language models. Thanks to this work, we achieved a 33% improvement in translation quality (English to Tamazight) and a 9% improvement (Tamazight to English). These improvements are visible to users - the <a href="https://awaldigital.org/translate" target="_blank">Awal translate</a> now handles common phrases, cultural expressions, and dialectal variations much better than before. The corrected reference datasets now provide reliable foundations for any researcher wanting to develop or evaluate machine translation systems for Tamazight. The technical details are available in our <a href="https://aclanthology.org/2025.wmt-1.82/" target="_blank">OLDI paper</a>.
+
+## Where to find everything
+
+All project outputs remain openly available:
+
+- Awal Platform: <a href="https://awaldigital.org" target="_blank">awaldigital.org</a>
+- Datasets: Available through <a href="https://huggingface.co/datasets/collectivat/amazic" target="_blank">Hugging Face</a>
+- Models: Published and maintained by <a href="https://huggingface.co/Tamazight-NLP" target="_blank">Tamazight NLP</a> on Hugging Face
+- Research papers: <a href="https://arxiv.org/abs/2510.27407" target="_blank">TICAM 2025 paper</a>, <a href="https://www.ciemen.cat/wp-content/uploads/2025/12/awal_paper_ca.pdf" target="_blank">Catalan translation</a>, <a href="https://aclanthology.org/2025.wmt-1.82/" target="_blank">WMT-OLDI paper</a>
+
+For a broader overview of the project's goals and community approach, the piece I wrote for <a href="https://www.nationalia.info/opinion/11729/digital-future-of-minoritized-languages-depends-on-community-action-institutional-support-" target="_blank">Nationalia</a> earlier this year provides more context. 
+
+## Where from now on
+
+I'm closing this chapter of technical consulting on Awal as Col·lectivaT has concluded operations. The infrastructure we built continues to function, and the datasets remain available for researchers and language technology developers working with Tamazight. The learnings from this work have already informed my ongoing work with other minoritized languages.
+
+The real question isn't whether community-powered approaches can work for Tamazight - we've proven they can. The question is whether these initiatives can secure the sustained institutional support and long-term commitment they need to move beyond prototype stages. Looking at successful models like NaijaVoices for African languages or established initiatives for Catalan, the pattern is clear: concentrated, sustained effort with adequate resources makes the difference. The data and models we created through Awal provide a foundation, but realizing the full potential of these tools requires coordination between language communities, academic institutions, and technology organizations - work that extends well beyond what any single project can accomplish.
+
+## Acknowledgments
+
+This work was made possible through CIEMEN's vision in creating and financing the project over four years as part of their SomPart initiative. My partners at Col·lectivaT were essential - Özgür Güneş Öztürk for kicking off the community engagement work, Clara Basiana for coordination and communication design during the project, and Pelin Dogan for translating the TICAM paper. Deep gratitude to the community champions: Farida Boudichat and Ghizlan Baryala for their community empowerment work, Naceur Jabouja for sharing his insights and Tamazight translations, Brahim Essaidi and Yassine Aït-El-Mouden for their support from the very beginning, their contributions to localize the Awal digital platform and Common Voice and finally, Mohamed Aymane Farhi from Tamazight NLP provided crucial technical support and companionship throughout this journey.
+
