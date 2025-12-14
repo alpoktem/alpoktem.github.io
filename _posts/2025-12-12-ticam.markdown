@@ -8,7 +8,7 @@ description: Lessons from the Awal project on community-powered language technol
 
 </p>
 
-Early this month, I presented technical findings from the AWAL project at The International Conference on Information and Communication Technologies for Amazigh (TICAM) 2025 in Rabat. Awal is a project where I served as technical lead as part of Col·lectivaT, coordinated by CIEMEN with participation from the Tamazight diaspora in Catalonia.
+Early this month, I presented technical findings from the AWAL project at The International Conference on Information and Communication Technologies for Amazigh (TICAM) 2025 in Rabat. Awal is a project where I served as technical consultant as part of Col·lectivaT, coordinated by CIEMEN with participation from the Tamazight diaspora in Catalonia.
 
 The presentation took place at IRCAM - the Royal Institute of Amazigh Culture. Being invited to present at IRCAM was an honor. This is the institution responsible for Tamazight language policy in Morocco, working with a team of about 100 people to handle standardization, educational material development, teacher training, and research coordination. The scope of work relative to resources makes it clear why community-powered approaches like Awal matter to close the digital gap for Tamazight.
 
@@ -54,7 +54,7 @@ The real question isn't whether community-powered approaches can work for Tamazi
 
 ## Tanmmirt / ⵜⴰⵏⵎⵎⵉⵔⵜ / Thanks !
 
-This work was made possible through CIEMEN's vision in creating and financing the project over four years as part of their SomPart initiative. My partners at Col·lectivaT were essential - Özgür Güneş Öztürk for kicking off the community engagement work, Clara Basiana for coordination and communication design during the project, and Pelin Doğan for translating the TICAM paper. Deep gratitude to the community champions: Farida Boudichat and Ghizlan Baryala for their community empowerment work, Naceur Jabouja for sharing his insights and Tamazight translations, Brahim Essaidi and Yassine Aït-El-Mouden for their support from the very beginning, their contributions to localize the Awal digital platform and Common Voice and finally, Mohamed Aymane Farhi from Tamazight NLP for providing crucial technical support and companionship throughout this journey. Tanmmirt!
+This work was made possible through CIEMEN's vision in creating and financing the project over four years as part of their SomPart initiative. My partners at Col·lectivaT were essential - Özgür Güneş Öztürk for kicking off the community engagement work, Clara Basiana for coordination and communication design during the project, and Pelin Doğan for translating the TICAM paper. Deep gratitude to the community champions: Farida Boudichat and Ghizlan Baryala for their community empowerment work, Yuxuan Peng for developing Awal platform, Naceur Jabouja for sharing his insights and Tamazight translations, Brahim Essaidi and Yassine Aït-El-Mouden for their support from the very beginning, their contributions to localize the Awal digital platform and Common Voice and finally, Mohamed Aymane Farhi from Tamazight NLP for providing crucial technical support and companionship throughout this journey. Tanmmirt!
 
 <p align="center"><img src="/img/ticam/AWAL_icon_circular.png" width="30%" style="margin:10px"></p>
 
