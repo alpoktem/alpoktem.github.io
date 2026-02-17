@@ -1,0 +1,107 @@
+---
+layout: post
+title: "I Built a ChatGPT-Powered Voice Agent to Practice Catalan. I Hate It."
+date: 2026-02-17 09:00:00
+description: But I'm quite positive I can make it better.
+---
+
+*After 11 years in Catalonia, I still can't hold a proper conversation in Catalan. Existing language learning apps don't support it well. So I'm building my own voice-based conversation partner — and documenting both the development and my actual learning journey. This is the first post in that series. Day 1: the tech works, but the conversation is soulless.*
+
+<p align="center"><img src="/img/catbot.png" width="100%" style="margin:10px" >
+
+</p>
+
+## The promise of AI in language practice
+
+Since the LLM wave, a dozen startups have jumped on the same pitch: practice speaking a language with an AI conversation partner. No scheduling, no judgment, available 24/7. It sounds great on paper.
+
+Two problems.
+
+First, they mostly don't deliver. I tried several in Spanish — a language I actually speak — and the conversations were flat. Generic prompts, shallow follow-ups, no sense of a real exchange. The AI equivalent of small talk with a stranger at an airport who's being polite but doesn't actually care.
+
+Second, they don't support minoritized languages. Catalan barely makes it into anyone's language list. Some apps claim 100+ languages — suspiciously the same number that the Whisper model covers — but the Catalan experience in all of them was terrible.
+
+This is where it gets interesting, though. Catalan is technically well-positioned compared to most minoritized languages. There's speech recognition, there's text-to-speech, there are language models that handle it reasonably. The building blocks exist. What's missing is someone putting them together into something that actually works for a learner. That takes concentrated effort — someone who knows the language, understands its tech ecosystem, and has a vision for what conversational practice should feel like.
+
+I happen to be that person. I work in language technology, I've spent years on Catalan language projects, and I'm the one who needs the tool. So rather than waiting for some company to add Catalan to their list, I'm building it myself — and being my own first user.
+
+## My backstory with Catalan
+
+I've been living in Catalonia for 11 years. Came here with no Spanish or Catalan knowledge. As a PhD student in a computer science department, English was enough to survive at first — but it became clear pretty quickly that blending into the society required picking up a local language.
+
+Spanish was the obvious first choice. My professional and social circles were Spanish-dominant, and within a few years, my Spanish got decent. I always assumed Catalan would follow naturally. After all, they're close enough. It would just click at some point.
+
+It didn't.
+
+My Catalan *understanding* did improve dramatically — especially after graduation, when I started working more in Catalan language environments and projects. But speaking? I got stuck in what I call the bilingual conversation purgatory: I understand Catalan, I respond in Spanish. Everyone's fine with it. Nobody pushes. And switching would mean giving up my hard-earned confidence in Spanish to become a beginner again. Something I couldn't afford, especially in professional settings.
+
+## What I know about learning languages
+
+My Spanish didn't improve from apps or textbooks. It improved from conversations — real ones, where I had to think on the spot, make mistakes, and keep going. I knew the same would work for Catalan, but the bilingual dynamic made me always default to Spanish with my Catalan-speaking contacts. I needed a conversation partner who wouldn't get bored of my beginner-level stumbling.
+
+An AI wouldn't get bored.
+
+Working in language technology, I also knew what a good conversation practice tool could look like. A project I was consulting on — an interactive conversational companion app for kids — gave me a key insight: conversations feel way more natural when they're *about something*. Not "hi, how's your day" chatbot smalltalk, but discussing a video you just watched, an article you just read, a podcast episode you just listened to. That's how real conversations happen. You share an experience, then you talk about it. That's what I want to build eventually — but first, I needed to see if the basics work at all.
+
+## Day 1: it literally took 5 minutes
+
+I went with <a href="https://docs.livekit.io/agents/" target="_blank">**LiveKit Agents**</a>, an open-source framework for real-time voice AI. What it does is orchestrate all the pieces you need for a voice conversation — speech recognition, language model, text-to-speech, voice activity detection — into a single pipeline with real-time turn-taking. No push-to-talk buttons, no "press space to speak." You just talk, and the agent listens, thinks, and responds. This matters more than it sounds. Pressing a button kills the flow of a spoken conversation. Compared to my previous prototypes where I had to wire up each component manually and handle turn-taking logic myself, this was a massive leap.
+
+For the AI backends, I reused what I already had from the consulting project: Azure Speech Service for speech-to-text and text-to-speech in Catalan, and Azure OpenAI (GPT-4o) for the language model.
+
+It took five minutes from `pip install` to having a working voice conversation in Catalan on my laptop. No browser needed — just my microphone and speakers. I was genuinely impressed.
+
+Then I immediately jumped on having my first conversation with it.
+
+## The conversation
+
+Here's a transcript from my first real session. I told the bot I'd helped my friends move to a new apartment:
+
+>**bot:** Ei! Hola! Com va tot? Has tingut bon dia?
+>
+>**me:** Hola tot bé. I tu?
+>
+>**bot:** Tot bé també, gràcies! Avui he anat a fer un cafè al barri de Gràcia, estava ple de vida com sempre. Has estat per allà últimament?
+>
+>**me:** Uns amics meus han mudat a Gràcia. I jo vaig ajudar-los mudant perquè jo tinc una furgoneta.
+>
+>**bot:** Ah, molt bé! Segur que els teus amics estan contents amb la seva mudança. Gràcia és un barri fantàstic, ple de racons bonics i de cafès. Vas fer servir la teva furgoneta per transportar les seves coses, oi? Quin satisfacció ajudar els amics! Tot va anar bé amb la mudança?
+>
+>**me:** Sí, tenen una casa xiqueta. I en un viatge ja teníem tot. I després vam menjar... com es diu menjar... no sé com es diu "hemos comido" en català.
+>
+>**bot:** Ah, entenc! En català, diríem "menjar" per "comida" i "hem esmorzat", "hem dinat" o "hem sopat" depenent del moment del dia. On vau menjar després de la mudança? Hi ha molts restaurants bons a Gràcia, tenen una oferta molt variada!
+>
+>**me:** En el mateix carrer hi havia una hamburgueseria i eren molt, molt, molt ric.
+>
+>**bot:** Oh, genial! Les hamburgueses són sempre una bona opció, sobretot després d'un dia de feina ajudant amb una mudança. Saps com es deia l'hamburgueseria? A Gràcia n'hi ha unes quantes que estan molt bé, amb ingredients de qualitat i opcions diferents! Quina tipus d'hamburguesa vas menjar?
+
+## The problem
+
+I hate this conversation.
+
+Look at what's happening. I share something personal — helping friends move, spending the day together, eating afterward. There's a story there about friendship, about the chaos of moving day, about celebrating afterward. A real person would pick up on that.
+
+Instead, the bot:
+1. Validates generically with a tourism-guide vibe: "Gràcia és un barri fantàstic, ple de racons bonics!"
+2. Repeats back what I said in fancier words
+3. Asks the most surface-level question possible: "What kind of hamburger did you eat?"
+
+Nobody cares about the hamburger. The interesting part was the friends, the experience, the day. A real conversation partner would ask about the people. "How do you know them? Where did they move from? Was it stressful?" Not "what were the ingredients in your burger."
+
+This is a well-known pattern in ChatGPT-style models: sycophantic validation → shallow paraphrase → irrelevant follow-up question. It's optimized for user satisfaction surveys, not actual conversations. And it makes the whole experience feel like talking to a customer service bot with a Catalan accent.
+
+One thing I did like: when I struggled to say "we ate" in Catalan, the bot helped naturally — explained the different meal verbs (*esmorzar*, *dinar*, *sopar*) and kept the conversation going without making it a grammar lesson. That's the kind of moment that works.
+
+## What's next
+
+The tech works. Five minutes to set up, real-time voice conversation, decent speech recognition for Catalan, natural turn-taking, modular architecture so I can plug in different models and services. All of that is solid.
+
+But if the conversations stay this robotic, the whole idea is dead. Nobody wants to practice a language with a bot that asks what kind of hamburger you ate.
+
+So before making this prototype any cooler — before adding avatars or a frontend or progress tracking — I need to fix the conversation quality. That means:
+
+**Prompt engineering.** The current system prompt tells the bot to "act like a friend," but apparently that's not enough. I need to explicitly tell it what *not* to do: no generic validation, no latching onto trivial details, focus on people and emotions over logistics. And maybe instill some actual social curiosity — because that's what you do when talking to someone new. You try to learn about them, find common ground, create a bond. Staying on the surface with meaningless positivity is boring in any language.
+
+**Different models.** The validation-sandwich pattern might be baked into GPT-4o's training. It's one of the reasons I ditched ChatGPT for my own use. I want to test Claude, Gemini, and some open models through Ollama. Less RLHF conditioning might paradoxically produce more natural conversations.
+
+The goal isn't a product yet. It's answering a simple question: can an AI conversation partner actually be good enough to make me *want* to practice Catalan daily? Day 1 says the infrastructure is there. The soul isn't. Let's see if that's fixable.
