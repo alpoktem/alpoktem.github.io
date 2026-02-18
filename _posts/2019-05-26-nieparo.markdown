@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/nieparo/NIE.png"
 title: Is there life after PhD (if you’re a non-EU migrant in Spain)?
 date: 2019-05-26 12:01:00
 description: My post-PhD experience on extending my stay/work permit while on unemployment pay.

@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/transfer/koehn.webp"
 title: Transfer Learning Approaches for Machine Translation
 date: 2019-12-21 12:01:00
 description: My first post on Medium as part of TWB

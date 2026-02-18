@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/catbot.png"
 title: "I Built a ChatGPT-Powered Voice Agent to Practice Catalan. I Hate It."
 date: 2026-02-17 09:00:00
 description: But I'm quite positive I can make it better.

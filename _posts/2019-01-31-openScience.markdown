@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/guanyadors dtic.JPG.jpg"
 title: How I used the MdM-DTIC Open Science Award for advancing my PhD research
 date: 2019-01-31 21:01:00
 ---

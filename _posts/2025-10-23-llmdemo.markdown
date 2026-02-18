@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/llm-post-header.png"
 title: "Promises of Large Language Models: From virtual companions to catalysts for education and language preservation"
 date: 2025-10-23 09:00:00
 description: How Large Language Models can transform education and language preservation

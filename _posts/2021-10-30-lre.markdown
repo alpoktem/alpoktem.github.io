@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/lre/prosody-features.png"
 title: Corpora compilation for prosody-informed speech processing
 date: 2021-10-30 09:00:00
 description: A TL;DR on my latest journal paper and PhD

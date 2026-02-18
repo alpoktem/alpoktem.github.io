@@ -1,10 +1,9 @@
 # Site settings
 title: Alp Öktem
 email: alp@oktem.me
-description: Personal page of alp öktem
-baseurl: 
-url: 
-twitter_username: OktemAlp
+description: Personal page of Alp Öktem
+baseurl: ""
+url: "https://alp.oktem.me"
 github_username:  alpoktem
 
 # Build settings

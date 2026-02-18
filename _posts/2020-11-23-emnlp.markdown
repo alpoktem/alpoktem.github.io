@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/emnlp-header.png"
 title: Personal highlights from EMNLP 2020 
 date: 2020-11-23 12:01:00
 description: Notes on the NLP conference

@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/palau/banner.jpg"
 title: The data scientist's dream&#58; A curated visual data experience
 date: 2019-04-04 09:01:00
 description: Visiting the Catalonia in Numbers exhibition

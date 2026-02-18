@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/estreyika.png"
 title: Can LLMs Help Revitalize an Endangered Language?
 date: 2025-07-04 09:00:00
 description: Building the world's first conversational Ladino chatbot to preserve Judeo-Spanish heritage
