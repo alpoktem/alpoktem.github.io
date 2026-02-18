@@ -12,6 +12,11 @@ lang: en
 markdown: kramdown
 highlighter: rouge
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Pagination
 paginate: 15
 paginate_path: "/blog/page:num/"
