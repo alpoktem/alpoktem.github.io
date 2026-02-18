@@ -8,7 +8,7 @@ description: But I'm quite positive I can make it better.
 
 *After 11 years in Catalonia, I still can't hold a proper conversation in Catalan. Existing language learning apps don't support it well. So I'm building my own voice-based conversation partner — and documenting both the development and my actual learning journey. This is the first post in that series. Day 1: the tech works, but the conversation is soulless.*
 
-<p align="center"><img loading="lazy" src="/img/catbot.png" width="100%" style="margin:10px" >
+<p align="center"><img loading="lazy" src="/img/catbot.png" alt="Abstract illustration of a colorful street scene in Catalonia overlaid with a glowing digital sound wave on a black background" width="100%" style="margin:10px" >
 
 </p>
 

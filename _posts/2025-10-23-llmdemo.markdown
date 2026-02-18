@@ -10,7 +10,7 @@ _This post was originally published as part of CollectivaT's tech blog. I'm repu
 
 <br>
 
-<p align="center"><img loading="lazy" src="/img/llm-post-header.png" width="100%" style="margin:10px" >
+<p align="center"><img loading="lazy" src="/img/llm-post-header.png" alt="3D illustration of a child talking to an animated character on a computer" width="100%" style="margin:10px" >
 
 </p>
 

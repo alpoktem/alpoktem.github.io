@@ -24,7 +24,7 @@ In scientific literature for machine translation, there is no particular consens
 
 Figure below, modified from [Koehn and Knowles (2017)](https://www.aclweb.org/anthology/W17-3204/), shows the relationship between the BLEU score and the corpus size for the three MT approaches.
 
-<p align="center"><img loading="lazy" src="/img/transfer/koehn.webp" width="60%"></p>
+<p align="center"><img loading="lazy" src="/img/transfer/koehn.webp" alt="BLEU scores comparing phrase-based and neural MT by corpus size" width="60%"></p>
 
 A classic phrase-based MT model outperforms NMT for smaller training set sizes. Only after a corpus size threshold of 15M words, roughly equivalent to 1 million sentence pairs, classic NMT shows its superiority.
 
@@ -38,7 +38,7 @@ Low-resource MT, on the other hand, deals with corpus sizes that are around a co
 
 Figure below illustrates their idea of cross-lingual transfer learning.
 
-<p align="center"><img loading="lazy" src="/img/transfer/parent-child.webp" width="60%"></p>
+<p align="center"><img loading="lazy" src="/img/transfer/parent-child.webp" alt="Parent-child MT modelling for low-resource languages" width="60%"></p>
 
 The researchers first trained an NMT model on a large parallel corpus — French–English — to create what they call _the parent model_. In a second stage, they continued to train this model, but fed it with a considerably smaller parallel corpus of a low-resource language. The resulting _child model_ inherits the knowledge from the parent model by reusing its parameters. Compared to a classic approach of training only on the low-resource language, they record an average improvement of 5.6% BLEU over the four languages they experiment with. They further show that the child model doesn’t only reuse knowledge of the structure of the high resource target language but also on the _process of translation_ itself.
 
@@ -50,7 +50,7 @@ The high-resource language to choose as the parent source language is a key para
 
 The path that was cleared by cross-lingual transfer learning led naturally to the use of multiple parent languages. The straightforward approach, first described by [Dong et al. (2015)](https://aclweb.org/anthology/P15-1166), mixes all the available parallel data in the languages of interest and sends them into training as illustrated in the figure below.
 
-<p align="center"><img loading="lazy" src="/img/transfer/many-to-one.webp" width="60%"></p>
+<p align="center"><img loading="lazy" src="/img/transfer/many-to-one.webp" alt="Many-to-one multilingual NMT training diagram" width="60%"></p>
 
 What results from the example is one single model that translates from the four languages (French, Spanish, Portuguese and Italian) to English.
 
@@ -58,7 +58,7 @@ Multilingual NMT offers three main advantages. Firstly, it reduces the number of
 
 For instance, if we were interested in training MT for Galician, a low-resource romance language, this model would be a perfect fit as it already knows how to translate well in four other high-resource romance languages.
 
-<p align="center"><img loading="lazy" src="/img/transfer/multilingual.webp" width="70%"></p>
+<p align="center"><img loading="lazy" src="/img/transfer/multilingual.webp" alt="Transfer learning from multilingual model to low-resource language" width="70%"></p>
 
 A solid report on the use of multilingual models is given by [Neubig and Hu (2018)](https://www.aclweb.org/anthology/D18-1103). They use a “_massively multilingual_” corpus of 58 languages to leverage MT for four low-resource languages: Azeri, Belarusian, Galician, and Slovakian. With a parallel corpus size of only 4500 sentences for Galician, they achieved a BLEU score of up to 29.1% in contrast to 22.3% and 16.2% obtained with a classic single-language training with statistical machine translation (SMT) and NMT respectively.
 
