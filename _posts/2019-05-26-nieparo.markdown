@@ -53,7 +53,7 @@ To this appointment, you just need to bring your resolucion, passport, NIE and 2
 
 So, the whole residency renewal process roughly looks like this:
 
-<p align="center"><img src="/img/nieparo/NIE.png" alt="NIE procedures" width="650"></p>
+<p align="center"><img loading="lazy" src="/img/nieparo/NIE.png" alt="NIE procedures" width="650"></p>
 
 # 2 - Applying for an unemployment pay (PARO)
 
@@ -73,7 +73,7 @@ What you need to bring to your appointment is only your passport and a valid res
 
 **IMPORTANT:** For the employment office to register you as job seeker, you need to have a valid residence and work permit. They look at the dates of your card and the type of permit you have. It should say explicitly that you are allowed to work (e.g. it should say something like *excepción de trabajo*). If you have this, then no problem. Once you register, you’ll be sent to another table to give your bank details. If everything goes well, you’ll be paid your unemployment salary starting from the 10th day of the following month. (You can calculate how much you’ll get paid and for how long from <a href="https://sede.sepe.gob.es/dgsimulador/introSimulador.do" target="_blank">this link</a>). The process can be summed up like this:
 
-<p align="center"><img src="/img/nieparo/PARO.png" alt="NIE procedures" width="650"></p>
+<p align="center"><img loading="lazy" src="/img/nieparo/PARO.png" alt="NIE procedures" width="650"></p>
 
 But, what happens if you don’t have a valid residence permit card? That is, if it is expired or about to be expired soon. Officially, you are not allowed to submit an application because according to them you won’t be able to work anyway. Why register you as a job seeker right? No matter how much you beg them and promise them that you’ll get a permit soon, there’s not much that they can do. UNLESS, you prove them you are at least *on the process* of getting an extension of your residence/work permit. 
 
@@ -99,13 +99,13 @@ In my concrete case, I made my residency extension application with all the docu
 
 So, those processes put together should look something like this:
 
-<p align="center"><img src="/img/nieparo/NIEPARO.png" alt="NIE+PARO procedures" width="650"></p>
+<p align="center"><img loading="lazy" src="/img/nieparo/NIEPARO.png" alt="NIE+PARO procedures" width="650"></p>
 
 On paper it looks pretty straightforward and easy. However, you still need to have patience. Most time is lost during the waiting for the resolution. Also, letters tend to arrive late so plan yourself well. In total this process took me about three months. That is, from the point I made my NIE extension application to the day I got my hands on my new card. Three months was indeed a long time to wait. If only it could be just a mere wait but I was many times anxious about the whole process. At the end, what was on risk was, first, my ability to maintain myself, second, my legal status concerning my stay in Spain. When everything was over, I was pretty relieved to be honest. 
 
 Here's me on the train back from Granollers\* the day I got my card. (\*That is 50 kms from Barcelona. It was the only place I was able to get the fingerprint appointment). 
 
-<p align="center"><img src="/img/nieparo/porfin.jpg" alt="A relieved Alp holding his the long-awaited card." width="500"></p>
+<p align="center"><img loading="lazy" src="/img/nieparo/porfin.jpg" alt="A relieved Alp holding his the long-awaited card." width="500"></p>
 
 # Good luck
 

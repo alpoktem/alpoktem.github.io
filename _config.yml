@@ -1,10 +1,12 @@
 # Site settings
 title: Alp Öktem
 email: alp@oktem.me
-description: Personal page of Alp Öktem
+description: "Speech technology, NLP, and social impact — blog and research by Alp Öktem"
 baseurl: ""
 url: "https://alp.oktem.me"
-github_username:  alpoktem
+github_username: alpoktem
+author: Alp Öktem
+lang: en
 
 # Build settings
 markdown: kramdown

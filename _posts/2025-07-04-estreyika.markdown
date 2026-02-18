@@ -6,7 +6,7 @@ date: 2025-07-04 09:00:00
 description: Building the world's first conversational Ladino chatbot to preserve Judeo-Spanish heritage
 ---
 
-<p align="center"><img src="/img/estreyika.png" alt="Estreyika Perez chatbot interface showing conversation in Ladino" width="100%"></p>
+<p align="center"><img loading="lazy" src="/img/estreyika.png" alt="Estreyika Perez chatbot interface showing conversation in Ladino" width="100%"></p>
 
 Can LLMs help revitalize an endangered language? That's exactly what we're exploring in my latest collaboration creating a chatbot that speaks and helps practice Ladino: Estreyika Perez.
 

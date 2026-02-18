@@ -2,7 +2,9 @@ _site
 .sass-cache
 .DS_store
 vendor
-_config.yml
 start_server.sh
 _backup
 .gitignore
+.bundle
+.ruby-version
+worker/

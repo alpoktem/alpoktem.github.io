@@ -6,7 +6,7 @@ date: 2023-09-28 09:00:00
 description: So that I can find the best local food in Kigali next time I visit
 ---
 
-<p align="center"><img src="/img/mt_rwanda_demo.png" alt="Demoing MT for the sentence Good morning, could you please take me to the best place to eat Ikisafuriya in Kigali?" width="100%"></p>
+<p align="center"><img loading="lazy" src="/img/mt_rwanda_demo.png" alt="Demoing MT for the sentence Good morning, could you please take me to the best place to eat Ikisafuriya in Kigali?" width="100%"></p>
 
 I've always been inspired by traveling, and my favorite part of it is savoring the local dishes. Last week, I had the chance to do just that in Kigali, Rwanda, while I was attending the closing session of our project, "MT Rwanda." I'm excited because the results of this project will undoubtedly make it easier for me to ask local taxi drivers to take me to the best restaurants in town the next time I visit this impressive country. 
 
@@ -38,6 +38,6 @@ As we wrap up this transformative project, our sights are set on the future. We'
 
 My impression from our end-of-project session in Kigali is that the road ahead for Kinyarwanda is filled with promise. Together, we have identified many interesting ideas and also challenges to bring the initiative forward. I'm looking forward to witnessing and being part of further advancements in open-source Kinyarwanda language technology and its potential in creating an impact for Rwanda. And of course, making more opportunities to visit and explore further the delicious Rwandan cuisine. 
 
-<p align="center"><img src="/img/Ikisafuriya.jpg" alt="Trying Ikisafuriya for the first time" width="60%"></p>
+<p align="center"><img loading="lazy" src="/img/Ikisafuriya.jpg" alt="Trying Ikisafuriya for the first time" width="60%"></p>
 <p align="center">My colleague Geo couldn't resist taking a snap of my happy face trying Ikisafuriya for the first time. It was finger-licking good!</p>
 

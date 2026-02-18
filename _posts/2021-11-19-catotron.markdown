@@ -8,7 +8,7 @@ description: Towards a catalanoparlant future for speech technology
 
 This week, my cooperative Col·lectivaT has launched the new version of Catotron with a slick new web app [catotron.cat](http://catotron.cat). Catotron is the first open-source, neural network-based speech synthesis engine for Catalan. It's built with support from Department of Culture of Catalan Government and was [published earlier in Interspeech 2020](/publications/2020-10-25-interspeech20/).
 
-<p align="center"><img src="/img/catotron_banner.png" alt="CATOTRON logo" width="100%"></p>
+<p align="center"><img loading="lazy" src="/img/catotron_banner.png" alt="CATOTRON logo" width="100%"></p>
 
 Catotron is a great example of people-oriented and people-driven language technology. It will prevent the exclusion of Catalan speakers from using speech-interfaced technology like voice assistants, GPS, Telephone IVR etc.
 

@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one left" src="/img/DSC04411.jpeg">
+<img loading="lazy" class="col one left" src="/img/DSC04411.jpeg">
 
 <br/>
 7,000+ languages exist. AI works for maybe 100 of them. I'm working to fix that. 

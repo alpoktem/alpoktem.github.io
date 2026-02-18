@@ -5,7 +5,7 @@ title: "Three Years of Building Language Technology for Tamazight"
 date: 2025-12-12 09:00:00
 description: Lessons from the Awal project on community-powered language technology, systematic challenges, and what actually works for minoritized languages.
 ---
-<p align="center"><img src="/img/ticam/ticam_merged.jpg" width="100%" style="margin:10px" >
+<p align="center"><img loading="lazy" src="/img/ticam/ticam_merged.jpg" width="100%" style="margin:10px" >
 
 </p>
 
@@ -19,7 +19,7 @@ During my time in Rabat, I noticed that Tamazight writing is far more visible th
 
 Awal began in 2022 through a collaboration between CIEMEN, Casa Amaziga de Catalunya and Col·lectivaT. My role as technical lead evolved across three phases of work, moving from initial manual translation data collection to developing crowdsourced infrastructure through the <a href="https://awaldigital.org" target="_blank">awaldigital.org</a> website and overseeing translation dataset and machine translation (MT) model development.
 
-<p align="center"><img src="/img/ticam/AWAL_AMAZIGH_TIFINAG_1200x620.jpg" width="100%" style="margin:10px">
+<p align="center"><img loading="lazy" src="/img/ticam/AWAL_AMAZIGH_TIFINAG_1200x620.jpg" width="100%" style="margin:10px">
 "Do you speak Tamazight? Join us!"
 </p>
 
@@ -57,5 +57,5 @@ The real question isn't whether community-powered approaches can work for Tamazi
 
 This work was made possible through CIEMEN's vision in creating and financing the project over four years as part of their SomPart initiative. My partners at Col·lectivaT were essential - Özgür Güneş Öztürk for kicking off the community engagement work, Clara Basiana for coordination and communication design during the project, and Pelin Doğan for translating the TICAM paper. Deep gratitude to the community champions: Farida Boudichat and Ghizlan Baryala for their community empowerment work, Yuxuan Peng for developing Awal platform, Naceur Jabouja for sharing his insights and Tamazight translations, Brahim Essaidi and Yassine Aït-El-Mouden for their support from the very beginning, their contributions to localize the Awal digital platform and Common Voice and finally, Mohamed Aymane Farhi from Tamazight NLP for providing crucial technical support and companionship throughout this journey. Tanmmirt!
 
-<p align="center"><img src="/img/ticam/AWAL_icon_circular.png" width="30%" style="margin:10px"></p>
+<p align="center"><img loading="lazy" src="/img/ticam/AWAL_icon_circular.png" width="30%" style="margin:10px"></p>
 
