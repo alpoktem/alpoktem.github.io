@@ -5,6 +5,29 @@
 
     {% seo %}
 
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Alp Öktem",
+      "url": "https://alp.oktem.me",
+      "jobTitle": "Speech Technology & NLP Researcher",
+      "description": "Speech technology and NLP researcher building language tech for underrepresented languages.",
+      "sameAs": [
+        "https://github.com/alpoktem",
+        "https://www.linkedin.com/in/alp-oktem",
+        "https://scholar.google.es/citations?user=dTXMpaQAAAAJ"
+      ],
+      "knowsAbout": ["Speech Technology", "Natural Language Processing", "Computational Linguistics", "Endangered Languages", "Machine Translation"],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Universitat Pompeu Fabra"
+      }
+    }
+    </script>
+    {% endif %}
+
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 

@@ -1,7 +1,8 @@
 # Site settings
 title: Alp Öktem
+tagline: "Tech to support linguistic diversity"
 email: alp@oktem.me
-description: "Speech technology, NLP, and social impact — blog and research by Alp Öktem"
+description: "Blog and research by Alp Öktem on Speech technology, NLP, and social impact"
 baseurl: ""
 url: "https://alp.oktem.me"
 github_username: alpoktem
