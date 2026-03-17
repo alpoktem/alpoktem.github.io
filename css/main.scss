@@ -95,6 +95,30 @@ $on-laptop:        800px;
   }
 }
 
+// Translatable text tooltip
+.tl {
+  border-bottom: 1px dotted $grey-color;
+  cursor: help;
+  position: relative;
+
+  &:hover::after {
+    content: attr(data-t);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: $small-font-size;
+    font-style: normal;
+    white-space: nowrap;
+    z-index: 10;
+    pointer-events: none;
+  }
+}
+
 // Fix for title spacing issues
 article header {
   margin-bottom: 2rem;

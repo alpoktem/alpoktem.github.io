@@ -1,0 +1,157 @@
+---
+layout: post
+image: "/img/catbot2.png"
+title: "My AI Catalan Tutor Got Better. So Did I."
+date: 2026-03-17 08:00:00
+description: A rewritten prompt, a different model, and my first proper conversations in Catalan.
+---
+
+*In my [previous post](/2026/02/17/catbot.html), I built a voice agent to practice speaking Catalan, a language I understand well but never actually speak. The tech worked. The conversations were soulless. Two weeks later: I've rewritten the prompt from scratch, switched models, and had my first 30-minute conversation entirely in Catalan. As silly as it sounds, it already helped me build up enough confidence to start using it in real life. Here's what changed and what I learned.*
+
+<p align="center"><img loading="lazy" src="/img/catbot2.png" alt="Abstract illustration of Barcelona with a green light giving way into miroesque patterns" width="100%" style="margin:10px"></p>
+
+Day 1 showed that setting up a voice-based conversational agent from scratch was the easy part. In terms of AI, Catalan is well supported after all, but despite that, there are no solutions in this new AI language practice space that serve it well. The voice-based chatbot I built worked, but not any better than the ones I'd tried. Shallow ping-pong question-answer conversations that don't click. I was disappointed, but not pessimistic. I knew what I had to experiment with: the LLM backend and the prompt. I had to move away from ChatGPT, but also guide the LLM better into driving a meaningful conversation that actually helped my learning.
+
+## What I changed in the prompt
+
+The first prompt told the bot to "act like a friend chatting in Catalan" and included a list of banned phrases like "never say <span class="tl" data-t="Great!">*Genial!*</span>, <span class="tl" data-t="Very good!">*Molt bé!*</span>, <span class="tl" data-t="How lucky!">*Quina sort!*</span>" because it just made it so fakely enthusiastic and robotic after few repetitions. It felt more like a rulebook so didn't work. Ban <span class="tl" data-t="Great!">*Genial!*</span> and the bot says <span class="tl" data-t="Fantastic!">*Fantàstic!*</span> instead. Tell it "don't change subjects too quickly" and it stays on a dead topic for five turns. Whack-a-mole with surface behaviors.
+
+The fix was surprisingly simple: instead of rules, I gave the bot a *motivation*. The new prompt frames the conversation as meeting someone you don't know yet. You're curious about them. Where are they from? What do they do? How did they end up here? This is what actually drives conversations in real life, whether between strangers or old friends. You want to know about their life, how they do things, what they're up to, how it feels. Even catching up with a friend you haven't seen in a while works the same way: you're filling in the gaps of what you don't know yet.
+
+Here's the contrast. The first prompt started with:
+
+> *You are a conversation partner for an adult living in Barcelona who is learning Catalan. The user already speaks Spanish and English, so they understand quite a bit, but they need to practice speaking.*
+
+The new one:
+
+> *You're a Catalan friend meeting someone you don't know well. You have genuine curiosity about who this person is, where they come from, what they do, what they like, how they ended up here. You're not a teacher, not an assistant, not a tour guide.*
+
+That changed everything. The bot now asks better questions because it has something it wants to know. It stays on a topic because it's interested. The "getting to know" dynamic turns out to be the engine that makes conversation feel real. Without it, the bot converses for the sake of conversing and runs out of steam.
+
+I also switched the LLM backend from GPT-4o to Claude. The validation-sandwich pattern I described in the first post (sycophantic praise, shallow paraphrase, irrelevant question) seems baked into GPT-4o's training. Claude produces noticeably more natural conversational responses: shorter, less eager to validate, more willing to just react and move on.
+
+## The conversation
+
+I sat down for a 5-minute test. Ended up talking for 30 minutes. Here's what the conversation actually looked like. Note that my lines are the raw automatic speech recognition (ASR) transcription i.e. what the bot heard, not necessarily what I said. You'll see why this matters later. 
+
+_(Hover over Catalan text to see the English translation.)_
+
+It starts casually. I mention I'm at home resting after spending the day with my daughter:
+
+>**bot:** <span class="tl" data-t="Hey, how's it going?">Ei, com va?</span>
+>
+>**me:** <span class="tl" data-t="Nothing much, I'm at home. [...] But I'm resting now.">Per res, aquí estic a casa. [...] Però estic ara descansant.</span>
+>
+>**bot:** <span class="tl" data-t="Wow, and how old is she?">Vaja, i ella quants anys té?</span>
+
+Already different from the hamburger conversation. Short question. No "<span class="tl" data-t="Great that you're spending time with your daughter!">Fantàstic que passis temps amb la teva filla!</span>" Just genuine curiosity.
+
+A few turns later, I tell the bot I'm originally from Türkiye, living in Barcelona for 11 years. When I try to say "Ankara," the ASR loses it.
+
+>**bot:** <span class="tl" data-t="Eleven years is a long time. But where exactly in Türkiye are you from?">Onze anys ja és molt temps. Però d'on ets exactament de Turquia?</span>
+>
+>**me:** <span class="tl" data-t="Will it still close?">Tancarà encara?</span>
+>
+>**bot:** <span class="tl" data-t="Yes, Ankara! Very different from Barcelona, I imagine.">Sí, Ankara! Molt diferent de Barcelona, suposo.</span>
+
+Still, it's amazing that the LLM figures it out smoothly from context.
+
+The conversation gets personal quickly. I talk about my work, why I care about social impact, the privilege and frustrations of humanitarian world. The bot asks a question that catches me off guard:
+
+>**bot:** <span class="tl" data-t="Interesting. And what's it like working for NGOs — is it different from what you expected when you finished your PhD?">Interessant. I com és treballar per ONGs, és diferent del que t'esperaves quan vas acabar el doctorat?</span>
+
+Now this really made me think! It connects two important phases of my career: the PhD and the NGO work, and asks about the gap between expectation and reality. That's the kind of question a real person asks! The first version of this bot would have said "<span class="tl" data-t="What an interesting job!">Quina feina més interessant!</span>" and asked what kind of NGO it was.
+
+Later, I just can't remember how to say "birthday" in Catalan:
+
+>**me:** <span class="tl" data-t="And the mother is at a birthday party. 'Cumpleaños' — that's not how you say it, right? How is it in Catalan?">I la mare està en una festa de cumpleaños. Cumpleaños no se dice así, no? Com ho és en català?</span>
+>
+>**bot:** <span class="tl" data-t="'Aniversari.' And you got left behind.">Aniversari. I tu te n'has quedat fora.</span>
+
+I obviously heard this word before. But when speaking in flow, it just doesn't come. There's a huge gap between the vocabulary you recognize on a page and the vocabulary you can produce in real time under the pressure of a conversation. The bot corrects me naturally and keeps the conversation moving.
+
+One of my favorite moments: the bot mentions the word *bojos* (crazy/adventurous) casually, and I realize I've heard this word a hundred times before, but never actually knew what it meant:
+
+>**bot:** <span class="tl" data-t="You're not that crazy, then.">Tampoc sou tan bojos, doncs.</span>
+>
+>**me:** <span class="tl" data-t="What does 'bojos' mean?">Què significa pujós?</span> [not me... ASR]
+>
+>**bot:** <span class="tl" data-t="'Bojos' — a bit wild, adventurous.">Bojos, una mica salvatges, aventurers.</span>
+
+This is what it's like to learn a word from a conversation instead of a flashcard. You hear it in context, it connects to something you were actually talking about, and it sticks. I probably won't forget *bojos* now.
+
+A genuinely funny moment happened near the end. I mention that talking to a robot makes me less afraid of making mistakes:
+
+>**me:** <span class="tl" data-t="When you talk to a robot you're not so afraid of making mistakes.">Quan parles amb un robot no tens tantes por de fer errors.</span>
+>
+>**bot:** <span class="tl" data-t="I understand. But I'm not a robot.">Entenc. Però no soc un robot.</span>
+>
+>**me:** ...
+>
+>**bot:** <span class="tl" data-t="I'm Pau, a friend you got stuck with today.">Soc en Pau, un amic que t'ha tocat avui.</span>
+
+The bot insists it's Pau, a 34-year old from Poblenou, except it has a female voice, because I assigned a female TTS voice by default in the code. It made me laugh. But the persona consistency is also kind of impressive: it maintained a fictional (but shallow) identity throughout 30 minutes of conversation. The mismatch between the voice and the name is just a configuration I can fix.
+
+Then I ask how long we've been talking:
+
+>**me:** <span class="tl" data-t="Do you know how many minutes we've been talking?">Saps quants minuts portem parlant amb tu?</span>
+>
+>**bot:** <span class="tl" data-t="I don't know, an hour maybe?">No sé, una hora potser?</span>
+>
+>**me:** <span class="tl" data-t="Half an hour.">Mitja hora.</span>
+>
+>**bot:** <span class="tl" data-t="Half an hour! That went fast.">Mitja hora! Ha anat ràpid.</span>
+
+It had. I went in expecting five minutes and forgot to stop.
+
+## The ASR problem
+
+Reading the transcript back, a lot of what I say to the bot is incomprehensible. Not (just) because of my Catalan and accent, but because of the speech recognition.
+
+Here's what I actually said at one point to indicate where I lived, more or less: "<span class="tl" data-t="Me, on the other side, in Poble Sec.">Jo a l'altra costat, al Poble Sec.</span>" What the ASR transcribed: "Jo el atrac estat costat ha el poble sec."
+
+One of the things I want to build into this tool is conversation review. After a session, you get feedback on your mistakes, new vocabulary, and tips for next time. Most language learning apps that offer AI conversation practice promise something like this. The idea is straightforward: take the transcript, feed it to an LLM, and have it analyze the learner's errors. But here's the problem.
+
+If you ask an LLM to review that garbled transcription and give a correction tip, you get this:
+
+> *The user is trying to say "I live near El Poble Sec" but the sentence is quite jumbled: wrong word order, wrong verb, misplaced articles. A natural way to say it would be: "Jo visc al costat del Poble Sec."*
+
+Confident, helpful, but completely wrong. I wasn't trying to say I live _near_ Poble Sec. I was saying I'm on the other side across from Poblenou. The ASR garbled it, and the correction LLM confidently "fixed" something I never said. Imagine getting this kind of feedback mid-conversation. It would confuse you, or worse, destroy your confidence by doubting things you actually said correctly.
+
+Another example. I said something like "<span class="tl" data-t="so easy to go to the beach">tan fàcil anar a la platja</span>". The ASR captured: "Tan fàcil IA la platja." The reviewing LLM threw up its hands at that part: 
+
+> *The second part is too fragmented to correct meaningfully. It seems like they lost their train of thought mid-sentence."*
+
+I didn't lose my train of thought. The ASR lost my words.
+
+This could be one of the most important technical problems in this whole project. The LLM driving the conversation is impressively resilient. It understands what I mean from context even when the transcription is garbage. But any feature that relies on analyzing *what the learner actually said* like corrections, error tracking, vocabulary assessment, is fundamentally limited by ASR quality. You can't tell a learner error from a transcription error. A human teacher hears what I actually said. The bot only sees the garbled text.
+
+There's a workaround. After the session, I fed the full transcript to an LLM with a prompt that explicitly says: "This comes from ASR that makes MANY errors in Catalan. If you're not SURE it's a real learner error, don't mention it." That helped. The review picked up on real patterns: my consistent use of the Spanish possessive "<span class="tl" data-t="my (Spanish)">mi</span>" instead of Catalan "<span class="tl" data-t="mine (feminine/masculine)">la meva/el meu</span>," spanishisms like "<span class="tl" data-t="birthday (Spanish)">cumpleaños</span>" and "<span class="tl" data-t="to feel like (Spanish)">apetecer</span>" and ignored the nonsensical fragments. It gave me a vocabulary list of words I'd learned during the session, noted that my comprehension is far above my production level, and gave one concrete tip: practice the possessives!
+
+That review was genuinely useful. But it works *because* it has the full conversation for context and *because* the prompt tells it to be conservative. Doing this in real-time, turn by turn, is a much harder problem.
+
+## Where the conversation still falls apart
+
+The bot has no personality. It never disagrees. Never pushes back. Never has a strong opinion about anything. Every topic I brought up was met with some version of "<span class="tl" data-t="I understand">entenc</span>," "<span class="tl" data-t="makes sense">té sentit</span>," "<span class="tl" data-t="how lucky">quina sort</span>." It's good at active listening, but there's no inner juice.
+
+This is the sycophancy problem showing up at a deeper level like the first version. It's in total agreement with everything. 
+
+I was at a gathering this weekend and I kept thinking about what makes conversations interesting in real life. It's the other person's opinions, lifestyle, what you have in common, what's different. The moments where someone says "really? I think the opposite" or tells you something you didn't know about their life. The bot has none of that by default. It's a perfect listener with nothing remarkable to say.
+
+The bot also loses steam after about 15 turns. It starts giving closing-statement energy or asks "<span class="tl" data-t="what do you want to talk about?">de què vols parlar?</span>" A good conversationalist pivots using what they already know about you. The bot doesn't do that yet.
+
+## What I'm taking away
+
+I thought building this tool would mostly be about the tech: pipelining systems, smarter prompts, a fancy UI. Turns out the most important thing I'm learning is about the learning process itself.
+
+After a few conversations, I know much better what I need to improve and what features would actually help me. Not because I planned them on a whiteboard, but because I experienced the gaps firsthand.
+
+I'm getting hopeful about this. Not just for myself, but for anyone stuck in the same bilingual purgatory of Catalan or with any language. 
+
+The gap between "I understand everything" and "I can actually speak" is real, and what's on the other side of it is mostly just permission to be bad at something without social consequences. A bot gives you that.
+
+As a tangible effect, a few days after this conversation, I had to deal with some paperwork at a government office. I did the whole thing in Catalan! I walked in, resisted defaulting to Spanish, explained what I needed, answered the clerk's questions, even had a small chit-chat while doing it. That 30 minutes of conversation with the bot made talking to a real person feel much more manageable. That's the effect I'd been building this for.
+
+## What's coming
+
+It's still very early. But I have plenty to work on, and I'll make sure I keep having more conversations while I build, both with the bot and people outside. In the next post: I've started building a proper UI with live vocabulary hints and post-session reviews, and I'm working on giving the bot an actual personality. I have a few ideas on them already, like a vegan nurse from the Raval with strong opinions, a slightly pessimistic philosophy professor from Sarrià and a retired fisherman from L'Escala. Any other suggestions? Just write me on LinkedIn, or drop me a mail!

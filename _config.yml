@@ -23,6 +23,11 @@ paginate: 15
 paginate_path: "/blog/page:num/"
 
 
+exclude:
+  - README.md
+  - CLAUDE.md
+  - vendor
+
 collections:
   projects:
     output: true
