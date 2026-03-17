@@ -120,7 +120,7 @@ Confident, helpful, but completely wrong. I wasn't trying to say I live _near_ P
 
 Another example. I said something like "<span class="tl" data-t="so easy to go to the beach">tan fàcil anar a la platja</span>". The ASR captured: "Tan fàcil IA la platja." The reviewing LLM threw up its hands at that part: 
 
-> *The second part is too fragmented to correct meaningfully. It seems like they lost their train of thought mid-sentence."*
+> *The second part is too fragmented to correct meaningfully. It seems like they lost their train of thought mid-sentence.*
 
 I didn't lose my train of thought. The ASR lost my words.
 
