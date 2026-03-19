@@ -5,7 +5,7 @@ title: Towards realistic machine dubbing
 date: 2019-12-15 12:01:00
 description: Leveraging neural machine translation for lip-syncing
 tags: [MT, Speech]
-languages: [Spanish]
+languages: [Spanish, English]
 ---
 
 In the paper [_Prosodic Phrase Alignment for Machine Dubbing_](/publications/2019-09-24-interspeech19/) that I co-authored with my PhD supervisors, we explored how to achieve lip-syncing in automatic multimedia translation. In this blogpost, I'll explain our methods and findings in a bit more audiovisual way, which I believe the nature of the work deserves. 

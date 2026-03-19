@@ -4,7 +4,7 @@ image: "/img/catbot2.png"
 title: "My AI Catalan Tutor Got Better. So Did I."
 date: 2026-03-17 08:00:00
 description: A rewritten prompt, a different model, and my first proper conversations in Catalan.
-tags: [LLM, Language Learning]
+tags: [LLM, ASR, Language Learning]
 languages: [Catalan]
 ---
 
