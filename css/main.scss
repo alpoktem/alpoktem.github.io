@@ -302,6 +302,21 @@ $on-laptop:        800px;
   }
 }
 
+// RSS subscribe
+.rss-subscribe {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: $small-font-size;
+
+  .fa-rss {
+    margin-right: 0.3rem;
+  }
+}
+
+.rss-link .fa-rss {
+  margin-right: 0.2rem;
+}
+
 // Fix for title spacing issues
 article header {
   margin-bottom: 2rem;
