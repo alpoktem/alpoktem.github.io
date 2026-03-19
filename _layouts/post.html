@@ -26,14 +26,14 @@ layout: default
     {% assign minutes = words | divided_by: 200 %}
     {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
     <div class="post-pills-labeled">
-      <div class="pill-group"><span class="reading-time">{{ minutes }} min read</span></div>
+      {% unless page.collection == "publications" %}<div class="pill-group"><span class="reading-time">{{ minutes }} min read</span></div>{% endunless %}
       {% if page.tags.size > 0 or page.languages.size > 0 %}
       <div class="pill-row">
         {% if page.tags.size > 0 %}
         <div class="pill-group"><span class="pill-label">Topics:</span> {% for tag in page.tags %}<span class="pill pill-tag">{{ tag }}</span>{% endfor %}</div>
         {% endif %}
         {% if page.languages.size > 0 %}
-        <div class="pill-group"><span class="pill-label">Languages:</span> {% for lang in page.languages %}<span class="pill pill-lang">{{ lang }}</span>{% endfor %}</div>
+        <div class="pill-group"><span class="pill-label">Language focus:</span> {% for lang in page.languages %}<span class="pill pill-lang">{{ lang }}</span>{% endfor %}</div>
         {% endif %}
       </div>
       {% endif %}
