@@ -119,6 +119,60 @@ $on-laptop:        800px;
   }
 }
 
+// Post list with thumbnails
+.post-list {
+  .post-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    list-style: none;
+
+    .post-thumb {
+      flex: 0 0 180px;
+      align-self: stretch;
+
+      img {
+        width: 180px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+    }
+
+    .post-info {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    &.img-right {
+      flex-direction: row-reverse;
+    }
+
+    hr {
+      width: 100%;
+    }
+  }
+
+  @include media-query($on-palm) {
+    .post-item {
+      flex-direction: column !important;
+
+      .post-thumb {
+        flex: 0 0 auto;
+
+        img {
+          width: 100%;
+          height: auto;
+          max-height: 200px;
+        }
+      }
+    }
+  }
+}
+
 // Fix for title spacing issues
 article header {
   margin-bottom: 2rem;
