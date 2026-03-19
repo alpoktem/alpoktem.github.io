@@ -2,6 +2,7 @@
 layout: post
 title: "Nós-TTS : a Web User Interface for Galician Text-to-Speech"
 date: 2024-03-15
+languages: [Galician]
 ---
 ```
 Carmen Magariños, Alp Öktem, Antonio Moscoso Sánchez, Marta Vázquez Abuín,

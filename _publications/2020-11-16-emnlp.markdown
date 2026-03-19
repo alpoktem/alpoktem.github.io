@@ -2,6 +2,7 @@
 layout: post
 title: Participatory Research for Low-resourced Machine Translation - A Case Study in African Languages
 date: 2020-11-16
+languages: [African Languages]
 ---
 ```
 ∀, Wilhelmina Nekoto, Vukosi Marivate, Tshinondiwa Matsila, Timi Fasubaa,

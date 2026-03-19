@@ -2,6 +2,7 @@
 layout: post
 title: "Correcting the Tamazight Portions of FLORES+ and OLDI Seed Datasets"
 date: 2025-10-24
+languages: [Tamazight]
 ---
 ```
 Alp Oktem, Mohamed Aymane Farhi, Brahim Essaidi, Naceur Jabouja and Farida Boudichat

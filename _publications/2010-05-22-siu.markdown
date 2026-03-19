@@ -2,6 +2,7 @@
 layout: post
 title: "Processing the manuscripts of Atatürk"
 date: 2010-05-22
+languages: [Turkish]
 ---
 ```
 Soysal T., Adigüzel H., Öktem A., Haman A., Can E. F., Duygulu P., Kalpakli M.

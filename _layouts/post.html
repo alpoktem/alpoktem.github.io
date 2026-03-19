@@ -1,15 +1,88 @@
 ---
 layout: default
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "Alp Öktem",
+    "url": "https://alp.oktem.me/about/"
+  }{% if page.description %},
+  "description": {{ page.description | jsonify }}{% endif %}{% if page.image %},
+  "image": "https://alp.oktem.me{{ page.image }}"{% endif %}{% if page.tags.size > 0 %},
+  "keywords": {{ page.tags | jsonify }}{% endif %}
+}
+</script>
 <div class="post">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y " }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {% assign words = content | strip_html | number_of_words %}
+    {% assign minutes = words | divided_by: 200 %}
+    {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+    <div class="post-pills-labeled">
+      <div class="pill-group"><span class="reading-time">{{ minutes }} min read</span></div>
+      {% if page.tags.size > 0 or page.languages.size > 0 %}
+      <div class="pill-row">
+        {% if page.tags.size > 0 %}
+        <div class="pill-group"><span class="pill-label">Topics:</span> {% for tag in page.tags %}<span class="pill pill-tag">{{ tag }}</span>{% endfor %}</div>
+        {% endif %}
+        {% if page.languages.size > 0 %}
+        <div class="pill-group"><span class="pill-label">Languages:</span> {% for lang in page.languages %}<span class="pill pill-lang">{{ lang }}</span>{% endfor %}</div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
+
+  {% assign related = "" | split: "" %}
+  {% for post in site.posts %}
+    {% if post.url != page.url %}
+      {% assign shared = 0 %}
+      {% for tag in post.tags %}
+        {% if page.tags contains tag %}{% assign shared = shared | plus: 1 %}{% endif %}
+      {% endfor %}
+      {% for lang in post.languages %}
+        {% if page.languages contains lang %}{% assign shared = shared | plus: 1 %}{% endif %}
+      {% endfor %}
+      {% if shared > 0 %}
+        {% assign related = related | push: post %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if related.size > 0 %}
+  <div class="related-posts">
+    <h3>Related posts</h3>
+    <ul>
+      {% for post in related limit:3 %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="post-pills">
+          {% for tag in post.tags %}<span class="pill pill-tag">{{ tag }}</span>{% endfor %}
+          {% for lang in post.languages %}<span class="pill pill-lang">{{ lang }}</span>{% endfor %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="author-box">
+    <img src="/img/ok-alp-whitebor.png" alt="Alp Öktem" class="author-photo" loading="lazy">
+    <div class="author-info">
+      <strong>Alp Öktem</strong>
+      <p>I build speech and language tech for languages the industry ignores. PhD in computational linguistics, based in Barcelona.</p>
+      <a href="/about/">More about me</a>
+    </div>
+  </div>
 
 </div>

@@ -4,6 +4,7 @@ image: "/img/interspeech2019/minivary_4x1_place_0.40.png"
 title: Reporting from Interspeech 2019 
 date: 2019-09-26 12:01:00
 description: Livetweets and other notes from latest speech research
+tags: [Speech, Conference]
 ---
 
 <p align="center"><img loading="lazy" src="/img/interspeech2019/minivary_4x1_place_0.40.png" alt="Alp Öktem's Interspeech 2019 poster for publication: Prosodic Phrase Alignment for Machine Dubbing." width="100%"></p>

@@ -8,6 +8,15 @@ url: "https://alp.oktem.me"
 github_username: alpoktem
 author: Alp Öktem
 lang: en
+logo: /img/ok-alp.png
+twitter:
+  card: summary_large_image
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      image: /img/ok-alp.png
 
 # Build settings
 markdown: kramdown

@@ -2,6 +2,7 @@
 layout: post
 title: Tigrinya Neural Machine Translation with Transfer Learning for Humanitarian Response
 date: 2020-04-26
+languages: [Tigrinya]
 ---
 ```
 Alp Öktem, Mirko Plitt, Grace Tang

@@ -4,6 +4,8 @@ image: "/img/ticam/ticam_merged.jpg"
 title: "Three Years of Building Language Technology for Tamazight"
 date: 2025-12-12 09:00:00
 description: Lessons from the Awal project on community-powered language technology, systematic challenges, and what actually works for minoritized languages.
+tags: [Conference, Community, MT, Speech]
+languages: [Tamazight]
 ---
 <p align="center"><img loading="lazy" src="/img/ticam/ticam_merged.jpg" alt="Collage: name badge in Tifinagh, team photo, presenting, and panel discussion" width="100%" style="margin:10px" >
 

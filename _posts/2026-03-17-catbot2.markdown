@@ -4,6 +4,8 @@ image: "/img/catbot2.png"
 title: "My AI Catalan Tutor Got Better. So Did I."
 date: 2026-03-17 08:00:00
 description: A rewritten prompt, a different model, and my first proper conversations in Catalan.
+tags: [LLM, Language Learning]
+languages: [Catalan]
 ---
 
 *In my [previous post](/2026/02/17/catbot.html), I built a voice agent to practice speaking Catalan, a language I understand well but never actually speak. The tech worked. The conversations were soulless. Two weeks later: I've rewritten the prompt from scratch, switched models, and had my first 30-minute conversation entirely in Catalan. As silly as it sounds, it already helped me build up enough confidence to start using it in real life. Here's what changed and what I learned.*

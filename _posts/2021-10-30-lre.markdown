@@ -4,6 +4,7 @@ image: "/img/lre/proscript1.png"
 title: Corpora compilation for prosody-informed speech processing
 date: 2021-10-30 09:00:00
 description: A TL;DR on my latest journal paper and PhD
+tags: [Speech, Prosody]
 ---
 
 My article ["Corpora compilation for prosody-informed speech processing”](/publications/2021-09-04-LRE/) was finally published in Language Resources & Evaluation journal (LRE) after a long period of back and forth with the reviewers. The paper is like a TL;DR (too long didn't read) version of my thesis where I give a summary of all the tools, datasets and experiments that came out of my PhD research, which dealt with the basically the question: _How can we incorporate non-verbal information like prosody in machine translation and transcription?_

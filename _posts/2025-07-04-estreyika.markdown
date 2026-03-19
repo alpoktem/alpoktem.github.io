@@ -5,6 +5,8 @@ image_position: "right"
 title: Can LLMs Help Revitalize an Endangered Language?
 date: 2025-07-04 09:00:00
 description: Building the world's first conversational Ladino chatbot to preserve Judeo-Spanish heritage
+tags: [LLM, Language Revitalization]
+languages: [Ladino]
 ---
 
 <p align="center"><img loading="lazy" src="/img/estreyika.png" alt="Estreyika Perez chatbot interface showing conversation in Ladino" width="100%"></p>

@@ -2,6 +2,7 @@
 layout: post
 title: "Revising the METU-Sabancı Turkish treebank: An exercise in surface-syntactic annotation of agglutinative languages"
 date: 2017-09-18
+languages: [Turkish]
 ---
 ```
 Burga A, Öktem A, Wanner L.

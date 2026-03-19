@@ -2,6 +2,7 @@
 layout: post
 title: Prosodic phrase alignment for machine dubbing
 date: 2019-09-24
+languages: [Spanish, English]
 ---
 ```
 Öktem A, Farrús M, Bonafonte A. 
@@ -24,6 +25,6 @@ Dubbing is a type of audiovisual translation where dialogues are translated and 
 - <a href="https://github.com/alpoktem/MachineDub" target="_blank">Github repo with code and samples</a>
 - <a href="https://repositori.upf.edu/handle/10230/35572" target="_blank">Heroes corpus</a>
 
-# Poster 
+# Poster
 
 <p align="center"><a href="/img/OKTEM-poster3-machinedub.png"><img src="/img/OKTEM-poster3-machinedub.png" alt="Alp Öktem's Interspeech 2019 poster for publication: Prosodic Phrase Alignment for Machine Dubbing." width="700"></a></p>

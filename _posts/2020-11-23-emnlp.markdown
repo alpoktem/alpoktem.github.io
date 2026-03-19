@@ -5,6 +5,7 @@ image_position: "left"
 title: Personal highlights from EMNLP 2020 
 date: 2020-11-23 12:01:00
 description: Notes on the NLP conference
+tags: [NLP, Conference]
 ---
 
 <p align="center"><img loading="lazy" src="/img/emnlp-header.png" alt="Text 'EMNLP 2020 The 2020 Conference on Empirical Methods in Natural Language Processing 16th – 20th November 2020' on top of an image of the earth by NASA" width="100%"></p>

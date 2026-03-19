@@ -3,6 +3,7 @@ layout: post
 image: "/img/guanyadors dtic.JPG.jpg"
 title: How I used the MdM-DTIC Open Science Award for advancing my PhD research
 date: 2019-01-31 21:01:00
+tags: [Award]
 ---
 I was awarded with the <a href="https://www.upf.edu/web/etic_doctoral_workshop/maria-de-maeztu" target="https://www.upf.edu/web/etic_doctoral_workshop/maria-de-maeztu">María de Maeztu DTIC-UPF Open Science Award</a> in the <a href="https://www.upf.edu/web/media/enoticies/-/asset_publisher/wdGAWZ7EMj53/content/id/170996266/maximized#.XD2lU1xKjcs" target="https://www.upf.edu/web/media/enoticies/-/asset_publisher/wdGAWZ7EMj53/content/id/170996266/maximized#.XD2lU1xKjcs">6th Doctoral Student Workshop</a> organised by Department of Information and Communication Technologies of UPF in 2018. This award is given to pre-doctoral researchers that give outstanding effort in reproducibility and visibility of their research. 
 

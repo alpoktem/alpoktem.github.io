@@ -2,6 +2,7 @@
 layout: post
 title: "From raw data to semantically enriched hyperlinking: Recent advances in the LinkedTV analysis workflow"
 date: 2013-10-28
+languages: [German]
 ---
 ```
 Stein, D; Öktem, A; Apostolidis, E; Mezaris, V; Redondo García, José Luis; Troncy, Raphaël; Sahuguet, Mathilde; Huet, Benoit

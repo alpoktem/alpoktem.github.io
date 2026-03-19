@@ -2,6 +2,7 @@
 layout: post
 title: CATOTRON – A Neural Text-to-Speech System in Catalan
 date: 2020-10-16
+languages: [Catalan]
 ---
 ```
 Baybars Külebi, Alp Öktem, Alex Peiró-Lilja, Santiago Pascual, Mireia Farrús

@@ -4,6 +4,7 @@ image: "/img/poble_espanyol.png"
 title: "Notes from Mozilla Festival 2025"
 date: 2025-11-21 09:00:00
 description: Data Sovereignty as Practice, Not Theory
+tags: [Conference, Data Licensing]
 ---
 
 <p align="center"><img loading="lazy" src="/img/poble_espanyol.png" alt="Poble Espanyol in Barcelona during Mozilla Festival 2025" width="100%" style="margin:10px" >

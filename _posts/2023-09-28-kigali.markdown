@@ -5,6 +5,8 @@ image_position: "left"
 title: MT Rwanda - Pushing Forward Language Tech in Kinyarwanda
 date: 2023-09-28 09:00:00
 description: So that I can find the best local food in Kigali next time I visit
+tags: [MT, Travel]
+languages: [Kinyarwanda]
 ---
 
 <p align="center"><img loading="lazy" src="/img/mt_rwanda_demo.png" alt="Demoing MT for the sentence Good morning, could you please take me to the best place to eat Ikisafuriya in Kigali?" width="100%"></p>

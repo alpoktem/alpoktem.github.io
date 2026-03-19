@@ -2,6 +2,7 @@
 layout: post
 title: Bilingual prosodic dataset compilation for spoken language translation
 date: 2018-11-21
+languages: [English, Spanish]
 ---
 ```
 Öktem, A., Farrús, M., Bonafonte, A. (2018) 
@@ -14,7 +15,7 @@ This paper builds on a previous methodology that exploits dubbed media material 
 
 Open access in <a href="https://www.isca-speech.org/archive/IberSPEECH_2018/abstracts/IberS18_P1-1_Oktem.html" target="https://www.isca-speech.org/archive/IberSPEECH_2018/abstracts/IberS18_P1-1_Oktem.html">ISCA Archive</a> and <a href="http://hdl.handle.net/10230/35600" target="http://hdl.handle.net/10230/35600">UPF e-repository</a>. 
 
-# Poster 
+# Poster
 
 <p align="center"><a href="/img/OKTEM-poster1-heroes_med.png"><img src="/img/OKTEM-poster1-heroes_small.png" alt="Alp Öktem's IberSPEECH 2018 poster for publication: Bilingual Prosodic Dataset Compilation for Spoken Language Translation" width="100%"></a></p>
 

@@ -2,6 +2,7 @@
 layout: post
 title: Building an open source automatic speech recognition system for Catalan
 date: 2018-11-22
+languages: [Catalan]
 ---
 ```
 Külebi, B., Öktem, A. (2018) 
