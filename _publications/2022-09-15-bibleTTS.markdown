@@ -2,7 +2,7 @@
 layout: post
 title: BibleTTS - a large, high-fidelity, multilingual, and uniquely African speech corpus
 date: 2022-09-15
-languages: [African Languages]
+languages: [Akuapem Twi, Asante Twi, Chichewa, Ewe, Hausa, Kikuyu, Lingala, Luganda, Luo, Yoruba]
 ---
 ```
 Josh Meyer, David Ifeoluwa Adelani, Edresson Casanova, Alp Öktem, Daniel Whitenack Julian Weber, Salomon Kabongo, Elizabeth Salesky, Iroro Orife, Colin Leong, Perez Ogayo, Chris Emezue, Jonathan Mukiibi, Salomey Osei, Apelete Agbolo, Victor Akinode, Bernard Opoku, Samuel Olanrewaju, Jesujoba Alabi, Shamsuddeen Muhammad

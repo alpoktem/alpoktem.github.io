@@ -2,6 +2,7 @@
 layout: post
 title: TICO-19 – The Translation Initiative for COvid-19
 date: 2020-11-19
+languages: [Amharic, Arabic (Modern Standard), Bengali, Chinese (Simplified), Dari, Dinka, Farsi, French (European), Hausa, Hindi, Indonesian, Kanuri, Khmer (Central), Kinyarwanda, Kurdish Kurmanji, Kurdish Sorani, Lingala, Luganda, Malay, Marathi, Myanmar, Nepali, Nigerian Fulfulde, Nuer, Oromo, Pashto, Portuguese (Brazilian), Russian, Somali, Spanish (Latin American), Swahili, Congolese Swahili, Tagalog, Tamil, Tigrinya, Urdu, Zulu]
 ---
 ```
 Antonios Anastasopoulos, Alessandro Cattelan, Zi-Yi Dou, Marcello Federico,

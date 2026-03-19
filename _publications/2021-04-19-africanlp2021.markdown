@@ -2,7 +2,7 @@
 layout: post
 title: Congolese Swahili Machine Translation for Humanitarian Response
 date: 2021-04-19
-languages: [Swahili Congo]
+languages: [Swahili Congo, Coastal Swahili, French]
 ---
 ```
 Alp Öktem, Eric DeLuca, Rodrigue Bashizi, Eric Paquin, Grace Tang
