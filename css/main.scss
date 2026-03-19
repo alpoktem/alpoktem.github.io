@@ -313,6 +313,13 @@ $on-laptop:        800px;
   }
 }
 
+.site-credit {
+  text-align: center;
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-top: 0.25rem;
+}
+
 .rss-link .fa-rss {
   margin-right: 0.2rem;
 }
