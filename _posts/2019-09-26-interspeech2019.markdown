@@ -1,6 +1,7 @@
 ---
 layout: post
 image: "/img/interspeech2019/minivary_4x1_place_0.40.png"
+image_position: "left"
 title: Reporting from Interspeech 2019 
 date: 2019-09-26 12:01:00
 description: Livetweets and other notes from latest speech research
