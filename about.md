@@ -24,7 +24,7 @@ Father. Based in Barcelona. Speak Turkish, English, Spanish, some Catalan. Enjoy
 	<a href="https://github.com/alpoktem" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/alp-oktem" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://www.researchgate.net/profile/Alp-Oktem" target="_blank"><i class="ai ai-researchgate-square"></i></a>
-	<a href="/etc/cv-AlpOKTEM-26Feb.pdf" target="_blank"><i class="ai ai-cv-square"></i></a>
+	<a href="/etc/cv-AlpOKTEM-26Mar.pdf" target="_blank"><i class="ai ai-cv-square"></i></a>
 </span>
 
 <!-- <div class="col three caption">
