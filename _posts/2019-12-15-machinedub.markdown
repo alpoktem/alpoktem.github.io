@@ -1,6 +1,7 @@
 ---
 layout: post
 image: "/img/machinedub/youtube_translate.png"
+image_position: "right"
 title: Towards realistic machine dubbing
 date: 2019-12-15 12:01:00
 description: Leveraging neural machine translation for lip-syncing
